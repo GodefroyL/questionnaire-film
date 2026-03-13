@@ -33,10 +33,10 @@ function affichageDonnee() {
 
 // Fonction pour valider l'élément courant
 function validate() {
-  if (currentIndex < donnee.length) {
+  if (index < donnee.length) {
     // Logique pour enregistrer la validation (ex: envoyer à un serveur)
-    console.log(`Élément ${donnee[currentIndex].id} validé.`);
-    currentIndex++;
+    console.log(`Élément ${donnee[index].id} validé.`);
+    index++;
     affichageDonnee();
   }
 }
