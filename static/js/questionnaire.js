@@ -1,14 +1,14 @@
 // Variable pour stocker les données et l'index courant
 let donnee = [];
 console.log("Chargement du script questionnaire.js");
-console.log(donnee.length);
 let index = 1;
 
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
   try {
-    const response = await fetch('{{ site.url }}/static/json/questions.json');
+    const response = await fetch('../json/questions.json');
     donnee = await response.json();
+    console.log(donnee.length);
     affichageDonnee();
   } catch (error) {
     console.error("Erreur lors du chargement du fichier JSON :", error);
