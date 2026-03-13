@@ -7,7 +7,7 @@ let index = 1;
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
   try {
-    const response = await fetch('{{ site.url }}/static/json/questions.json');
+    const response = await fetch('../json/questions.json');
     donnee = await response.json();
     affichageDonnee();
   } catch (error) {
