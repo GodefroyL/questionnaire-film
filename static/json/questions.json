@@ -1,243 +1,807 @@
 {
-  "categorie_1": {
-    "nom": "Complétez",
-    "questions": {
-      "1": {"intitule": "La révolution c'est comme une bicyclette (6 mots)"},
-      "2": {"intitule": "Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ? (2 mots)"},
-      "3": {"intitule": "Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du (5 mots)"},
-      "4": {"intitule": "Ah les s’cretes de papa c’est passionnant : (6 mots)"},
-      "5": {"intitule": "On est commandant, pas (1 mot)"},
-      "6": {"intitule": "Non, ah non non c'est pas ça qui est horrible, ça (3 mots)"},
-      "7": {"intitule": "Je lève mon verre (8 mots)"},
-      "8": {"intitule": "Aux quatre coins d' Paris qu'on va le retrouver éparpillé par petits bouts (7 mots)"},
-      "9": {"intitule": "If I go to the Turkish bath, (5 mots)"},
-      "10": {"intitule": "Non je souris pas, j'adapte mes (4 mots)"},
-      "11": {"intitule": "Tea for two and two for tea (3 mots)"},
-      "12": {"intitule": "Ma trentième (3 mots)"},
-      "13": {"intitule": "Non mais vous êtes (7 mots)"},
-      "14": {"intitule": "Heu tu peux te (7 mots)"},
-      "15": {"intitule": "Je ne connais même pas votre nom (2 mots)"},
-      "16": {"intitule": "Encore un (1 mot)"},
-      "17": {"intitule": "Et le divan (3 mots)"}
-    }
+  "1": {
+    "categorie": "Complétez",
+    "intitule": "La révolution c'est comme une bicyclette (6 mots)",
+    "reponse": []
   },
-  "categorie_2": {
-    "nom": "Qui parle ?",
-    "questions": {
-      "1": {"intitule": "Y a pas d'hélice hélas, c'est là qu'est l'os (2 personnes)"},
-      "2": {"intitule": "Tout le monde s'en fout mais moi ça m'intéresse !"},
-      "3": {"intitule": "J'ai glissé chef"},
-      "4": {"intitule": "Nonce\" \"Ça commence par un A\" \"Annonce (2 personnes)"},
-      "5": {"intitule": "Le thème c'est: je te pourri la vie, au Caraïbes "},
-      "6": {"intitule": "Ah bah si y a la petite porte sur la droite !"},
-      "7": {"intitule": "J'ai une bonne nouvelle à t'annoncer\" \"et moi une mauvaise (2 personnes)"},
-      "8": {"intitule": "Pas comme ça, vous vous croyez à Rome"},
-      "9": {"intitule": "Et pourquoi trembles tu de peur alors que c'est moi qui vais y entrer ?"},
-      "10": {"intitule": "C'est de vous que je veux un autographe"},
-      "11": {"intitule": "Suis pas le fil\" \"ah (2 personnes)"},
-      "12": {"intitule": "Donc\" \"Donc quoi encore ? (2 personnes)"},
-      "13": {"intitule": "Qu'est-ce que tu fous là ? Qu'est-ce que tu fous ... Là ? C'est pas ta cabine"},
-      "14": {"intitule": "V'là que j'ai plus ma tête"},
-      "15": {"intitule": "Je ne savais pas que l'autre jour au viaduc c'était des roses pompons que j'avais fichu sur la gueule des boches !"}
-    }
+  "2": {
+    "categorie": "Complétez",
+    "intitule": "Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ? (2 mots)",
+    "reponse": []
   },
-  "categorie_3": {
-    "nom": "A qui est adressé cette phrase ?",
-    "questions": {
-      "1": {"intitule": "C'est de mon collègue ou de moi que vous vous foutez ?"},
-      "2": {"intitule": "L'hôtesse de bord, elle est aussi commandante"},
-      "3": {"intitule": "Tu savais depuis quand ?"},
-      "4": {"intitule": "Ah c’est vrai ça. comment qu’tu veux marcher sans chaussures ?"},
-      "5": {"intitule": "Faudrait que vous apportiez le marteau, les tenailles et la grosse clef anglais"},
-      "6": {"intitule": "Ils m'ont télégraphié spécialement pour me le dire"},
-      "7": {"intitule": "C'est pas beau d'écouter à la porte d’oun amigo comme nous l'avons fait"},
-      "8": {"intitule": "C'est quoi pour toi un aventurier ?"},
-      "9": {"intitule": "Si ces messieurs veulent bien me les confier"},
-      "10": {"intitule": "Il dit qu'il veut sauter sans side-car"},
-      "11": {"intitule": "Tant qu’on est à la kommandantur vous n’avez pas besoin d’autre chose non ?"},
-      "12": {"intitule": "Il m’en faudrait p’t’être une deuxième"}
-    }
+  "3": {
+    "categorie": "Complétez",
+    "intitule": "Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du (5 mots)",
+    "reponse": []
   },
-  "categorie_4": {
-    "nom": "Quel film ?",
-    "questions": {
-      "1": {"intitule": "Mieux vaut les recevoir que d'en faire des ministres"},
-      "2": {"intitule": "Eddy Merckx\" \"Non Che Guevara"},
-      "3": {"intitule": "Non, tu te calmes et tu restes"},
-      "4": {"intitule": "Tout ce que j'aime Hitler déteste"},
-      "5": {"intitule": "Assez tremblé"},
-      "6": {"intitule": "Je dis pas que ce n'est pas injuste, je dis que ça soulage"},
-      "7": {"intitule": "Edouard, vient prendre ta pilule"},
-      "8": {"intitule": "Evidemment, il est trop chargé"},
-      "9": {"intitule": "Faut tout de même qu'il y ai un résistant dans la famille"},
-      "10": {"intitule": "Il a pas ses papiers mais il est Français"},
-      "11": {"intitule": "Oui bah ça prouve qu'ils ont changé de genre"},
-      "12": {"intitule": "Pour des gars comme vous c’est un jeu d’enfant"},
-      "13": {"intitule": "La guerre p’tit, on la fait ou on la fait pas !"}
-    }
+  "4": {
+    "categorie": "Complétez",
+    "intitule": "Ah les s’cretes de papa c’est passionnant : (6 mots)",
+    "reponse": []
   },
-  "categorie_5": {
-    "nom": "Quelle est la réplique d'après ?",
-    "questions": {
-      "1": {"intitule": "Et quel est votre deuxième prénom ?\" \"Quatre fromages"},
-      "2": {"intitule": "C'est un guet apens"},
-      "3": {"intitule": "Votre explication ne me suffit pas"},
-      "4": {"intitule": "T'avais promis de nous en parler en premier"},
-      "5": {"intitule": "Mais pourquoi tu m'agresses ?"},
-      "6": {"intitule": "De m'tripler ?"},
-      "7": {"intitule": "Vous croyez qu'ils oseraient venir ici ?"},
-      "8": {"intitule": "On avait 13 ans"},
-      "9": {"intitule": "Et Zola il est verboten aussi ?"},
-      "10": {"intitule": "Ich bin malade"},
-      "11": {"intitule": "C'est tout le temps comme ça ? les patates c'est que pour les officiers ?"},
-      "12": {"intitule": "Bah en Espagne et au Portugal"},
-      "13": {"intitule": "Ça vous dirait d'être mon cavalier ?"},
-      "14": {"intitule": "Nous sommes pour ainsi dire tous dans le même bateau"},
-      "15": {"intitule": "Au chef Chaudard !!"},
-      "16": {"intitule": "Ce serait pas des fois d’la betterave ?"},
-      "17": {"intitule": "Il aurait pas fallu qu’on s’arrête hien chef"},
-      "18": {"intitule": "Et tu t'imagines que tout va se passer comme prévu ?"},
-      "19": {"intitule": "Pour les empêcher de reculer !"}
-    }
+  "5": {
+    "categorie": "Complétez",
+    "intitule": "On est commandant, pas (1 mot)",
+    "reponse": []
   },
-  "categorie_6": {
-    "nom": "Quelle est la réplique d'avant ?",
-    "questions": {
-      "1": {"intitule": "Essaie l'Allemand"},
-      "2": {"intitule": "Mon cadeau"},
-      "3": {"intitule": "Mais il m'insulte l'animal"},
-      "4": {"intitule": "Bah oui j’suis ventriloque"},
-      "5": {"intitule": "Je vous l’ai déjà dit c'est pas à Moissan qu'il a disparu, Moissan c'est une petite ville calme, une petite ville de bourgeois plan plan"},
-      "6": {"intitule": "Mais *** mais il va le faire ce con"},
-      "7": {"intitule": "Bah évidemment je vais pas faire ça sous le nez des Allemands"},
-      "8": {"intitule": "Ah mais ça pas ... c'est pas une truite c'est un ... c'est un dauphin, c'est les anciens badges, c’est pareil"},
-      "9": {"intitule": "Un peu oui"},
-      "10": {"intitule": "Mais il avait 2"},
-      "11": {"intitule": "Il faut mettre l’adjectif à la fin, pas au début"},
-      "12": {"intitule": "Oh M. Fernand"},
-      "13": {"intitule": "Je ne vais tout d’même pas descendre pour vous laisser passer !"},
-      "14": {"intitule": "Parce qu’hier je ne l’était pas, voilà !"},
-      "15": {"intitule": "On se lave, chef !"},
-      "16": {"intitule": "Hou mais ne croyez pas que vous allez me faire marcher à la baguette moi"}
-    }
+  "6": {
+    "categorie": "Complétez",
+    "intitule": "Non, ah non non c'est pas ça qui est horrible, ça (3 mots)",
+    "reponse": []
   },
-  "categorie_7": {
-    "nom": "Remettre les répliques dans l'ordre:",
-    "questions": {
-      "1": {"intitule": "1. \"Mais il connait pas Raoul ce mec\" 2. \"Je lui trouve un goût de pomme\" 3. \"Lulu la nantaise\" 4. \"Tâchez plutôt qu’elle ne tombe pas en panne\" 5. \"Faut quand même admettre, c'est plutôt une boisson d'homme\" (5 mots)"},
-      "2": {"intitule": "1. \"On n'a jamais eu grand chose à se dire hein\" 2. \"Et toi Vincent, tu vas me les dire enfin les mots que j'attends ?\" 3. \"On est dans le non pardon ce soir\" 4. \"La formule de mathématique est bien écrite au bic dans la paume de leur main\" 5. \"Mais ça ne la dérange pas, elle aime faire ça même jouer la boniche\" 6. \"Toi Claude je ne te dis rien parce que tu sais déjà tout\" (6 mots)"},
-      "3": {"intitule": "1. \"Oh bah il était temps\" 2. \"C'est la belote que vous vous salit les pieds comme ça ?\" 3. \"Qu'est-ce qu’il y a à manger pour le dîner ?\" 4. \"Pierre, tu connais Jourdan ?\" 5. \"Oh toi Jean t’a 25 ans et tu te contente de jouer à la belote\" (5 mots)"},
-      "4": {"intitule": "1. \"C’est le moment, c’est l’instant, préparez les épices\" 2. \"Nous pantouflard ?\" 3. \"Pendant qu’on est là, il y en a qui se battent\" 4. \"Mon camarade, il veut du à l’ail\" (4 mots)"},
-      "5": {"intitule": "1. \"Il ne fait rien que d’m'éclabousser\" 2. \"Il vous a envoyé fort dîtes donc !\" 3. \"Vous êtes sûr que c’est le drapeau anglais ça chef ?\" 4. \"J’les tenais au bout de mon revolver. J’appelle à l’aide ... enseveli\" (4 mots)"}
-    }
+  "7": {
+    "categorie": "Complétez",
+    "intitule": "Je lève mon verre (8 mots)",
+    "reponse": []
   },
-  "categorie_8": {
-    "nom": "Donnez le contexte",
-    "questions": {
-      "1": {"intitule": "Vous n'avez que ce mot là à la bouche. Les Boches, les sales Boches, les vaches de B"},
-      "2": {"intitule": "Le thème c'est : je te pourri la vie... au Caraïbes"},
-      "3": {"intitule": "Fallait pas vous déranger pour ça chef, j'ai ouvert"},
-      "4": {"intitule": "Non pas les Rosenblum"},
-      "5": {"intitule": "C’qu’il parle mal ce gamin là ! Ce sont des as, cancre"},
-      "6": {"intitule": "Sinon je parle de ce que tu sais, à qui tu sais"},
-      "7": {"intitule": "Mais je veux savoir merde"},
-      "8": {"intitule": "Non c'est pas plus bête\" \"Si c'est plus bête"},
-      "9": {"intitule": "Un peu plus par là"},
-      "10": {"intitule": "Le moins qu’on puisse dire c’est que vous n’êtes pas facile à joindre"},
-      "11": {"intitule": "On n’a pas fini de manger des sardines"},
-      "12": {"intitule": "Mais dit donc, on n’est quand même pas venu pour beurrer des sandwich"},
-      "13": {"intitule": "Ils sont en haut !"},
-      "14": {"intitule": "Il tousse, il crache, il renifle, et il tousse, il crache il renifle"}
-    }
+  "8": {
+    "categorie": "Complétez",
+    "intitule": "Aux quatre coins d' Paris qu'on va le retrouver éparpillé par petits bouts (7 mots)",
+    "reponse": []
   },
-  "categorie_9": {
-    "nom": "Question:",
-    "questions": {
-      "1": {"intitule": "Quel est le besoin des marins dans les tontons flingueurs ?"},
-      "2": {"intitule": "Quel est le prénom de Babou ?"},
-      "3": {"intitule": "Quel est le principal collaborateur d'Édouard Martin ?"},
-      "4": {"intitule": "Babou est sûre d'avoir trouvé le prénom, lequel est-ce ?"},
-      "5": {"intitule": "Quels sont les trois titres exacts de la 7e compagnie ?"},
-      "6": {"intitule": "Quelles sont les deux chances de médailles aux JO (nom des athlètes) ?"},
-      "7": {"intitule": "De qui faut-il se méfier avant de faire sauter le pont ?"},
-      "8": {"intitule": "Vers quelle heure Vincent arrive-t-il au dîner ?"},
-      "9": {"intitule": "Quelle est la musique de ralliement aux bains Turque et quel est son pays d'origine ?"},
-      "10": {"intitule": "Dans quelle ville est l'hôtel du globe ?"},
-      "11": {"intitule": "Pourquoi Rabbi Zeligman n'a t'il pas de barbe d'après lui ?"},
-      "12": {"intitule": "Quelle est la marque du chewing-gum dans Rabbi Jacob ?"},
-      "13": {"intitule": "Quel est le prix de la croisière de Bienvenue à bord ?"},
-      "14": {"intitule": "Quel est le nom du parfum que Rabbi Jacob doit ramener de Paris ?"},
-      "15": {"intitule": "Quelles sont les quatre batailles citées dans le Prénom ?"},
-      "16": {"intitule": "Où sont rangés le marteau, la tenaille et la grosse clef anglais ?"},
-      "17": {"intitule": "Où a lieu la dernière réunion des conjurés ?"},
-      "18": {"intitule": "Quels sont les codes des Garaud larchet ?"},
-      "19": {"intitule": "Citer 5 prénoms interdits dans le Prénom ?"},
-      "20": {"intitule": "Combien d’allemand sont tués par le réseau Attila lors de l’attaque de l’avion ?"},
-      "21": {"intitule": "Quelle est la tactique pour sortir de la petite porte sur la droite ?"},
-      "22": {"intitule": "Pourquoi la femme blonde a-t-elle trahi dans le Capitan ?"},
-      "23": {"intitule": "Quel est le nom de code du capitaine Dumont ?"},
-      "24": {"intitule": "Quelle est la date du bombardement de l’usine de Moisan ?"}
-    }
+  "9": {
+    "categorie": "Complétez",
+    "intitule": "If I go to the Turkish bath, (5 mots)",
+    "reponse": []
   },
-  "categorie_10": {
-    "nom": "Complétez",
-    "questions": {
-      "1": {"intitule": "Ein kilogram Kartofeln, (3 mots)"},
-      "2": {"intitule": "Non, le 4e Reich est un rêve (jusqu'à \"ce stade\")"},
-      "3": {"intitule": "I am sure (11 mots)"},
-      "4": {"intitule": "Ça ne prenait pas beaucoup plus de temps (11 mots)"},
-      "5": {"intitule": "Il est où le U ?\" \"Y a (4 mots)"},
-      "6": {"intitule": "Quelle (6 mots)"}
-    }
+  "10": {
+    "categorie": "Complétez",
+    "intitule": "Non je souris pas, j'adapte mes (4 mots)",
+    "reponse": []
   },
-  "categorie_11": {
-    "nom": "Qui parle ?",
-    "questions": {
-      "1": {"intitule": "On tourne en rond merdre, on tourne en rond merde, on tourne en rond merde"}
-    }
+  "11": {
+    "categorie": "Complétez",
+    "intitule": "Tea for two and two for tea (3 mots)",
+    "reponse": []
   },
-  "categorie_12": {
-    "nom": "Contexte:",
-    "questions": {
-      "1": {"intitule": "Attendez je compte"},
-      "2": {"intitule": "Mais de qui y parle là ?"},
-      "3": {"intitule": "Pour l'exécution de quoi ? Pour l'exécution de qui ?"},
-      "4": {"intitule": "Vous ne saurez ni le jour, ni l’heure, ni de quoi il s’agit"}
-    }
+  "12": {
+    "categorie": "Complétez",
+    "intitule": "Ma trentième (3 mots)",
+    "reponse": []
   },
-  "categorie_13": {
-    "nom": "A qui à est adressé cette phrase ?",
-    "questions": {
-      "1": {"intitule": "Dites, vous vous foutez de moi là en ce moment ?"}
-    }
+  "13": {
+    "categorie": "Complétez",
+    "intitule": "Non mais vous êtes (7 mots)",
+    "reponse": []
   },
-  "categorie_14": {
-    "nom": "Phrase d’avant:",
-    "questions": {
-      "1": {"intitule": "Les hommes sont rarement des .. mères de famille"}
-    }
+  "14": {
+    "categorie": "Complétez",
+    "intitule": "Heu tu peux te (7 mots)",
+    "reponse": []
   },
-  "categorie_15": {
-    "nom": "Quel film ?",
-    "questions": {
-      "1": {"intitule": "Mais alors là il m'épate, il m'épate, il m'épate et il m'épate"},
-      "2": {"intitule": "Vous êtes pas gentil, vous êtes pas gentil, vous êtes pas gentil"},
-      "3": {"intitule": "J'ai ma réponse hein .. t'es un agent secret"},
-      "4": {"intitule": "J'ai fait la boulette"},
-      "5": {"intitule": "C'était mon idée"},
-      "6": {"intitule": "Ah un déménagement ?"},
-      "7": {"intitule": "Mocheté et en plus elle est mal élevée"},
-      "8": {"intitule": "Vu ou aperçu ?"}
-    }
+  "15": {
+    "categorie": "Complétez",
+    "intitule": "Je ne connais même pas votre nom (2 mots)",
+    "reponse": []
   },
-  "categorie_16": {
-    "nom": "Question :",
-    "questions": {
-      "1": {"intitule": "Comment s'appelle l'appareil qui enregistre les sons sur une bande magnétique ?"},
-      "2": {"intitule": "Quel est le sport auquel jouent les anglais dans le film le mur de l'Atlantique ?"},
-      "3": {"intitule": "Citer un adjectifs que donne François Pignon quand il parle de Marlène Sasoeur ?"},
-      "4": {"intitule": "Citer trois films de Belmondo"},
-      "5": {"intitule": "Citer 5 nom de personnage de films joués par Louis de Funès"}
-    }
+  "16": {
+    "categorie": "Complétez",
+    "intitule": "Encore un (1 mot)",
+    "reponse": []
+  },
+  "17": {
+    "categorie": "Complétez",
+    "intitule": "Et le divan (3 mots)",
+    "reponse": []
+  },
+  "18": {
+    "categorie": "Qui parle ?",
+    "intitule": "Y a pas d'hélice hélas, c'est là qu'est l'os (2 personnes)",
+    "reponse": []
+  },
+  "19": {
+    "categorie": "Qui parle ?",
+    "intitule": "Tout le monde s'en fout mais moi ça m'intéresse !",
+    "reponse": []
+  },
+  "20": {
+    "categorie": "Qui parle ?",
+    "intitule": "J'ai glissé chef",
+    "reponse": []
+  },
+  "21": {
+    "categorie": "Qui parle ?",
+    "intitule": "Nonce\" \"Ça commence par un A\" \"Annonce (2 personnes)",
+    "reponse": []
+  },
+  "22": {
+    "categorie": "Qui parle ?",
+    "intitule": "Le thème c'est: je te pourri la vie, au Caraïbes ",
+    "reponse": []
+  },
+  "23": {
+    "categorie": "Qui parle ?",
+    "intitule": "Ah bah si y a la petite porte sur la droite !",
+    "reponse": []
+  },
+  "24": {
+    "categorie": "Qui parle ?",
+    "intitule": "J'ai une bonne nouvelle à t'annoncer\" \"et moi une mauvaise (2 personnes)",
+    "reponse": []
+  },
+  "25": {
+    "categorie": "Qui parle ?",
+    "intitule": "Pas comme ça, vous vous croyez à Rome",
+    "reponse": []
+  },
+  "26": {
+    "categorie": "Qui parle ?",
+    "intitule": "Et pourquoi trembles tu de peur alors que c'est moi qui vais y entrer ?",
+    "reponse": []
+  },
+  "27": {
+    "categorie": "Qui parle ?",
+    "intitule": "C'est de vous que je veux un autographe",
+    "reponse": []
+  },
+  "28": {
+    "categorie": "Qui parle ?",
+    "intitule": "Suis pas le fil\" \"ah (2 personnes)",
+    "reponse": []
+  },
+  "29": {
+    "categorie": "Qui parle ?",
+    "intitule": "Donc\" \"Donc quoi encore ? (2 personnes)",
+    "reponse": []
+  },
+  "30": {
+    "categorie": "Qui parle ?",
+    "intitule": "Qu'est-ce que tu fous là ? Qu'est-ce que tu fous ... Là ? C'est pas ta cabine",
+    "reponse": []
+  },
+  "31": {
+    "categorie": "Qui parle ?",
+    "intitule": "V'là que j'ai plus ma tête",
+    "reponse": []
+  },
+  "32": {
+    "categorie": "Qui parle ?",
+    "intitule": "Je ne savais pas que l'autre jour au viaduc c'était des roses pompons que j'avais fichu sur la gueule des boches !",
+    "reponse": []
+  },
+  "33": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "C'est de mon collègue ou de moi que vous vous foutez ?",
+    "reponse": []
+  },
+  "34": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "L'hôtesse de bord, elle est aussi commandante",
+    "reponse": []
+  },
+  "35": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Tu savais depuis quand ?",
+    "reponse": []
+  },
+  "36": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Ah c’est vrai ça. comment qu’tu veux marcher sans chaussures ?",
+    "reponse": []
+  },
+  "37": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Faudrait que vous apportiez le marteau, les tenailles et la grosse clef anglais",
+    "reponse": []
+  },
+  "38": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Ils m'ont télégraphié spécialement pour me le dire",
+    "reponse": []
+  },
+  "39": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "C'est pas beau d'écouter à la porte d’oun amigo comme nous l'avons fait",
+    "reponse": []
+  },
+  "40": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "C'est quoi pour toi un aventurier ?",
+    "reponse": []
+  },
+  "41": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Si ces messieurs veulent bien me les confier",
+    "reponse": []
+  },
+  "42": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Il dit qu'il veut sauter sans side-car",
+    "reponse": []
+  },
+  "43": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Tant qu’on est à la kommandantur vous n’avez pas besoin d’autre chose non ?",
+    "reponse": []
+  },
+  "44": {
+    "categorie": "A qui est adressé cette phrase ?",
+    "intitule": "Il m’en faudrait p’t’être une deuxième",
+    "reponse": []
+  },
+  "45": {
+    "categorie": "Quel film ?",
+    "intitule": "Mieux vaut les recevoir que d'en faire des ministres",
+    "reponse": []
+  },
+  "46": {
+    "categorie": "Quel film ?",
+    "intitule": "Eddy Merckx\" \"Non Che Guevara",
+    "reponse": []
+  },
+  "47": {
+    "categorie": "Quel film ?",
+    "intitule": "Non, tu te calmes et tu restes",
+    "reponse": []
+  },
+  "48": {
+    "categorie": "Quel film ?",
+    "intitule": "Tout ce que j'aime Hitler déteste",
+    "reponse": []
+  },
+  "49": {
+    "categorie": "Quel film ?",
+    "intitule": "Assez tremblé",
+    "reponse": []
+  },
+  "50": {
+    "categorie": "Quel film ?",
+    "intitule": "Je dis pas que ce n'est pas injuste, je dis que ça soulage",
+    "reponse": []
+  },
+  "51": {
+    "categorie": "Quel film ?",
+    "intitule": "Edouard, vient prendre ta pilule",
+    "reponse": []
+  },
+  "52": {
+    "categorie": "Quel film ?",
+    "intitule": "Evidemment, il est trop chargé",
+    "reponse": []
+  },
+  "53": {
+    "categorie": "Quel film ?",
+    "intitule": "Faut tout de même qu'il y ai un résistant dans la famille",
+    "reponse": []
+  },
+  "54": {
+    "categorie": "Quel film ?",
+    "intitule": "Il a pas ses papiers mais il est Français",
+    "reponse": []
+  },
+  "55": {
+    "categorie": "Quel film ?",
+    "intitule": "Oui bah ça prouve qu'ils ont changé de genre",
+    "reponse": []
+  },
+  "56": {
+    "categorie": "Quel film ?",
+    "intitule": "Pour des gars comme vous c’est un jeu d’enfant",
+    "reponse": []
+  },
+  "57": {
+    "categorie": "Quel film ?",
+    "intitule": "La guerre p’tit, on la fait ou on la fait pas !",
+    "reponse": []
+  },
+  "58": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Et quel est votre deuxième prénom ?\" \"Quatre fromages",
+    "reponse": []
+  },
+  "59": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "C'est un guet apens",
+    "reponse": []
+  },
+  "60": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Votre explication ne me suffit pas",
+    "reponse": []
+  },
+  "61": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "T'avais promis de nous en parler en premier",
+    "reponse": []
+  },
+  "62": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Mais pourquoi tu m'agresses ?",
+    "reponse": []
+  },
+  "63": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "De m'tripler ?",
+    "reponse": []
+  },
+  "64": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Vous croyez qu'ils oseraient venir ici ?",
+    "reponse": []
+  },
+  "65": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "On avait 13 ans",
+    "reponse": []
+  },
+  "66": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Et Zola il est verboten aussi ?",
+    "reponse": []
+  },
+  "67": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Ich bin malade",
+    "reponse": []
+  },
+  "68": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "C'est tout le temps comme ça ? les patates c'est que pour les officiers ?",
+    "reponse": []
+  },
+  "69": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Bah en Espagne et au Portugal",
+    "reponse": []
+  },
+  "70": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Ça vous dirait d'être mon cavalier ?",
+    "reponse": []
+  },
+  "71": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Nous sommes pour ainsi dire tous dans le même bateau",
+    "reponse": []
+  },
+  "72": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Au chef Chaudard !!",
+    "reponse": []
+  },
+  "73": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Ce serait pas des fois d’la betterave ?",
+    "reponse": []
+  },
+  "74": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Il aurait pas fallu qu’on s’arrête hien chef",
+    "reponse": []
+  },
+  "75": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Et tu t'imagines que tout va se passer comme prévu ?",
+    "reponse": []
+  },
+  "76": {
+    "categorie": "Quelle est la réplique d'après ?",
+    "intitule": "Pour les empêcher de reculer !",
+    "reponse": []
+  },
+  "77": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Essaie l'Allemand",
+    "reponse": []
+  },
+  "78": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Mon cadeau",
+    "reponse": []
+  },
+  "79": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Mais il m'insulte l'animal",
+    "reponse": []
+  },
+  "80": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Bah oui j’suis ventriloque",
+    "reponse": []
+  },
+  "81": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Je vous l’ai déjà dit c'est pas à Moissan qu'il a disparu, Moissan c'est une petite ville calme, une petite ville de bourgeois plan plan",
+    "reponse": []
+  },
+  "82": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Mais *** mais il va le faire ce con",
+    "reponse": []
+  },
+  "83": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Bah évidemment je vais pas faire ça sous le nez des Allemands",
+    "reponse": []
+  },
+  "84": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Ah mais ça pas ... c'est pas une truite c'est un ... c'est un dauphin, c'est les anciens badges, c’est pareil",
+    "reponse": []
+  },
+  "85": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Un peu oui",
+    "reponse": []
+  },
+  "86": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Mais il avait 2",
+    "reponse": []
+  },
+  "87": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Il faut mettre l’adjectif à la fin, pas au début",
+    "reponse": []
+  },
+  "88": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Oh M. Fernand",
+    "reponse": []
+  },
+  "89": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Je ne vais tout d’même pas descendre pour vous laisser passer !",
+    "reponse": []
+  },
+  "90": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Parce qu’hier je ne l’était pas, voilà !",
+    "reponse": []
+  },
+  "91": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "On se lave, chef !",
+    "reponse": []
+  },
+  "92": {
+    "categorie": "Quelle est la réplique d'avant ?",
+    "intitule": "Hou mais ne croyez pas que vous allez me faire marcher à la baguette moi",
+    "reponse": []
+  },
+  "93": {
+    "categorie": "Remettre les répliques dans l'ordre:",
+    "intitule": "1. \"Mais il connait pas Raoul ce mec\" 2. \"Je lui trouve un goût de pomme\" 3. \"Lulu la nantaise\" 4. \"Tâchez plutôt qu’elle ne tombe pas en panne\" 5. \"Faut quand même admettre, c'est plutôt une boisson d'homme\" (5 mots)",
+    "reponse": []
+  },
+  "94": {
+    "categorie": "Remettre les répliques dans l'ordre:",
+    "intitule": "1. \"On n'a jamais eu grand chose à se dire hein\" 2. \"Et toi Vincent, tu vas me les dire enfin les mots que j'attends ?\" 3. \"On est dans le non pardon ce soir\" 4. \"La formule de mathématique est bien écrite au bic dans la paume de leur main\" 5. \"Mais ça ne la dérange pas, elle aime faire ça même jouer la boniche\" 6. \"Toi Claude je ne te dis rien parce que tu sais déjà tout\" (6 mots)",
+    "reponse": []
+  },
+  "95": {
+    "categorie": "Remettre les répliques dans l'ordre:",
+    "intitule": "1. \"Oh bah il était temps\" 2. \"C'est la belote que vous vous salit les pieds comme ça ?\" 3. \"Qu'est-ce qu’il y a à manger pour le dîner ?\" 4. \"Pierre, tu connais Jourdan ?\" 5. \"Oh toi Jean t’a 25 ans et tu te contente de jouer à la belote\" (5 mots)",
+    "reponse": []
+  },
+  "96": {
+    "categorie": "Remettre les répliques dans l'ordre:",
+    "intitule": "1. \"C’est le moment, c’est l’instant, préparez les épices\" 2. \"Nous pantouflard ?\" 3. \"Pendant qu’on est là, il y en a qui se battent\" 4. \"Mon camarade, il veut du à l’ail\" (4 mots)",
+    "reponse": []
+  },
+  "97": {
+    "categorie": "Remettre les répliques dans l'ordre:",
+    "intitule": "1. \"Il ne fait rien que d’m'éclabousser\" 2. \"Il vous a envoyé fort dîtes donc !\" 3. \"Vous êtes sûr que c’est le drapeau anglais ça chef ?\" 4. \"J’les tenais au bout de mon revolver. J’appelle à l’aide ... enseveli\" (4 mots)",
+    "reponse": []
+  },
+  "98": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Vous n'avez que ce mot là à la bouche. Les Boches, les sales Boches, les vaches de B",
+    "reponse": []
+  },
+  "99": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Le thème c'est : je te pourri la vie... au Caraïbes",
+    "reponse": []
+  },
+  "100": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Fallait pas vous déranger pour ça chef, j'ai ouvert",
+    "reponse": []
+  },
+  "101": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Non pas les Rosenblum",
+    "reponse": []
+  },
+  "102": {
+    "categorie": "Donnez le contexte",
+    "intitule": "C’qu’il parle mal ce gamin là ! Ce sont des as, cancre",
+    "reponse": []
+  },
+  "103": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Sinon je parle de ce que tu sais, à qui tu sais",
+    "reponse": []
+  },
+  "104": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Mais je veux savoir merde",
+    "reponse": []
+  },
+  "105": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Non c'est pas plus bête\" \"Si c'est plus bête",
+    "reponse": []
+  },
+  "106": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Un peu plus par là",
+    "reponse": []
+  },
+  "107": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Le moins qu’on puisse dire c’est que vous n’êtes pas facile à joindre",
+    "reponse": []
+  },
+  "108": {
+    "categorie": "Donnez le contexte",
+    "intitule": "On n’a pas fini de manger des sardines",
+    "reponse": []
+  },
+  "109": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Mais dit donc, on n’est quand même pas venu pour beurrer des sandwich",
+    "reponse": []
+  },
+  "110": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Ils sont en haut !",
+    "reponse": []
+  },
+  "111": {
+    "categorie": "Donnez le contexte",
+    "intitule": "Il tousse, il crache, il renifle, et il tousse, il crache il renifle",
+    "reponse": []
+  },
+  "112": {
+    "categorie": "Question:",
+    "intitule": "Quel est le besoin des marins dans les tontons flingueurs ?",
+    "reponse": []
+  },
+  "113": {
+    "categorie": "Question:",
+    "intitule": "Quel est le prénom de Babou ?",
+    "reponse": []
+  },
+  "114": {
+    "categorie": "Question:",
+    "intitule": "Quel est le principal collaborateur d'Édouard Martin ?",
+    "reponse": []
+  },
+  "115": {
+    "categorie": "Question:",
+    "intitule": "Babou est sûre d'avoir trouvé le prénom, lequel est-ce ?",
+    "reponse": []
+  },
+  "116": {
+    "categorie": "Question:",
+    "intitule": "Quels sont les trois titres exacts de la 7e compagnie ?",
+    "reponse": []
+  },
+  "117": {
+    "categorie": "Question:",
+    "intitule": "Quelles sont les deux chances de médailles aux JO (nom des athlètes) ?",
+    "reponse": []
+  },
+  "118": {
+    "categorie": "Question:",
+    "intitule": "De qui faut-il se méfier avant de faire sauter le pont ?",
+    "reponse": []
+  },
+  "119": {
+    "categorie": "Question:",
+    "intitule": "Vers quelle heure Vincent arrive-t-il au dîner ?",
+    "reponse": []
+  },
+  "120": {
+    "categorie": "Question:",
+    "intitule": "Quelle est la musique de ralliement aux bains Turque et quel est son pays d'origine ?",
+    "reponse": []
+  },
+  "121": {
+    "categorie": "Question:",
+    "intitule": "Dans quelle ville est l'hôtel du globe ?",
+    "reponse": []
+  },
+  "122": {
+    "categorie": "Question:",
+    "intitule": "Pourquoi Rabbi Zeligman n'a t'il pas de barbe d'après lui ?",
+    "reponse": []
+  },
+  "123": {
+    "categorie": "Question:",
+    "intitule": "Quelle est la marque du chewing-gum dans Rabbi Jacob ?",
+    "reponse": []
+  },
+  "124": {
+    "categorie": "Question:",
+    "intitule": "Quel est le prix de la croisière de Bienvenue à bord ?",
+    "reponse": []
+  },
+  "125": {
+    "categorie": "Question:",
+    "intitule": "Quel est le nom du parfum que Rabbi Jacob doit ramener de Paris ?",
+    "reponse": []
+  },
+  "126": {
+    "categorie": "Question:",
+    "intitule": "Quelles sont les quatre batailles citées dans le Prénom ?",
+    "reponse": []
+  },
+  "127": {
+    "categorie": "Question:",
+    "intitule": "Où sont rangés le marteau, la tenaille et la grosse clef anglais ?",
+    "reponse": []
+  },
+  "128": {
+    "categorie": "Question:",
+    "intitule": "Où a lieu la dernière réunion des conjurés ?",
+    "reponse": []
+  },
+  "129": {
+    "categorie": "Question:",
+    "intitule": "Quels sont les codes des Garaud larchet ?",
+    "reponse": []
+  },
+  "130": {
+    "categorie": "Question:",
+    "intitule": "Citer 5 prénoms interdits dans le Prénom ?",
+    "reponse": []
+  },
+  "131": {
+    "categorie": "Question:",
+    "intitule": "Combien d’allemand sont tués par le réseau Attila lors de l’attaque de l’avion ?",
+    "reponse": []
+  },
+  "132": {
+    "categorie": "Question:",
+    "intitule": "Quelle est la tactique pour sortir de la petite porte sur la droite ?",
+    "reponse": []
+  },
+  "133": {
+    "categorie": "Question:",
+    "intitule": "Pourquoi la femme blonde a-t-elle trahi dans le Capitan ?",
+    "reponse": []
+  },
+  "134": {
+    "categorie": "Question:",
+    "intitule": "Quel est le nom de code du capitaine Dumont ?",
+    "reponse": []
+  },
+  "135": {
+    "categorie": "Question:",
+    "intitule": "Quelle est la date du bombardement de l’usine de Moisan ?",
+    "reponse": []
+  },
+  "136": {
+    "categorie": "Complétez",
+    "intitule": "Ein kilogram Kartofeln, (3 mots)",
+    "reponse": []
+  },
+  "137": {
+    "categorie": "Complétez",
+    "intitule": "Non, le 4e Reich est un rêve (jusqu'à \"ce stade\")",
+    "reponse": []
+  },
+  "138": {
+    "categorie": "Complétez",
+    "intitule": "I am sure (11 mots)",
+    "reponse": []
+  },
+  "139": {
+    "categorie": "Complétez",
+    "intitule": "Ça ne prenait pas beaucoup plus de temps (11 mots)",
+    "reponse": []
+  },
+  "140": {
+    "categorie": "Complétez",
+    "intitule": "Il est où le U ?\" \"Y a (4 mots)",
+    "reponse": []
+  },
+  "141": {
+    "categorie": "Complétez",
+    "intitule": "Quelle (6 mots)",
+    "reponse": []
+  },
+  "142": {
+    "categorie": "Qui parle ?",
+    "intitule": "On tourne en rond merdre, on tourne en rond merde, on tourne en rond merde",
+    "reponse": []
+  },
+  "143": {
+    "categorie": "Contexte:",
+    "intitule": "Attendez je compte",
+    "reponse": []
+  },
+  "144": {
+    "categorie": "Contexte:",
+    "intitule": "Mais de qui y parle là ?",
+    "reponse": []
+  },
+  "145": {
+    "categorie": "Contexte:",
+    "intitule": "Pour l'exécution de quoi ? Pour l'exécution de qui ?",
+    "reponse": []
+  },
+  "146": {
+    "categorie": "Contexte:",
+    "intitule": "Vous ne saurez ni le jour, ni l’heure, ni de quoi il s’agit",
+    "reponse": []
+  },
+  "147": {
+    "categorie": "A qui à est adressé cette phrase ?",
+    "intitule": "Dites, vous vous foutez de moi là en ce moment ?",
+    "reponse": []
+  },
+  "148": {
+    "categorie": "Phrase d’avant:",
+    "intitule": "Les hommes sont rarement des .. mères de famille",
+    "reponse": []
+  },
+  "149": {
+    "categorie": "Quel film ?",
+    "intitule": "Mais alors là il m'épate, il m'épate, il m'épate et il m'épate",
+    "reponse": []
+  },
+  "150": {
+    "categorie": "Quel film ?",
+    "intitule": "Vous êtes pas gentil, vous êtes pas gentil, vous êtes pas gentil",
+    "reponse": []
+  },
+  "151": {
+    "categorie": "Quel film ?",
+    "intitule": "J'ai ma réponse hein .. t'es un agent secret",
+    "reponse": []
+  },
+  "152": {
+    "categorie": "Quel film ?",
+    "intitule": "J'ai fait la boulette",
+    "reponse": []
+  },
+  "153": {
+    "categorie": "Quel film ?",
+    "intitule": "C'était mon idée",
+    "reponse": []
+  },
+  "154": {
+    "categorie": "Quel film ?",
+    "intitule": "Ah un déménagement ?",
+    "reponse": []
+  },
+  "155": {
+    "categorie": "Quel film ?",
+    "intitule": "Mocheté et en plus elle est mal élevée",
+    "reponse": []
+  },
+  "156": {
+    "categorie": "Quel film ?",
+    "intitule": "Vu ou aperçu ?",
+    "reponse": []
+  },
+  "157": {
+    "categorie": "Question :",
+    "intitule": "Comment s'appelle l'appareil qui enregistre les sons sur une bande magnétique ?",
+    "reponse": []
+  },
+  "158": {
+    "categorie": "Question :",
+    "intitule": "Quel est le sport auquel jouent les anglais dans le film le mur de l'Atlantique ?",
+    "reponse": []
+  },
+  "159": {
+    "categorie": "Question :",
+    "intitule": "Citer un adjectifs que donne François Pignon quand il parle de Marlène Sasoeur ?",
+    "reponse": []
+  },
+  "160": {
+    "categorie": "Question :",
+    "intitule": "Citer trois films de Belmondo",
+    "reponse": []
+  },
+  "161": {
+    "categorie": "Question :",
+    "intitule": "Citer 5 nom de personnage de films joués par Louis de Funès",
+    "reponse": []
   }
 }
