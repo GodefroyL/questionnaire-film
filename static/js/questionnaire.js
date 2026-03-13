@@ -1,5 +1,6 @@
 // Variable pour stocker les données et l'index courant
 let donnee = [];
+console.log("Chargement du script questionnaire.js");
 console.log(donnee.length);
 let index = 1;
 
