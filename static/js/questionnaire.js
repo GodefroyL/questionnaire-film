@@ -1,7 +1,7 @@
 // Variable pour stocker les données et l'index courant
 let donnee = [];
-console.log(donnee);
-let index = 0;
+console.log(donnee.length);
+let index = 1;
 
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
@@ -21,9 +21,10 @@ function affichageDonnee() {
     const item = donnee[index];
     container.innerHTML = `
       <h2>${item.categorie}</h2>
-      <p><strong>Question :</strong> ${item.question}</p>
+      <p><strong>Question :</strong> ${item.intitule}</p>
       <input type="text" id="reponse">
     `;
+    index++;
   } else {
     container.innerHTML = "<p>Toutes les données ont été traitées.</p>";
   }
