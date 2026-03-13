@@ -25,6 +25,9 @@ function affichageDonnee() {
       <p><strong>Question :</strong> ${item.intitule}</p>
       <input type="text" id="reponse">
     `;
+    if (!item.programme) {
+      container.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
+    }
     index++;
   } else {
     container.innerHTML = "<p>Toutes les données ont été traitées.</p>";
