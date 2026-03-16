@@ -18,7 +18,7 @@ function affichageDonnee() {
   const container = document.getElementById('question');
   if (index < donnee.length) {
     const item = donnee[index];
-    console.log("catégorie:", item.categorie);
+    console.log("Catégorie :", item.categorie);
     if (item.categorie == "Complétez") {
       container.innerHTML = completezHTML(item);
     } else {
