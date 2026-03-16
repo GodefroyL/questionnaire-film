@@ -1,6 +1,5 @@
 // Variable pour stocker les données et l'index courant
 let donnee = [];
-console.log("Chargement du script questionnaire.js");
 let index = 1;
 
 // Fonction pour charger le fichier JSON
@@ -49,7 +48,7 @@ function validate() {
 
 function completezHTML(item) {
   let html = `<h2>${item.categorie}</h2><p>`
-  console.log(item.intitule);
+  console.log("item.intitule:", item.intitule);
   for (const element of item.intitule) {
     html += `${element} `;
     html += `<input type="text" name="reponse"> `;
