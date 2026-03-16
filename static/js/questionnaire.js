@@ -20,11 +20,14 @@ function affichageDonnee() {
   const container = document.getElementById('question');
   if (index < donnee.length) {
     const item = donnee[index];
-    container.innerHTML = `
-      <h2>${item.categorie}</h2>
-      <p><strong>Question :</strong> ${item.intitule}</p>
-      <input type="text" id="reponse">
-    `;
+    if (item.categorie === "Complétez") {
+      container.innerHTML = completezHTML(item);
+    } else {
+      container.innerHTML = `
+        <h2>${item.categorie}</h2>
+        <p>${item.intitule}</p>
+        <input type="text" id="reponse">`;
+    }
     if (!item.programme) {
       container.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
     }
@@ -43,6 +46,17 @@ function validate() {
     affichageDonnee();
   }
 }
+
+function completezHTML(item) {
+  let html = `<h2>${item.categorie}</h2><p>`
+  for (const element of item.intitule) {
+    html += `${element} `;
+    html += `<input type="text" name="reponse"> `;
+  }
+  html += `</p>`;
+  return html;
+}
+
 
 // Écouteurs d'événements pour les boutons
 document.getElementById('valider').addEventListener('click', validate);
