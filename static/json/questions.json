@@ -2,119 +2,119 @@
   {
     "id": 1,
     "categorie": "Complétez",
-    "intitule": "La révolution c'est comme une bicyclette (6 mots)",
+    "intitule": ["La révolution c'est comme une bicyclette","(6 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 2,
     "categorie": "Complétez",
-    "intitule": "Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ? (2 mots)",
+    "intitule": ["Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ?","(2 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 3,
     "categorie": "Complétez",
-    "intitule": "Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du (5 mots)",
+    "intitule": ["Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du","(2 mots), ce serai plutôt pour","(2 mots) sa"," (1mot)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 4,
     "categorie": "Complétez",
-    "intitule": "Ah les s’cretes de papa c’est passionnant : (6 mots)",
+    "intitule": ["Ah les s’cretes de papa c’est passionnant :","(2 mots) Flavigny, source","(1 mot),","(1 mot) de","(1 mot)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 5,
     "categorie": "Complétez",
-    "intitule": "On est commandant, pas (1 mot)",
+    "intitule": ["On est commandant, pas","(1 mot)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 6,
     "categorie": "Complétez",
-    "intitule": "Non, ah non non c'est pas ça qui est horrible, ça (3 mots)",
+    "intitule": ["Non, ah non non c'est pas ça qui est horrible, ça","(3 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 7,
     "categorie": "Complétez",
-    "intitule": "Je lève mon verre (8 mots)",
+    "intitule": ["Je lève mon verre","(3 mots) qui ont refusé","(3 mots) aux","(2 mots) de Berlin !"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 8,
     "categorie": "Complétez",
-    "intitule": "Aux quatre coins d' Paris qu'on va le retrouver éparpillé par petits bouts (7 mots)",
+    "intitule": ["Aux quatre coins d'Paris qu'on va le retrouver éparpillé par petits bouts","(2 mots). Moi quand on m'en fait trop j'","(2 mots), je","(1 mot), j'","(1 mot), j'"," (1 mot)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 19,
     "categorie": "Complétez",
-    "intitule": "If I go to the Turkish bath, (5 mots)",
+    "intitule": ["If I go to the Turkish bath,","(5 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 10,
     "categorie": "Complétez",
-    "intitule": "Non je souris pas, j'adapte mes (4 mots)",
+    "intitule": ["Non je souris pas, j'adapte mes","(4 mots)"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 11,
     "categorie": "Complétez",
-    "intitule": "Tea for two and two for tea (3 mots)",
+    "intitule": ["Tea for two and two for tea","(3 mots)"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 12,
     "categorie": "Complétez",
-    "intitule": "Ma trentième (3 mots)",
+    "intitule": ["Ma trentième","(3 mots) focker ?"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 13,
     "categorie": "Complétez",
-    "intitule": "Non mais vous êtes (7 mots)",
+    "intitule": ["Non mais vous êtes","(1 mots)hein, ah je sais plus quoi dire devant","(6 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 14,
     "categorie": "Complétez",
-    "intitule": "Heu tu peux te (7 mots)",
+    "intitule": ["Heu tu peux te","(7 mots) cette","(5 mots)."],
     "reponse": [],
     "programme": true
   },
   {
     "id": 15,
     "categorie": "Complétez",
-    "intitule": "Je ne connais même pas votre nom (2 mots)",
+    "intitule": ["Je ne connais même pas votre nom","(2 mots)"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 16,
     "categorie": "Complétez",
-    "intitule": "Encore un (1 mot)",
+    "intitule": ["Encore un","(1 mot) chef !"],
     "reponse": [],
     "programme": true
   },
   {
     "id": 17,
     "categorie": "Complétez",
-    "intitule": "Et le divan (3 mots)",
+    "intitule": ["Et le divan","(2 mots), la","(1 mots), c'est vous aussi ?"],
     "reponse": [],
     "programme": true
   },
@@ -947,42 +947,42 @@
   {
     "id": 136,
     "categorie": "Complétez",
-    "intitule": "Ein kilogram Kartofeln, (3 mots)",
+    "intitule": ["Ein kilogram Kartofeln,","(3 mots)."],
     "reponse": [],
     "programme": false
   },
   {
     "id": 137,
     "categorie": "Complétez",
-    "intitule": "Non, le 4e Reich est un rêve (jusqu'à \"ce stade\")",
+    "intitule": ["Non, le 4e Reich est un rêve","(bcp de mots) 5e Reich !"],
     "reponse": [],
     "programme": false
   },
   {
     "id": 138,
     "categorie": "Complétez",
-    "intitule": "I am sure (11 mots)",
+    "intitule": ["I am sure","(8 mots) que c'est un","(3 mots)."],
     "reponse": [],
     "programme": false
   },
   {
     "id": 139,
     "categorie": "Complétez",
-    "intitule": "Ça ne prenait pas beaucoup plus de temps (11 mots)",
+    "intitule": ["Ça ne prenait pas beaucoup plus de temps","(7 mots) pédalo","(4 mots)."],
     "reponse": [],
     "programme": false
   },
   {
     "id": 140,
     "categorie": "Complétez",
-    "intitule": "Il est où le U ?\" \"Y a (4 mots)",
+    "intitule": ["Il est où le U ?\" \"Y a","(4 mots)"],
     "reponse": [],
     "programme": false
   },
   {
     "id": 141,
     "categorie": "Complétez",
-    "intitule": "Quelle (6 mots)",
+    "intitule": ["Quelle","(1 mot), t'as pas honte ?","(1 mot) ah non","(4 mots)."],
     "reponse": [],
     "programme": false
   },

@@ -53,6 +53,7 @@ function completezHTML(item) {
     html += `${element} `;
     html += `<input type="text" name="reponse"> `;
   }
+  html -= `<input type="text" id="reponse">`;
   html += `</p>`;
   return html;
 }
