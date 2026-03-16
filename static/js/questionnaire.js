@@ -49,6 +49,7 @@ function validate() {
 
 function completezHTML(item) {
   let html = `<h2>${item.categorie}</h2><p>`
+  console.log(item.intitule);
   for (const element of item.intitule) {
     html += `${element} `;
     html += `<input type="text" name="reponse"> `;
