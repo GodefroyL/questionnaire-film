@@ -7,7 +7,6 @@ async function chargementDonnees() {
   try {
     const response = await fetch('../static/json/questions.json');
     donnee = await response.json();
-    console.log(donnee.length);
     affichageDonnee();
   } catch (error) {
     console.error("Erreur lors du chargement du fichier JSON :", error);
