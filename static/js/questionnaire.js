@@ -41,6 +41,7 @@ function affichageDonnee() {
 // Fonction pour valider l'élément courant
 function valider() {
   if (index < donnee.length) {
+    const item = donnee[index];
     // Sélectionner tous les inputs avec le nom "reponse"
     const inputs = document.querySelectorAll('input[type="text"][id="reponse"]');
 
@@ -89,7 +90,6 @@ function completezHTML(item) {
   <h2>${item.categorie}</h2>
   (pour le nombre de mots : d'ici = 2 mots)<p>
   `
-  console.log("item.intitule:", item.intitule);
   for (const element of item.intitule) {
     html += `${element} `;
     html += `<input type="text" id="reponse"> `;
