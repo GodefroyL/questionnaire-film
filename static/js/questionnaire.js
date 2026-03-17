@@ -45,7 +45,10 @@ function validate() {
 }
 
 function completezHTML(item) {
-  let html = `<h2>${item.categorie}</h2><br> (pour le nombre de mots : d'ici = 2 mots)<p>`
+  let html = `
+  <h2>${item.categorie}</h2>
+  (pour le nombre de mots : d'ici = 2 mots)<p>
+  `
   console.log("item.intitule:", item.intitule);
   for (const element of item.intitule) {
     html += `${element} `;
