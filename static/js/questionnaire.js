@@ -18,7 +18,6 @@ function affichageDonnee() {
   const container = document.getElementById('question');
   if (index < donnee.length) {
     const item = donnee[index];
-    console.log("Catégorie :", item.categorie);
     if (item.categorie == "Complétez") {
       container.innerHTML = completezHTML(item);
     } else {
@@ -40,24 +39,20 @@ function affichageDonnee() {
 function validate() {
   if (index < donnee.length) {
     // Logique pour enregistrer la validation (ex: envoyer à un serveur)
-    console.log(`Élément ${donnee[index].id} validé.`);
     index++;
     affichageDonnee();
   }
 }
 
 function completezHTML(item) {
-  let html = `<h2>${item.categorie}</h2><p>`
+  let html = `<h2>${item.categorie}<br> (pour le nombre de mots : d'ici = 2 mots)</h2><p>`
   console.log("item.intitule:", item.intitule);
   for (const element of item.intitule) {
-    console.log("Élément de l'intitulé:", element);
     html += `${element} `;
     html += `<input type="text" name="reponse"> `;
-    console.log("HTML après ajout de l'input:", html);
   }
   html = html.slice(0,-32);
   html += `</p>`;
-  console.log("HTML généré:", html);
   return html;
 }
 
