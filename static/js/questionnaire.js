@@ -32,8 +32,9 @@ function affichageDonnee() {
     }
     index++;
   } else {
+    document.getElementById("detailResultats").style.display = "block";
+    document.getElementById("valider").style.display = "none"
     container.innerHTML = resultatsHTML();
-
   }
 }
 
@@ -101,9 +102,7 @@ function completezHTML(item) {
 function resultatsHTML() {
   let html = `<h2>Résultats</h2>`;
   nombreBonnesReponses = Object.values(resultats).filter(resultat => resultat).length;
-  html += `
-  <p>Vous avez obtenu ${nombreBonnesReponses} bonnes réponses sur ${Object.keys(resultats).length} questions.</p>
-  <button id="detailResultats">Voir les détails des résultats</button>`;
+  html += `<p>Vous avez obtenu ${nombreBonnesReponses} bonnes réponses sur ${Object.keys(resultats).length} questions.</p>`;
   return html;
 
 }
