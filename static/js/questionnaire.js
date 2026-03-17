@@ -78,7 +78,7 @@ function valider() {
     }
 
     // Afficher la liste de mots
-    console.log(resultat);
+    console.log(resultats);
 
     index++;
     affichageDonnee();
