@@ -61,7 +61,7 @@ function valider() {
             // Ajouter chaque mot non vide à la liste
         }
     });
-    if (reponse in item.reponses) {
+    if (item.reponses.includes(reponse)) {
       resultats[index] = true;
     } else {
       resultats[index] = false;
@@ -84,7 +84,7 @@ function completezHTML(item) {
     html += `${element} `;
     html += `<input type="text" id="reponse"> `;
   }
-  html = html.slice(0,-32);
+  html = html.slice(0,-33);
   html += `</p>`;
   return html;
 }
