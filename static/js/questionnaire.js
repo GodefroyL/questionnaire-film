@@ -50,8 +50,10 @@ function completezHTML(item) {
   let html = `<h2>${item.categorie}</h2><p>`
   console.log("item.intitule:", item.intitule);
   for (const element of item.intitule) {
+    console.log("Élément de l'intitulé:", element);
     html += `${element} `;
     html += `<input type="text" name="reponse"> `;
+    console.log("HTML après ajout de l'input:", html);
   }
   html -= `<input type="text" id="reponse">`;
   html += `</p>`;
