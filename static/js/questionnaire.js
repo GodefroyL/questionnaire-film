@@ -45,33 +45,23 @@ function valider() {
     // Sélectionner tous les inputs avec le nom "reponse"
     const inputs = document.querySelectorAll('input[type="text"][id="reponse"]');
 
-    // Initialiser une liste pour stocker tous les mots
-    let listeMots = [];
-
     // Parcourir chaque input
     inputs.forEach(input => {
         // Récupérer la valeur de l'input et supprimer les espaces en début et fin
-        let valeur = input.value.trim();
+        let reponse = input.value.trim();
 
         // Si la valeur n'est pas vide
-        if (valeur) {
+        if (reponse) {
             // Supprimer toute ponctuation et remplacer par un espace
-            valeur = valeur.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ');
+            reponse = reponse.replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g, ' ');
             // Remplacer les espaces multiples par un seul espace
-            valeur = valeur.replace(/\s{2,}/g, ' ');
+            reponse = reponse.replace(/\s{2,}/g, ' ');
             // Convertir en minuscules
-            valeur = valeur.toLowerCase();
-            // Diviser en mots
-            const mots = valeur.split(' ');
+            reponse = reponse.toLowerCase();
             // Ajouter chaque mot non vide à la liste
-            mots.forEach(mot => {
-                if (mot) {
-                    listeMots.push(mot);
-                }
-            });
         }
     });
-    if (listeMots in item.reponses) {
+    if (reponse in item.reponses) {
       resultats[index] = true;
     } else {
       resultats[index] = false;
