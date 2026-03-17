@@ -61,6 +61,8 @@ function valider() {
             // Ajouter chaque mot non vide à la liste
         }
     });
+    console.log("reponse utilisateur : ", reponse)
+    console.log("reponse correct : ", item.reponses)
     if (item.reponses.includes(reponse)) {
       resultats[index] = true;
     } else {
