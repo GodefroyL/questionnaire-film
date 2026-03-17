@@ -55,7 +55,7 @@ function completezHTML(item) {
     html += `<input type="text" name="reponse"> `;
     console.log("HTML après ajout de l'input:", html);
   }
-  html = html.replace(`<input type="text" name="reponse">`, ``);
+  html = html.slice(0,-32);
   html += `</p>`;
   console.log("HTML généré:", html);
   return html;
