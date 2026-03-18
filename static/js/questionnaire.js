@@ -105,12 +105,15 @@ function resultatsHTML() {
 }
 
 function detailResultatsHTML() {
+  const container = document.getElementById('divDetail');
+  document.getElementById('divDetail').style.display = "block";
+  document.getElementById('detailResultats').style.display = "none";
   let html = `<h2>Résultats</h2><ul>`;
   for (const [index, resultat] of Object.entries(resultats)) {
     html += `<li>Question ${index}: ${resultat ? 'Correct' : 'Incorrect'}</li>`;
   }
   html += `</ul>`;
-  return html;
+  container.innerHTML=html
 }
 
 
