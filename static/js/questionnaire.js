@@ -33,8 +33,8 @@ function affichageDonnee() {
       container.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
     }
   } else {
-    document.getElementsById("detailResultats").style.display = "block";
-    document.getElementsById("valider").style.display = "none";
+    document.getElementById('detailResultats').style.display = "block";
+    document.getElementById('valider').style.display = "none";
     container.innerHTML = resultatsHTML();
   }
 }
