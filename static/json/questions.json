@@ -3,7 +3,7 @@
     "id": 1,
     "categorie": "Complétez",
     "intitule": ["La révolution c'est comme une bicyclette","(6 mots)."],
-    "reponses": ["quand elle n'avance pas elle tombe"],
+    "reponses": "quand elle n'avance pas elle tombe",
     "programme": true
   },
   {
