@@ -3,14 +3,14 @@
     "id": 1,
     "categorie": "Complétez",
     "intitule": ["La révolution c'est comme une bicyclette","(6 mots)."],
-    "reponsess": [["quand","elle","n","avance","pas","elle","tombe"]],
+    "reponses": [["quand","elle","n","avance","pas","elle","tombe"]],
     "programme": true
   },
   {
     "id": 2,
     "categorie": "Complétez",
     "intitule": ["Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ?","(2 mots)."],
-    "reponsess": ["bonjour madame"],
+    "reponses": ["bonjour madame"],
     "programme": true
   },
   {
