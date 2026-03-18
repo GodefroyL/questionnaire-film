@@ -67,7 +67,7 @@ function valider() {
     });
     reponse = reponse.slice(1)
     console.log("reponse utilisateur : ", reponse)
-    resultats[index] = item.reponses.include(reponse)
+    resultats[index] = item.reponses.includes(reponse)
     // resultats[index] = false
     // for (const rep of item.reponses) {
     //   console.log("reponse correct : ", rep)
