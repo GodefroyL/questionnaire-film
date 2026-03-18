@@ -60,11 +60,11 @@ function valider() {
             // Convertir en minuscules
             valeur = valeur.toLowerCase();
             // Ajouter chaque mot non vide à la liste
-            reponse += valeur
+            reponse += " " + valeur
         }
     });
     console.log("reponse utilisateur : ", reponse)
-    console.log("reponse correct : ", item.reponses.value)
+    console.log("reponse correct : ", item)
     if (item.reponses.includes(reponse)) {
       resultats[index] = true;
     } else {
