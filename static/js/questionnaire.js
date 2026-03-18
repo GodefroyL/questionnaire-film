@@ -16,6 +16,8 @@ async function chargementDonnees() {
 
 // Fonction pour afficher les données
 function affichageDonnee() {
+  index++;
+  console.log("afficahge donnee",index)
   const container = document.getElementById('question');
   if (index < donnee.length) {
     const item = donnee[index];
@@ -39,6 +41,7 @@ function affichageDonnee() {
 
 // Fonction pour valider l'élément courant
 function valider() {
+  console.log("valider",index)
   if (index < donnee.length) {
     const item = donnee[index];
     // Sélectionner tous les inputs avec le nom "reponse"
@@ -73,7 +76,6 @@ function valider() {
     // Afficher la liste de mots
     console.log(resultats);
 
-    index++;
     affichageDonnee();
   }
 }
