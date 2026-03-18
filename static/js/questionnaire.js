@@ -69,7 +69,7 @@ function valider() {
     resultats[index] = false
     for (const rep of item.reponses) {
       console.log("reponse correct : ", rep)
-      if (rep == reponse) {
+      if (" "+rep == reponse) {
         resultats[index] = true
       }
     }
