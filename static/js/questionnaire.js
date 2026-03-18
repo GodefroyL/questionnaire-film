@@ -34,7 +34,7 @@ function affichageDonnee() {
     }
   } else {
     document.getElementsById("detailResultats").style.display = "block";
-    document.getElementById("valider").style.display = "none";
+    document.getElementsById("valider").style.display = "none";
     container.innerHTML = resultatsHTML();
   }
 }
