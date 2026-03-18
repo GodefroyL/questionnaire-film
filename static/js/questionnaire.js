@@ -34,7 +34,7 @@ function affichageDonnee() {
     }
   } else {
     document.getElementsByName("detailResultats").style.display = "block";
-    document.getElementById("valider").style.display = "none"
+    document.getElementById("valider").style.display = "none";
     container.innerHTML = resultatsHTML();
   }
 }
@@ -65,14 +65,16 @@ function valider() {
             reponse += " " + valeur
         }
     });
+    reponse = reponse.slice(1)
     console.log("reponse utilisateur : ", reponse)
-    resultats[index] = false
-    for (const rep of item.reponses) {
-      console.log("reponse correct : ", rep)
-      if (" "+rep == reponse) {
-        resultats[index] = true
-      }
-    }
+    resultats[index] = item.reponses.include(reponse)
+    // resultats[index] = false
+    // for (const rep of item.reponses) {
+    //   console.log("reponse correct : ", rep)
+    //   if (" "+rep == reponse) {
+    //     resultats[index] = true
+    //   }
+    // }
     // Afficher la liste de mots
     console.log(resultats);
 
