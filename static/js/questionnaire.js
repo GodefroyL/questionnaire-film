@@ -67,13 +67,12 @@ function valider() {
     });
     console.log("reponse utilisateur : ", reponse)
     console.log("reponse correct : ", item.reponses)
-    console.log(item.reponses.includes(reponse))
-    if (item.reponses.includes(reponse)) {
-      resultats[index] = true;
-    } else {
-      resultats[index] = false;
+    resultats[index] = false
+    for (const rep of reponses) {
+      if (rep == reponse) {
+        resultats[index] = true
+      }
     }
-
     // Afficher la liste de mots
     console.log(resultats);
 
