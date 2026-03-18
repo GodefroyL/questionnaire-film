@@ -87,4 +87,7 @@ textarea{
         padding: 3px;
         width: 90%;
     }
+    input{
+        width: 250px;
+    }
 }
