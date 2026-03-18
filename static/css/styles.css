@@ -17,7 +17,7 @@ a{
 }
 
 body{
-    margin-top: 50px;
+    margin-top: 60px;
     background-color: royalblue;
     display: flex;
     align-content: center;
@@ -85,5 +85,6 @@ textarea{
     div{
         margin: 5px;
         padding: 3px;
+        width: 90%;
     }
 }
