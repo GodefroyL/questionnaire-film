@@ -68,8 +68,8 @@ function valider() {
     console.log("reponse utilisateur : ", reponse)
     resultats[index] = false
     for (const rep of item.reponses) {
-      console.log("reponse correct : ", item.reponses)
-      if (rep === reponse) {
+      console.log("reponse correct : ", rep)
+      if (rep == reponse) {
         resultats[index] = true
       }
     }
