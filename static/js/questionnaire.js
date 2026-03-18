@@ -62,7 +62,7 @@ function valider() {
         }
     });
     console.log("reponse utilisateur : ", reponse)
-    console.log("reponse correct : ", item.reponses)
+    console.log("reponse correct : ", item.reponses.value)
     if (item.reponses.includes(reponse)) {
       resultats[index] = true;
     } else {
