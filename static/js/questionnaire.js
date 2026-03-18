@@ -1,6 +1,6 @@
 // Variable pour stocker les données et l'index courant
 let donnee = [];
-let index = 1;
+let index = 0;
 let resultats = {};
 
 // Fonction pour charger le fichier JSON
@@ -63,7 +63,7 @@ function valider() {
         }
     });
     console.log("reponse utilisateur : ", reponse)
-    console.log("reponse correct : ", item)
+    console.log("reponse correct : ", item.reponses)
     if (item.reponses.includes(reponse)) {
       resultats[index] = true;
     } else {
