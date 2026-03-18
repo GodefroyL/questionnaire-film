@@ -30,7 +30,6 @@ function affichageDonnee() {
     if (!item.programme) {
       container.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
     }
-    index++;
   } else {
     document.getElementsByName("detailResultats").style.display = "block";
     document.getElementById("valider").style.display = "none"
