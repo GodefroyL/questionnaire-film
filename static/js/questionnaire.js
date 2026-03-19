@@ -93,9 +93,8 @@ function valider() {
         // Retirer l'animation après son exécution
         setTimeout(() => {
             container.classList.remove('success', 'error');
+            affichageDonnee();
         }, 500);
-
-        affichageDonnee();
     }
 }
 
