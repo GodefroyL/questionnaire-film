@@ -1,4 +1,4 @@
-header{
+header {
     background-color: darkblue;
     width: 100%;
     position: fixed;
@@ -11,12 +11,13 @@ header{
     font-size: large;
     font-weight: bold;
 }
-a{
+
+a {
     color: white;
     font-style: italic;
 }
 
-body{
+body {
     margin-top: 60px;
     background-color: royalblue;
     display: flex;
@@ -25,21 +26,21 @@ body{
     align-items: center;
     flex-direction: column;
 }
-div{
+
+div {
     padding: 15px;
     background-color: darkblue;
     width: 60%;
-    color:white;
+    color: white;
     font-size: 15px;
     line-height: 20px;
     text-align: center;
     margin: 20px;
     flex-direction: row;
-    border-radius: 20px 20px 20px 20px;
-
+    border-radius: 20px;
 }
 
-.accueil{
+.accueil {
     display: flex;
     max-height: 80%;
     align-content: center;
@@ -48,46 +49,62 @@ div{
     flex-direction: column;
 }
 
-.titre{
-    color:red;
+.titre {
+    color: red;
     font-size: 20px;
     line-height: 25px;
 }
-img{
+
+img {
     width: 80%;
     height: auto;
 }
-.boutton{
+
+.boutton {
     display: inline-block;
     padding: 10px 20px;
     margin: 10px;
-    border-radius: 20px 20px 20px 20px;
+    border-radius: 20px;
     border: none;
     text-decoration: none;
     background-color: royalblue;
     color: white;
     cursor: pointer;
 }
-textarea{
+
+textarea {
     height: 20px;
     color: white;
     background-color: royalblue;
 }
 
+input[type="text"] {
+    min-width: 50px;
+    max-width: 300px;
+    padding: 8px;
+    box-sizing: border-box;
+    font-family: inherit;
+    font-size: inherit;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: inline-block;
+    color: white;
+    background-color: royalblue;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
-    h2{
+    h2 {
         font-size: 1.2rem;
     }
-    p{
+
+    p {
         font-size: 1rem;
     }
 
-    div{
+    div {
         margin: 5px;
         padding: 3px;
         width: 90%;
-    }
-    input{
-        width: 50px;
     }
 }
