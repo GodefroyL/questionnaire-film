@@ -39,6 +39,9 @@ div {
     flex-direction: row;
     border-radius: 20px;
 }
+#divResultat {
+    text-align: left;
+}
 
 .accueil {
     display: flex;
@@ -89,8 +92,33 @@ input[type="text"] {
     border-radius: 4px;
     display: inline-block;
     color: black;
-    text-align: center;
+    text-align: left;
 }
+
+/* Animation pour le succès (vert) */
+@keyframes successAnimation {
+    0% { transform: scale(1); background-color: darkblue; }
+    50% { transform: scale(1.05); background-color: green; }
+    100% { transform: scale(1); background-color: darkblue; }
+}
+
+/* Animation pour l'échec (rouge) */
+@keyframes errorAnimation {
+    0% { transform: scale(1); background-color: darkblue; }
+    50% { transform: scale(1.05); background-color: red; }
+    100% { transform: scale(1); background-color: darkblue; }
+}
+
+/* Classe pour appliquer l'animation de succès */
+.success {
+    animation: successAnimation 0.5s ease-in-out;
+}
+
+/* Classe pour appliquer l'animation d'échec */
+.error {
+    animation: errorAnimation 0.5s ease-in-out;
+}
+
 
 @media (max-width: 768px) {
     h2 {

@@ -77,10 +77,28 @@ function valider() {
             }
         });
         reponse = reponse.slice(1);
-        resultats[index] = item.reponses.includes(reponse);
+        const isCorrect = item.reponses.includes(reponse);
+        resultats[index] = isCorrect;
+
+        // Récupérer le conteneur de la question
+        const container = document.getElementById('question');
+
+        // Appliquer l'animation en fonction du résultat
+        if (isCorrect) {
+            container.classList.add('success');
+        } else {
+            container.classList.add('error');
+        }
+
+        // Retirer l'animation après son exécution
+        setTimeout(() => {
+            container.classList.remove('success', 'error');
+        }, 500);
+
         affichageDonnee();
     }
 }
+
 
 function completezHTML(item) {
     let html = `
