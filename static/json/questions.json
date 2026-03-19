@@ -17,7 +17,7 @@
     "id": 3,
     "categorie": "Complétez",
     "intitule": ["Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du","(2 mots), ce serai plutôt pour","(2 mots) sa"," (1mot)."],
-    "reponses": [],
+    "reponses": ["duc d'angoulême ceux de fille","duc d'angouleme ceux de fille","duc d angoulême ceux de fille","duc d angouleme ceux de fille"],
     "programme": true
   },
   {
@@ -645,482 +645,314 @@
   },
   {
     "id": 93,
-    "categorie": "Remettre les répliques dans l'ordre:",
-    "intitule": "1. \"Mais il connait pas Raoul ce mec\" 2. \"Je lui trouve un goût de pomme\" 3. \"Lulu la nantaise\" 4. \"Tâchez plutôt qu’elle ne tombe pas en panne\" 5. \"Faut quand même admettre, c'est plutôt une boisson d'homme\" (5 mots)",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 94,
-    "categorie": "Remettre les répliques dans l'ordre:",
-    "intitule": "1. \"On n'a jamais eu grand chose à se dire hein\" 2. \"Et toi Vincent, tu vas me les dire enfin les mots que j'attends ?\" 3. \"On est dans le non pardon ce soir\" 4. \"La formule de mathématique est bien écrite au bic dans la paume de leur main\" 5. \"Mais ça ne la dérange pas, elle aime faire ça même jouer la boniche\" 6. \"Toi Claude je ne te dis rien parce que tu sais déjà tout\" (6 mots)",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 95,
-    "categorie": "Remettre les répliques dans l'ordre:",
-    "intitule": "1. \"Oh bah il était temps\" 2. \"C'est la belote que vous vous salit les pieds comme ça ?\" 3. \"Qu'est-ce qu’il y a à manger pour le dîner ?\" 4. \"Pierre, tu connais Jourdan ?\" 5. \"Oh toi Jean t’a 25 ans et tu te contente de jouer à la belote\" (5 mots)",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 96,
-    "categorie": "Remettre les répliques dans l'ordre:",
-    "intitule": "1. \"C’est le moment, c’est l’instant, préparez les épices\" 2. \"Nous pantouflard ?\" 3. \"Pendant qu’on est là, il y en a qui se battent\" 4. \"Mon camarade, il veut du à l’ail\" (4 mots)",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 97,
-    "categorie": "Remettre les répliques dans l'ordre:",
-    "intitule": "1. \"Il ne fait rien que d’m'éclabousser\" 2. \"Il vous a envoyé fort dîtes donc !\" 3. \"Vous êtes sûr que c’est le drapeau anglais ça chef ?\" 4. \"J’les tenais au bout de mon revolver. J’appelle à l’aide ... enseveli\" (4 mots)",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 98,
-    "categorie": "Donnez le contexte",
-    "intitule": "Vous n'avez que ce mot là à la bouche. Les Boches, les sales Boches, les vaches de B",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 99,
-    "categorie": "Donnez le contexte",
-    "intitule": "Le thème c'est : je te pourri la vie... au Caraïbes",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 100,
-    "categorie": "Donnez le contexte",
-    "intitule": "Fallait pas vous déranger pour ça chef, j'ai ouvert",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 101,
-    "categorie": "Donnez le contexte",
-    "intitule": "Non pas les Rosenblum",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 102,
-    "categorie": "Donnez le contexte",
-    "intitule": "C’qu’il parle mal ce gamin là ! Ce sont des as, cancre",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 103,
-    "categorie": "Donnez le contexte",
-    "intitule": "Sinon je parle de ce que tu sais, à qui tu sais",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 104,
-    "categorie": "Donnez le contexte",
-    "intitule": "Mais je veux savoir merde",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 105,
-    "categorie": "Donnez le contexte",
-    "intitule": "Non c'est pas plus bête\" \"Si c'est plus bête",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 106,
-    "categorie": "Donnez le contexte",
-    "intitule": "Un peu plus par là",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 107,
-    "categorie": "Donnez le contexte",
-    "intitule": "Le moins qu’on puisse dire c’est que vous n’êtes pas facile à joindre",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 108,
-    "categorie": "Donnez le contexte",
-    "intitule": "On n’a pas fini de manger des sardines",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 109,
-    "categorie": "Donnez le contexte",
-    "intitule": "Mais dit donc, on n’est quand même pas venu pour beurrer des sandwich",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 110,
-    "categorie": "Donnez le contexte",
-    "intitule": "Ils sont en haut !",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 111,
-    "categorie": "Donnez le contexte",
-    "intitule": "Il tousse, il crache, il renifle, et il tousse, il crache il renifle",
-    "reponses": [],
-    "programme": true
-  },
-  {
-    "id": 112,
     "categorie": "Question:",
     "intitule": "Quel est le besoin des marins dans les tontons flingueurs ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 113,
+    "id": 94,
     "categorie": "Question:",
     "intitule": "Quel est le prénom de Babou ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 114,
+    "id": 95,
     "categorie": "Question:",
     "intitule": "Quel est le principal collaborateur d'Édouard Martin ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 115,
+    "id": 96,
     "categorie": "Question:",
     "intitule": "Babou est sûre d'avoir trouvé le prénom, lequel est-ce ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 116,
+    "id": 97,
     "categorie": "Question:",
     "intitule": "Quels sont les trois titres exacts de la 7e compagnie ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 117,
+    "id": 98,
     "categorie": "Question:",
     "intitule": "Quelles sont les deux chances de médailles aux JO (nom des athlètes) ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 118,
+    "id": 99,
     "categorie": "Question:",
     "intitule": "De qui faut-il se méfier avant de faire sauter le pont ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 119,
+    "id": 100,
     "categorie": "Question:",
     "intitule": "Vers quelle heure Vincent arrive-t-il au dîner ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 120,
+    "id": 101,
     "categorie": "Question:",
     "intitule": "Quelle est la musique de ralliement aux bains Turque et quel est son pays d'origine ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 121,
+    "id": 102,
     "categorie": "Question:",
     "intitule": "Dans quelle ville est l'hôtel du globe ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 122,
+    "id": 103,
     "categorie": "Question:",
     "intitule": "Pourquoi Rabbi Zeligman n'a t'il pas de barbe d'après lui ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 123,
+    "id": 104,
     "categorie": "Question:",
     "intitule": "Quelle est la marque du chewing-gum dans Rabbi Jacob ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 124,
+    "id": 105,
     "categorie": "Question:",
     "intitule": "Quel est le prix de la croisière de Bienvenue à bord ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 125,
+    "id": 106,
     "categorie": "Question:",
     "intitule": "Quel est le nom du parfum que Rabbi Jacob doit ramener de Paris ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 126,
+    "id": 107,
     "categorie": "Question:",
     "intitule": "Quelles sont les quatre batailles citées dans le Prénom ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 127,
+    "id": 108,
     "categorie": "Question:",
     "intitule": "Où sont rangés le marteau, la tenaille et la grosse clef anglais ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 128,
+    "id": 109,
     "categorie": "Question:",
     "intitule": "Où a lieu la dernière réunion des conjurés ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 129,
+    "id": 110,
     "categorie": "Question:",
-    "intitule": "Quels sont les codes des Garaud larchet ?",
+    "intitule": "Quels sont les codes des Garaud-Larchet ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 130,
+    "id": 111,
     "categorie": "Question:",
-    "intitule": "Citer 5 prénoms interdits dans le Prénom ?",
+    "intitule": "Citer 5 prénoms interdits dans le film \"Le Prénom\" ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 131,
+    "id": 112,
     "categorie": "Question:",
     "intitule": "Combien d’allemand sont tués par le réseau Attila lors de l’attaque de l’avion ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 132,
+    "id": 113,
     "categorie": "Question:",
     "intitule": "Quelle est la tactique pour sortir de la petite porte sur la droite ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 133,
+    "id": 114,
     "categorie": "Question:",
     "intitule": "Pourquoi la femme blonde a-t-elle trahi dans le Capitan ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 134,
+    "id": 115,
     "categorie": "Question:",
     "intitule": "Quel est le nom de code du capitaine Dumont ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 135,
+    "id": 116,
     "categorie": "Question:",
     "intitule": "Quelle est la date du bombardement de l’usine de Moisan ?",
     "reponses": [],
     "programme": true
   },
   {
-    "id": 136,
+    "id": 117,
     "categorie": "Complétez",
     "intitule": ["Ein kilogram Kartofeln,","(3 mots)."],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 137,
+    "id": 118,
     "categorie": "Complétez",
     "intitule": ["Non, le 4e Reich est un rêve","(bcp de mots) 5e Reich !"],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 138,
+    "id": 119,
     "categorie": "Complétez",
     "intitule": ["I am sure","(8 mots) que c'est un","(3 mots)."],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 139,
+    "id": 120,
     "categorie": "Complétez",
     "intitule": ["Ça ne prenait pas beaucoup plus de temps","(7 mots) pédalo","(4 mots)."],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 140,
+    "id": 121,
     "categorie": "Complétez",
     "intitule": ["Il est où le U ?\" \"Y a","(4 mots)"],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 141,
+    "id": 122,
     "categorie": "Complétez",
     "intitule": ["Quelle","(1 mot), t'as pas honte ?","(1 mot) ah non","(4 mots)."],
     "reponses": [],
     "programme": false
   },
   {
-    "id": 142,
+    "id": 123,
     "categorie": "Qui parle ?",
     "intitule": "On tourne en rond merdre, on tourne en rond merde, on tourne en rond merde",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 143,
-    "categorie": "Contexte:",
-    "intitule": "Attendez je compte",
-    "reponses": [],
-    "programme": false
-  },
-  {
-    "id": 144,
-    "categorie": "Contexte:",
-    "intitule": "Mais de qui y parle là ?",
-    "reponses": [],
-    "programme": false
-  },
-  {
-    "id": 145,
-    "categorie": "Contexte:",
-    "intitule": "Pour l'exécution de quoi ? Pour l'exécution de qui ?",
-    "reponses": [],
-    "programme": false
-  },
-  {
-    "id": 146,
-    "categorie": "Contexte:",
-    "intitule": "Vous ne saurez ni le jour, ni l’heure, ni de quoi il s’agit",
-    "reponses": [],
-    "programme": false
-  },
-  {
-    "id": 147,
-    "categorie": "Contexte:",
-    "intitule": "Dites, vous vous foutez de moi là en ce moment ?",
-    "reponses": [],
-    "programme": false
-  },
-  {
-    "id": 148,
+    "id": 124,
     "categorie": "Phrase d’avant:",
     "intitule": "Les hommes sont rarement des .. mères de famille",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 149,
+    "id": 125,
     "categorie": "Quel film ?",
     "intitule": "Mais alors là il m'épate, il m'épate, il m'épate et il m'épate",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 150,
+    "id": 126,
     "categorie": "Quel film ?",
     "intitule": "Vous êtes pas gentil, vous êtes pas gentil, vous êtes pas gentil",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 151,
+    "id": 127,
     "categorie": "Quel film ?",
     "intitule": "J'ai ma réponse hein .. t'es un agent secret",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 152,
+    "id": 128,
     "categorie": "Quel film ?",
     "intitule": "J'ai fait la boulette",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 153,
+    "id": 129,
     "categorie": "Quel film ?",
     "intitule": "C'était mon idée",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 154,
+    "id": 130,
     "categorie": "Quel film ?",
     "intitule": "Ah un déménagement ?",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 155,
+    "id": 131,
     "categorie": "Quel film ?",
     "intitule": "Mocheté et en plus elle est mal élevée",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 156,
+    "id": 132,
     "categorie": "Quel film ?",
     "intitule": "Vu ou aperçu ?",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 157,
+    "id": 133,
     "categorie": "Question :",
     "intitule": "Comment s'appelle l'appareil qui enregistre les sons sur une bande magnétique ?",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 158,
+    "id": 134,
     "categorie": "Question :",
     "intitule": "Quel est le sport auquel jouent les anglais dans le film le mur de l'Atlantique ?",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 159,
+    "id": 135,
     "categorie": "Question :",
     "intitule": "Citer un adjectifs que donne François Pignon quand il parle de Marlène Sasoeur ?",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 160,
+    "id": 136,
     "categorie": "Question :",
     "intitule": "Citer trois films de Belmondo",
     "reponses": [],
     "programme": false
   },
   {
-    "id": 161,
+    "id": 137,
     "categorie": "Question :",
     "intitule": "Citer 5 nom de personnage de films joués par Louis de Funès",
     "reponses": [],

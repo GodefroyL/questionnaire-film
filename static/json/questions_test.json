@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "categorie": "Complétez",
+    "intitule": ["La révolution c'est comme une bicyclette","(6 mots)."],
+    "reponses": ["quand elle n'avance pas elle tombe"],
+    "programme": true
+  },
+  {
+    "id": 2,
+    "categorie": "Complétez",
+    "intitule": ["Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ?","(2 mots)."],
+    "reponses": ["bonjour madame"],
+    "programme": true
+  },
+  {
+    "id": 3,
+    "categorie": "Complétez",
+    "intitule": ["Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du","(2 mots), ce serai plutôt pour","(2 mots) sa"," (1mot)."],
+    "reponses": ["duc d'angoulême ceux de fille","duc d'angouleme ceux de fille","duc d angoulême ceux de fille","duc d angouleme ceux de fille"],
+    "programme": true
+  },
+  {
+    "id": 4,
+    "categorie": "Complétez",
+    "intitule": ["On est commandant, pas","(1 mot)."],
+    "reponses": ["capitaines", "capitaine"],
+    "programme": true
+  }
+]

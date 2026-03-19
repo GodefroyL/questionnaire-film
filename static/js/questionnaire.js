@@ -6,7 +6,7 @@ let resultats = {};
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
     try {
-        const response = await fetch('../static/json/questions.json');
+        const response = await fetch('../static/json/questions_test.json');
         donnee = await response.json();
         affichageDonnee();
     } catch (error) {
@@ -85,7 +85,7 @@ function valider() {
 function completezHTML(item) {
     let html = `
     <h2>${item.categorie}</h2>
-    (pour le nombre de mots : d'ici = 2 mots)<p>
+    (pour le nombre de mots : d'ici = 1 mots)<p>
     `;
     for (const element of item.intitule) {
         html += `${element} `;
