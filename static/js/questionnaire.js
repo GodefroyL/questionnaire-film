@@ -94,7 +94,7 @@ function valider() {
         setTimeout(() => {
             container.classList.remove('success', 'error');
             affichageDonnee();
-        }, 500);
+        }, 300);
     }
 }
 
