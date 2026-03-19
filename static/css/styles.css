@@ -81,15 +81,15 @@ textarea {
 input[type="text"] {
     min-width: 50px;
     max-width: 300px;
-    padding: 8px;
+    height: 1rem;
+    padding: 4px;
     box-sizing: border-box;
     font-family: inherit;
     font-size: inherit;
-    border: 1px solid #ccc;
+    border: none;
     border-radius: 4px;
     display: inline-block;
-    color: white;
-    background-color: royalblue;
+    color: black;
     text-align: center;
 }
 
