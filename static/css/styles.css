@@ -85,6 +85,8 @@ input[type="text"] {
     min-width: 50px;
     max-width: 300px;
     height: 1rem;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
     font-family: inherit;
     font-size: inherit;
