@@ -109,7 +109,8 @@ function detailResultatsHTML() {
     document.getElementById('detailResultats').style.display = "none";
     let html = `<h2>Résultats</h2><ul>`;
     for (const [index, resultat] of Object.entries(resultats)) {
-        html += `<li>Question ${index}: ${resultat ? 'Correct' : 'Incorrect'}</li>`;
+        const item = donnee[index]
+        html += `<li>Question ${index}: ${item.intitule} ${resultat ? 'Correct' : 'Incorrect'}</li>`;
     }
     html += `</ul>`;
     container.innerHTML = html;
