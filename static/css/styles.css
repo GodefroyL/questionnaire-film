@@ -52,6 +52,14 @@ div {
     flex-direction: column;
 }
 
+.bouton_accueil {
+    flex-direction: row;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+
 .titre {
     color: red;
     font-size: 20px;
