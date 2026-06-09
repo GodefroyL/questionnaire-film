@@ -39,25 +39,60 @@ div {
     flex-direction: row;
     border-radius: 20px;
 }
+
 #divResultat {
     text-align: left;
 }
 
 .accueil {
-    display: flex;
-    max-height: 80%;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    position: relative;
+    max-width: 800px;
+    width: 100%;
 }
 
 .bouton_accueil {
-    flex-direction: row;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    position: relative;
     display: flex;
-    align-content: center;
+    align-items: center;
+    height: 60px;
+    box-sizing: border-box;
+}
+
+.arc_cercle{
+    position: absolute;
+    left: -30px;
+    top: 0;
+    width: 20px;
+    height: 100%;
+    z-index: 0;
+}
+
+.icone {
+    position: absolute;
+    left: -60px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
     justify-content: center;
     align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.icone img {
+    width: 80%;
+    height: 80%;
+    object-fit: contain;
+}
+
+.bouton_accueil span {
+    margin-left: 20px;
 }
 
 .titre {
