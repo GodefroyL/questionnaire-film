@@ -67,6 +67,8 @@ div {
     width: 90%;
     flex-direction: row;
     display: flex;
+    place-content: 10px;
+    align-items: center;
 }
 
 .lien_bouton_accueil img {
