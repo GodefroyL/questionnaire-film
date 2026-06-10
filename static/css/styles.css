@@ -62,17 +62,10 @@ div {
     justify-content: left;
     height: 60px;
     box-sizing: border-box;
-}
-
-.lien_bouton_accueil {
-    width: 90%;
     flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
 
-.lien_bouton_accueil img {
+.bouton_accueil img {
     margin-left: -25px;
     height: 50px;
     width: 50px;
