@@ -52,13 +52,14 @@ div {
 
 .bouton_accueil {
     margin: 20px 0;
-    padding: 15px;
+    padding: 0 15px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
     position: relative;
     display: flex;
     align-items: center;
+    justify-content: left;
     height: 60px;
     box-sizing: border-box;
 }
@@ -72,6 +73,7 @@ div {
 }
 
 .lien_bouton_accueil img {
+    left: -25px;
     height: 50px;
     width: 50px;
     border-radius: 50%;
