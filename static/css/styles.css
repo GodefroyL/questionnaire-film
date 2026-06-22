@@ -68,12 +68,23 @@ body {
 }
 
 /* page catégorie */
+.accueil_categorie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
 .ligne_categorie {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
+    column-gap: 10%;
     width: 70%;
+    height: auto;
 }
 
 .lien_categorie {
@@ -86,15 +97,13 @@ body {
     font-size: 1.2rem;
 }
 
+
+/* Autre */
+
 .titre {
     color: red;
     font-size: 20px;
     line-height: 25px;
-}
-
-img {
-    width: 80%;
-    height: auto;
 }
 
 textarea {
