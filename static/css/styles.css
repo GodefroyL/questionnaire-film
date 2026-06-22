@@ -28,22 +28,11 @@ body {
     flex-direction: column;
 }
 
-div {
-    padding: 15px;
-    width: 60%;
-    color: white;
-    font-size: 15px;
-    line-height: 20px;
-    text-align: center;
-    margin: 20px;
-    flex-direction: row;
-    border-radius: 20px;
-}
-
 #divResultat {
     text-align: left;
 }
 
+/* Accueil */
 .accueil {
     position: relative;
     max-width: 800px;
@@ -89,11 +78,12 @@ div {
 
 .lien_categorie {
     display: flex;
-    border-radius: 20px;
+    border-radius: 10px;
     border: solid 1px grey;
     width: 30%;
-    margin: 10px;
+    height: 100%;
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .titre {
@@ -105,18 +95,6 @@ div {
 img {
     width: 80%;
     height: auto;
-}
-
-.boutton {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 10px;
-    border-radius: 20px;
-    border: none;
-    text-decoration: none;
-    background-color: royalblue;
-    color: white;
-    cursor: pointer;
 }
 
 textarea {
