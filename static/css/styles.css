@@ -82,6 +82,8 @@ div {
 .ligne_categorie {
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    align-items: center;
     width: 70%;
 }
 
@@ -91,6 +93,7 @@ div {
     border: solid 1px grey;
     width: 30%;
     margin: 10px;
+    text-align: center;
 }
 
 .titre {
