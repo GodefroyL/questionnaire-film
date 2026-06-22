@@ -78,6 +78,21 @@ div {
     margin-left: 20px;
 }
 
+/* page catégorie */
+.ligne_categorie {
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+}
+
+.lien_categorie {
+    display: flex;
+    border-radius: 20px;
+    border: solid 1px grey;
+    width: 30%;
+    margin: 10px;
+}
+
 .titre {
     color: red;
     font-size: 20px;
