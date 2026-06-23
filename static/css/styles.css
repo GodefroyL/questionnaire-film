@@ -101,8 +101,9 @@ body {
 /* Page de niveau */
 .choix_niveaux {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     color: white;
+    text-decoration: none;
     column-gap: 5%;
     padding: 5px;
 }
