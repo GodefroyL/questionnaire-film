@@ -102,7 +102,6 @@ body {
 .choix_niveaux {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     color: white;
     column-gap: 5%;
     padding: 5px;
