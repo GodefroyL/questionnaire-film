@@ -105,6 +105,7 @@ body {
     justify-content: center;
     color: white;
     column-gap: 5%;
+    padding: 5px;
 }
 
 .lien_niveau {
@@ -115,12 +116,13 @@ body {
     min-height: 200px;
     max-height: 400px;
     height: 80%;
-    min-width: 10px;
+    min-width: 100px;
     max-width: 200px;
     width: 30%;
 }
 
 .texte_vertical {
+    margin-top: 50%;
     transform: rotate(-90deg);
     transform-origin: left bottom;
     text-decoration: none;
