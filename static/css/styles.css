@@ -104,6 +104,11 @@ body {
     flex-direction: row;
     justify-content: center;
     color: white;
+}
+
+.lien_niveau {
+    display: flex;
+    border-radius: 10px;
     min-height: 100px;
     max-height: 200px;
     height: 80%;
@@ -118,6 +123,7 @@ body {
     transform: rotate(-90deg);
     transform-origin: left top;
     text-decoration: none;
+    color: grey;
 }
 
 .texte_horizontal {
