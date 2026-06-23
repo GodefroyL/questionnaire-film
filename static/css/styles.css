@@ -104,24 +104,25 @@ body {
     flex-direction: row;
     justify-content: center;
     color: white;
+    column-gap: 5%;
 }
 
 .lien_niveau {
     display: flex;
+    flex-direction: column;
+    align-items: center;
     border-radius: 10px;
-    min-height: 100px;
-    max-height: 200px;
+    min-height: 200px;
+    max-height: 400px;
     height: 80%;
-    min-width: 50px;
-    max-width: 100px;
+    min-width: 10px;
+    max-width: 200px;
     width: 30%;
-    column-gap: 5%;
-
 }
 
 .texte_vertical {
     transform: rotate(-90deg);
-    transform-origin: left top;
+    transform-origin: left bottom;
     text-decoration: none;
     color: grey;
 }
