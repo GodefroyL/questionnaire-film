@@ -110,7 +110,6 @@ body {
 
 .lien_niveau {
     display: flex;
-    align-items: center;
     border-radius: 10px;
     min-height: 200px;
     max-height: 400px;
@@ -121,7 +120,6 @@ body {
 }
 
 .texte_vertical {
-    margin-top: 50%;
     transform: rotate(-90deg);
     transform-origin: left bottom;
     text-decoration: italic;
