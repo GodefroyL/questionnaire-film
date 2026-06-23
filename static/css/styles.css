@@ -75,7 +75,7 @@ body {
     align-items: center;
     row-gap: 10px;
     width: 100%;
-    height: 240px;
+    height: 100%;
 }
 
 .ligne_categorie {
@@ -84,7 +84,7 @@ body {
     justify-content: center;
     column-gap: 5%;
     width: 70%;
-    height: 20px;
+    height: 50px;
 }
 
 .lien_categorie {
