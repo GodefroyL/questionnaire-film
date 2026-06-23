@@ -114,14 +114,12 @@ body {
     min-height: 200px;
     max-height: 400px;
     height: 80%;
-    min-width: 100px;
+    min-width: 120px;
     max-width: 200px;
     width: 30%;
 }
 
 .texte_vertical {
-    top: 5px;
-    left: 5px;
     transform: rotate(-90deg);
     transform-origin: left bottom;
     text-decoration: italic;
