@@ -101,7 +101,7 @@ body {
 /* Page de niveau */
 .choix_niveaux {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     color: white;
     column-gap: 5%;
@@ -110,7 +110,6 @@ body {
 
 .lien_niveau {
     display: flex;
-    flex-direction: column;
     align-items: center;
     border-radius: 10px;
     min-height: 200px;
@@ -125,12 +124,13 @@ body {
     margin-top: 50%;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    text-decoration: none;
-    color: grey;
+    text-decoration: italic;
 }
 
 .texte_horizontal {
-    text-decoration: none;
+    top: 5px;
+    text-decoration: italic;
+    text-underline-offset: 0;
 }
 
 /* Autre */
