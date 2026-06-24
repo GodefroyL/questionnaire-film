@@ -120,15 +120,17 @@ body {
 }
 
 .texte_vertical {
+    position: absolute;
+    top: 5px;
+    left: 10px;
     transform: rotate(-90deg);
     transform-origin: left bottom;
-    text-decoration: italic;
+    font-style: italic;
 }
 
 .texte_horizontal {
     top: 5px;
-    text-decoration: italic;
-    text-underline-offset: 0;
+    font-style: italic;
 }
 
 /* Autre */
