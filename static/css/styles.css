@@ -102,8 +102,6 @@ body {
 .choix_niveaux {
     display: flex;
     flex-direction: row;
-    color: white;
-    text-decoration: none;
     column-gap: 5%;
     padding: 5px;
 }
@@ -120,17 +118,20 @@ body {
 }
 
 .texte_vertical {
-    margin-top: 40px;
+    margin-top: 60px;
     left: 10px;
     transform: rotate(270deg);
     transform-origin: left top;
     font-style: italic;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 .texte_horizontal {
     top: 5px;
-    left: 10px;
     font-style: italic;
+    font-size: 1.2rem;
+    text-decoration: none;
 }
 
 
