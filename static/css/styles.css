@@ -122,8 +122,8 @@ body {
 .texte_vertical {
     top: 5px;
     left: 10px;
-    transform: rotate(-90deg);
-    transform-origin: left bottom;
+    transform: rotate(260deg);
+    transform-origin: left top;
     font-style: italic;
 }
 
