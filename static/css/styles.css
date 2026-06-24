@@ -120,7 +120,6 @@ body {
 }
 
 .texte_vertical {
-    position: absolute;
     top: 5px;
     left: 10px;
     transform: rotate(-90deg);
@@ -130,11 +129,12 @@ body {
 
 .texte_horizontal {
     top: 5px;
+    left: 10px;
     font-style: italic;
 }
 
-/* Autre */
 
+/* Autre */
 .titre {
     color: red;
     font-size: 20px;
