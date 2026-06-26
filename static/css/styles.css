@@ -1,3 +1,12 @@
+/*Définition des couleurs*/
+:root {
+    --vert: #4CAF50;
+    --jaune: #FFD700;
+    --rouge: #94140B;
+    --bleu: #2196F3;
+    --marron: #795548;
+}
+
 header {
     background-color: darkblue;
     width: 100%;
@@ -63,6 +72,9 @@ body {
 }
 
 .bouton_accueil span {
+    display: flex;
+    height: 80%;
+    border: solid 1px white;
     font-size: 1.5rem;
     margin-left: 20px;
 }
