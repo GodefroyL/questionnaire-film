@@ -46,11 +46,10 @@ body {
     position: relative;
     max-width: 800px;
     width: 100%;
-    margin: 0 -50px;
-    border-top-right-radius: 100000px;
-    border-bottom-right-radius: 100000px;
+    padding-left: 30px;
+    border-top-right-radius: 1000000px;
+    border-bottom-right-radius: 1000000px;
     overflow: hidden;
-    background-color: darkblue;
 }
 
 .bouton_accueil {
