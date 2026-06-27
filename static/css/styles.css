@@ -46,8 +46,8 @@ body {
     position: relative;
     max-width: 800px;
     width: 100%;
-    border-top-right-radius: 300px;
-    border-bottom-right-radius: 300px;
+    border-top-right-radius: 500px;
+    border-bottom-right-radius: 500px;
     background-color: darkblue;
 }
 
@@ -67,7 +67,6 @@ body {
 }
 
 .bouton_accueil img {
-    margin-left: -25px;
     height: 70px;
     width: 70px;
     border-radius: 50%;
@@ -76,6 +75,7 @@ body {
 }
 
 .bouton_accueil span {
+    margin-left: 25px;
     font-size: 1.5rem;
     margin-left: 20px;
 }
