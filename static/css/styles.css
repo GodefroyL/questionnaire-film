@@ -46,8 +46,9 @@ body {
     position: relative;
     max-width: 800px;
     width: 100%;
-    border-top-right-radius: 1000px;
-    border-bottom-right-radius: 1000px;
+    border-top-right-radius: 10000px;
+    border-bottom-right-radius: 10000px;
+    overflow: hidden;
     background-color: darkblue;
 }
 
