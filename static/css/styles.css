@@ -141,6 +141,7 @@ body {
 }
 
 .texte_horizontal {
+    position: absolute;
     top: 5px;
     left: 10px;
     font-weight: bold;
