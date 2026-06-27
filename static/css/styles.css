@@ -46,6 +46,8 @@ body {
     position: relative;
     max-width: 800px;
     width: 100%;
+    border-top-right-radius: 300px;
+    border-bottom-right-radius: 300px;
 }
 
 .bouton_accueil {
