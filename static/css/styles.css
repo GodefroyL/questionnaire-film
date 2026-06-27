@@ -46,8 +46,8 @@ body {
     position: relative;
     max-width: 800px;
     width: 100%;
-    border-top-right-radius: 800px;
-    border-bottom-right-radius: 800px;
+    border-top-right-radius: 1000px;
+    border-bottom-right-radius: 1000px;
     background-color: darkblue;
 }
 
@@ -55,7 +55,8 @@ body {
     display: flex;
     border: solid 1px white;
     margin: 20px 0;
-    margin-left: 25px;
+    margin-left: 50px;
+    margin-right: -50px;
     border-radius: 5px;
     color: white;
     font-weight: bold;
