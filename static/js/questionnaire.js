@@ -6,7 +6,10 @@ let resultats = {};
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
     try {
-        const response = await fetch('../static/json/questions_test.json');
+        const urlParams = new URLSearchParams(window.location.search);
+        const questionnaire = urlParams.get('questionnaire');
+        const niveau = urlParams.get('niveau');
+        const response = await fetch(`../static/json/questions_${questionnaire}_${niveau}.json`);
         donnee = await response.json();
         affichageDonnee();
     } catch (error) {
