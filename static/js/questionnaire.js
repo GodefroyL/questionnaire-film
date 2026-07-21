@@ -3,22 +3,28 @@ let donnee = [];
 let index = -1;
 let resultats = {};
 
+// Fonction principale pour lancer le questionnaire
+function main() {
+    chargementDonnees();
+    affichageQuestion();
+}
+
+
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
     try {
         const urlParams = new URLSearchParams(window.location.search);
         const questionnaire = urlParams.get('questionnaire');
-        const niveau = urlParams.get('niveau');
-        const response = await fetch(`../static/json/questions_${questionnaire}_${niveau}.json`);
-        donnee = await response.json();
-        affichageDonnee();
+        const niveau = urlParams.get('niveau') ?? '';
+        const questionnaire = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
+        donnee = await questionnaire.json();
     } catch (error) {
         console.error("Erreur lors du chargement du fichier JSON :", error);
     }
 }
 
 // Fonction pour afficher les données
-function affichageDonnee() {
+function affichageQuestion() {
     index++;
     const container = document.getElementById('question');
     if (index < donnee.length) {
@@ -96,7 +102,7 @@ function valider() {
         // Retirer l'animation après son exécution
         setTimeout(() => {
             container.classList.remove('success', 'error');
-            affichageDonnee();
+            affichageQuestion();
         }, 300);
     }
 }
