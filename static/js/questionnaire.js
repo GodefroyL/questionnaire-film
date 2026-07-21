@@ -16,8 +16,8 @@ async function chargementDonnees() {
         const urlParams = new URLSearchParams(window.location.search);
         const questionnaire = urlParams.get('questionnaire');
         const niveau = urlParams.get('niveau') ?? '';
-        const questionnaire = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
-        donnee = await questionnaire.json();
+        const questions = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
+        donnee = await questions.json();
     } catch (error) {
         console.error("Erreur lors du chargement du fichier JSON :", error);
     }
