@@ -12,13 +12,13 @@ function main() {
 
 // Fonction pour charger le fichier JSON
 async function chargementDonnees() {
+    // Fonction pour charger le fichier JSON en fonction des paramètres de l'URL
     try {
         const urlParams = new URLSearchParams(window.location.search);
         const questionnaire = urlParams.get('questionnaire');
         const niveau = urlParams.get('niveau') ?? '';
         const questions = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
         donnee = await questions.json();
-        console.log(`Chargement du questionnaire: ${questionnaire}, niveau: ${niveau} avec ${donnee.length} questions.`);
     } catch (error) {
         console.error("Erreur lors du chargement du fichier JSON :", error);
     }
@@ -26,21 +26,12 @@ async function chargementDonnees() {
 
 // Fonction pour afficher les données
 function affichageQuestion() {
+    // Fonction pour affichier les questions
     index++;
     const container = document.getElementById('question');
     if (index < donnee.length) {
         const item = donnee[index];
-        if (item.categorie == "Complétez") {
-            container.innerHTML = completezHTML(item);
-        } else {
-            container.innerHTML = `
-                <h2>${item.categorie}</h2>
-                <p>${item.intitule}</p>
-                <input type="text" name="reponse">`;
-        }
-        if (!item.programme) {
-            container.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
-        }
+        container.innerHTML = ecritureQuestion(item);
     } else {
         document.getElementById('detailResultats').style.display = "block";
         document.getElementById('valider').style.display = "none";
@@ -109,7 +100,8 @@ function valider() {
 }
 
 
-function completezHTML(item) {
+function ecritureQuestion(item) {
+    // Fonction pour écrire les questions dans un questionnaire
     let html = `
     <h2>${item.categorie}</h2>
     (pour le nombre de mots : d'ici = 1 mots)<p>
@@ -122,6 +114,8 @@ function completezHTML(item) {
     html += `</p>`;
     return html;
 }
+
+
 
 function resultatsHTML() {
     let html = `<h2>Résultats</h2>`;
