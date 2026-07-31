@@ -36,14 +36,31 @@
         index++;
         if (index < donnee.length) {
             const item = donnee[index];
-            if (item.categorie == "Complétez") {
-                questionContainer.innerHTML = completezHTML(item);
-            } else {
-                questionContainer.innerHTML = `
-                    <h2>${item.categorie}</h2>
-                    <p>${item.intitule}</p>
-                    <input type="text" name="reponse">`;
+            let html = '';
+            
+            // Utilisation d'un switch-case pour gérer les différentes catégories
+            switch (item.categorie) {
+                case "Complétez":
+                    html = completezHTML(item);
+                    break;
+                case "Qui parle ?":
+                case "A qui est adressé cette phrase ?":
+                case "Quel film ?":
+                    html = `
+                        <h2>${item.categorie}</h2>
+                        <p>${item.intitule}</p>
+                        <input type="text" name="reponse">`;
+                    break;
+                default:
+                    html = `
+                        <h2>${item.categorie}</h2>
+                        <p>${item.intitule}</p>
+                        <input type="text" name="reponse">`;
+                    break;
             }
+            
+            questionContainer.innerHTML = html;
+            
             if (!item.programme) {
                 questionContainer.innerHTML += `<p><em>Cette question porte sur un film hors programme.</em></p>`;
             }
