@@ -1,0 +1,28 @@
+---
+layout: base
+---
+
+<div class="choix_niveaux">
+    {% assign nombre_niveaux = page.nombre_niveaux | default: 3 %}
+    
+    {% if nombre_niveaux >= 1 %}
+    <a class="lien_niveau" style="background-color: var(--vert); width: {% if nombre_niveaux == 1 %}100{% else %}20%{% endif %}" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=debutant">
+        <span class="texte_vertical">Niveau</span>
+        <span class="texte_horizontal">Débutant</span>
+    </a>
+    {% endif %}
+    
+    {% if nombre_niveaux >= 2 %}
+    <a class="lien_niveau" style="background-color: var(--jaune); width: {% if nombre_niveaux == 2 %}50{% else %}20%{% endif %}" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=confirme">
+        <span class="texte_vertical">Niveau</span>
+        <span class="texte_horizontal">Confirmé</span>
+    </a>
+    {% endif %}
+    
+    {% if nombre_niveaux >= 3 %}
+    <a class="lien_niveau" style="background-color: var(--rouge); width: 20%" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=expert">
+        <span class="texte_vertical">Niveau</span>
+        <span class="texte_horizontal">Expert</span>
+    </a>
+    {% endif %}
+</div>
