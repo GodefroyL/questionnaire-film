@@ -4,27 +4,55 @@
     "type": "Complétez",
     "question": ["La révolution c'est comme une bicyclette","(6 mots)."],
     "info": "",
-    "reponses": ["quand elle n'avance pas elle tombe"]
+    "reponses": [["quand elle n'avance pas elle tombe"]]
   },
   {
     "id": 2,
-    "type": "Complétez",
-    "question": ["Qu'est-ce que vous m'avez dit la première fois qu'on s'est rencontré ?","(2 mots)."],
+    "type": "Quel film",
+    "question": "Oui, je crois ...",
     "info": "",
-    "reponses": ["bonjour madame"]
+    "reponses": ["le prénom"]
   },
   {
     "id": 3,
-    "type": "Complétez",
-    "question": ["Sir, s'il est parti là-bas ce n'est pas pour les beaux yeux du","(2 mots), ce serai plutôt pour","(2 mots) sa"," (1mot)."],
+    "type": "Qui parle",
+    "question": "Y a pas d'hélice hélas ! -C'est là qu'est l'os.",
+    "info": "Deux personnes (mettre 'et' entre les deux noms)",
+    "reponses": ["augustin bouvet et stanislas lefort"]
+  },
+  {
+    "id": 43,
+    "type": "A qui est adressé cette phrase ?",
+    "question": "Il m’en faudrait p’t’être une deuxième",
     "info": "",
-    "reponses": ["duc d'angoulême ceux de fille","duc d'angouleme ceux de fille","duc d angoulême ceux de fille","duc d angouleme ceux de fille"]
+    "reponses": ["stanislas lefort", "louis de funes"]
   },
   {
     "id": 4,
-    "type": "Complétez",
-    "question": ["On est commandant, pas","(1 mot)."],
+    "type": "phrase d'avant",
+    "question": "A l'opéra maitre",
     "info": "",
-    "reponses": ["capitaines", "capitaine"]
+    "reponses": ["où vous croyez-vous"]
+  },
+  {
+    "id": 5,
+    "type": "Phrase d'après",
+    "question": "C'est un guet apens",
+    "info": "",
+    "reponses": ["non, ça va être une juste correction", "non, ca va etre une juste correction"]
+  },
+  {
+    "id": 6,
+    "type": "remettre dans l'ordre",
+    "question": ["replique 1", "réplique 2", "réplique 3"],
+    "info": "",
+    "reponses": [2,1,3]
+  },
+  {
+    "id": 7,
+    "type": "question détail",
+    "question": "Quel est le surnom que Vincent donne à Claude dans le Prénom ?",
+    "info": "",
+    "reponses": ["la prune"]
   }
 ]
