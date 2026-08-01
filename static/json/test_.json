@@ -1,56 +1,56 @@
 [
   {
     "id": 1,
-    "type": "Complétez",
+    "type": 7,
     "question": ["La révolution c'est comme une bicyclette","(6 mots)."],
     "info": "",
     "reponses": [["quand elle n'avance pas elle tombe"]]
   },
   {
     "id": 2,
-    "type": "Quel film",
+    "type": 1,
     "question": "Oui, je crois ...",
     "info": "",
     "reponses": ["le prénom"]
   },
   {
     "id": 3,
-    "type": "Qui parle",
+    "type": 2,
     "question": "Y a pas d'hélice hélas ! -C'est là qu'est l'os.",
     "info": "Deux personnes (mettre 'et' entre les deux noms)",
     "reponses": ["augustin bouvet et stanislas lefort"]
   },
   {
-    "id": 43,
-    "type": "A qui est adressé cette phrase ?",
+    "id": 3,
+    "type": 3,
     "question": "Il m’en faudrait p’t’être une deuxième",
     "info": "",
     "reponses": ["stanislas lefort", "louis de funes"]
   },
   {
     "id": 4,
-    "type": "phrase d'avant",
+    "type": 4,
     "question": "A l'opéra maitre",
     "info": "",
     "reponses": ["où vous croyez-vous"]
   },
   {
     "id": 5,
-    "type": "Phrase d'après",
+    "type": 5,
     "question": "C'est un guet apens",
     "info": "",
     "reponses": ["non, ça va être une juste correction", "non, ca va etre une juste correction"]
   },
   {
     "id": 6,
-    "type": "remettre dans l'ordre",
+    "type": 6,
     "question": ["replique 1", "réplique 2", "réplique 3"],
     "info": "",
     "reponses": [2,1,3]
   },
   {
     "id": 7,
-    "type": "question détail",
+    "type": 8,
     "question": "Quel est le surnom que Vincent donne à Claude dans le Prénom ?",
     "info": "",
     "reponses": ["la prune"]

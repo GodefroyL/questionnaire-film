@@ -38,24 +38,28 @@
             const item = donnee[index];
             let html = '';
             
-            // Utilisation d'un switch-case pour gérer les différentes catégories
+            /* Utilisation d'un switch-case pour gérer les différentes catégories
+
+        1 : Quel film
+        2 : Qui parle
+        3 : A qui est adressé cette phrase
+        4 : Phrase d'avant
+        5 : Phrase d'après
+        6 : Remettre dans l'ordre
+        7 : Citation à trous
+        8 : Question de détail
+            */
+
             switch (item.categorie) {
-                case "Complétez":
-                    html = completezHTML(item);
-                    break;
-                case "Qui parle ?":
-                case "A qui est adressé cette phrase ?":
-                case "Quel film ?":
-                    html = `
-                        <h2>${item.categorie}</h2>
-                        <p>${item.intitule}</p>
-                        <input type="text" name="reponse">`;
-                    break;
+                case 1:
+                case 2:
+                case 3:
+                case 4:
+                case 5:
+                case 6:
+                case 7:
+                case 8:
                 default:
-                    html = `
-                        <h2>${item.categorie}</h2>
-                        <p>${item.intitule}</p>
-                        <input type="text" name="reponse">`;
                     break;
             }
             
