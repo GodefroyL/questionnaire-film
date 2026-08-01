@@ -182,14 +182,14 @@ input[type="text"] {
 /* Animation pour le succès (vert) */
 @keyframes successAnimation {
     0% { transform: scale(1); background-color: var(--couleur-fond); }
-    50% { transform: scale(1.05); background-color: green; }
+    50% { transform: scale(1.05); background-color: var(--vert); }
     100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
 
 /* Animation pour l'échec (rouge) */
 @keyframes errorAnimation {
     0% { transform: scale(1); background-color: var(--couleur-fond); }
-    50% { transform: scale(1.05); background-color: red; }
+    50% { transform: scale(1.05); background-color: var(--rouge); }
     100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
 
@@ -201,6 +201,193 @@ input[type="text"] {
 /* Classe pour appliquer l'animation d'échec */
 .error {
     animation: errorAnimation 0.5s ease-in-out;
+}
+
+/* ==================== DIAPOSITIVES ==================== */
+
+/* Diapositive 1 : Style pour les catégories 1, 2, 3, 4, 5, 8 */
+.diapositive-1 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--bleu);
+}
+
+.diapositive-1-content h2 {
+    color: var(--bleu);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.diapositive-1-content .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.6;
+    padding: 10px;
+    background-color: rgba(33, 150, 243, 0.1);
+    border-radius: 5px;
+}
+
+.diapositive-1-content .reponse-input {
+    width: 100%;
+    max-width: 400px;
+    padding: 12px;
+    font-size: 1rem;
+    border: 2px solid var(--bleu);
+    border-radius: 5px;
+    margin: 10px auto;
+    display: block;
+    text-align: center;
+}
+
+/* Diapositive 2 : Style pour la catégorie 7 (Citations à trous) */
+.diapositive-2 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--vert);
+}
+
+.diapositive-2-content h2 {
+    color: var(--vert);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.diapositive-2-content .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+    line-height: 1.8;
+    text-align: left;
+}
+
+.diapositive-2-content .reponse-trou {
+    border: none;
+    border-bottom: 2px solid var(--vert);
+    padding: 8px;
+    margin: 0 5px;
+    font-size: 1rem;
+    text-align: center;
+    min-width: 100px;
+    background-color: transparent;
+}
+
+.diapositive-2-content .indice-mots {
+    font-size: 0.9rem;
+    color: #666;
+    font-style: italic;
+}
+
+/* Diapositive 3 : Style pour la catégorie 6 (Remettre dans l'ordre) */
+.diapositive-3 {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 800px;
+    width: 100%;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid var(--jaune);
+}
+
+.diapositive-3-content h2 {
+    color: var(--jaune);
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.diapositive-3-content .question-text {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.diapositive-3-content .mots-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin: 20px auto;
+    max-width: 600px;
+}
+
+.diapositive-3-content .mot {
+    display: flex;
+    align-items: center;
+    background-color: rgba(255, 192, 0, 0.2);
+    border: 2px solid var(--jaune);
+    border-radius: 8px;
+    padding: 10px;
+    cursor: grab;
+    transition: all 0.3s ease;
+}
+
+.diapositive-3-content .mot.dragging {
+    opacity: 0.5;
+    background-color: rgba(255, 192, 0, 0.4);
+}
+
+.diapositive-3-content .mot-texte {
+    flex: 1;
+    font-size: 1rem;
+    color: #333;
+}
+
+.diapositive-3-content .mot-numero {
+    width: 50px;
+    padding: 5px;
+    text-align: center;
+    border: 1px solid var(--jaune);
+    border-radius: 4px;
+    background-color: white;
+    font-size: 0.9rem;
+}
+
+/* Style pour les messages hors programme */
+.hors-programme {
+    color: var(--marron) !important;
+    font-size: 0.9rem !important;
+    margin-top: 15px !important;
+}
+
+/* Style pour les résultats */
+.resultats-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.resultats-container h2 {
+    color: var(--bleu);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.resultats-container p {
+    font-size: 1.2rem;
+    color: #333;
 }
 
 
