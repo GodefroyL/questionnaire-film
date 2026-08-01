@@ -5,6 +5,7 @@
     --rouge: #94140B;
     --bleu: #2196F3;
     --marron: #795548;
+    --couleur-fond: #CCDAEA;
 }
 
 header {
@@ -29,7 +30,7 @@ a {
 body {
     margin-top: 60px;
     padding: 20px;
-    background-color: #CCDAEA;
+    background-color: var(--couleur-fond);
     display: flex;
     align-content: center;
     justify-content: center;
@@ -180,16 +181,16 @@ input[type="text"] {
 
 /* Animation pour le succès (vert) */
 @keyframes successAnimation {
-    0% { transform: scale(1); background-color: darkblue; }
+    0% { transform: scale(1); background-color: var(--couleur-fond); }
     50% { transform: scale(1.05); background-color: green; }
-    100% { transform: scale(1); background-color: darkblue; }
+    100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
 
 /* Animation pour l'échec (rouge) */
 @keyframes errorAnimation {
-    0% { transform: scale(1); background-color: darkblue; }
+    0% { transform: scale(1); background-color: var(--couleur-fond); }
     50% { transform: scale(1.05); background-color: red; }
-    100% { transform: scale(1); background-color: darkblue; }
+    100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
 
 /* Classe pour appliquer l'animation de succès */

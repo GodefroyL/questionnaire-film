@@ -148,7 +148,7 @@
         <h2>${item.categorie}</h2>
         (pour le nombre de mots : d'ici = 1 mots)<p>
         `;
-        for (const element of item.intitule) {
+        for (const element of item.question) {
             html += `${element} `;
             html += `<input type="text" name="reponse"> `;
         }
