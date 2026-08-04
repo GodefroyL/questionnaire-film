@@ -63,20 +63,37 @@
                     html = html.replace('<div class="conteneur_pointe nom_film">${item.film}</div>','');
 
                 case "Citation à trous":
+                    html += `
+                        <div class="conteneur_question">
+                            <div class="info">${item.info}</div>
+                            <div class="question">
+                    `;
+                    for (let i = 0; i < item.question.length; i++) {
+                        html += `
+                            ${item.question[i]}
+                            <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
+                        `;
+                    }
+                    html = html.slice(0, -80); // Supprime le dernier input ajouté
+                    html += `
+                        </div>
+                        </div>
+                    `;
                     setupInputWidthAdjustment();
                     
                 case "Remettre dans l'ordre":
+                    html += `
+                        Pas encore implémenté
+                    `;
                     
                 default:
                     break;
             }
             
             questionContainer.innerHTML = html;
-
-        } else {
-            detailResultatsButton.style.display = "block";
-            validerButton.style.display = "none";
-            questionContainer.innerHTML = resultatsHTML();
+        }
+        else {
+            break;
         }
         
     }
