@@ -6,10 +6,11 @@
     --bleu: #2196F3;
     --marron: #795548;
     --couleur-fond: #CCDAEA;
+    --couleur-fond-header: #B0C4DE;
 }
 
 header {
-    background-color: darkblue;
+    background-color: var(--couleur-fond-header);
     width: 100%;
     position: fixed;
     top: 0;
@@ -21,12 +22,10 @@ header {
     font-size: large;
     font-weight: bold;
 }
-
 a {
     color: white;
     font-style: italic;
 }
-
 body {
     margin-top: 60px;
     padding: 20px;
@@ -37,7 +36,6 @@ body {
     align-items: center;
     flex-direction: column;
 }
-
 #divResultat {
     text-align: left;
 }
@@ -52,7 +50,6 @@ body {
     border-bottom-right-radius: 1000000px;
     overflow: hidden;
 }
-
 .bouton_accueil {
     display: flex;
     border: solid 1px white;
@@ -67,7 +64,6 @@ body {
     box-sizing: border-box;
     flex-direction: row;
 }
-
 .bouton_accueil img {
     margin-left: -25px;
     height: 70px;
@@ -76,7 +72,6 @@ body {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
     object-fit: cover;
 }
-
 .bouton_accueil span {
     font-size: 1.5rem;
     margin-left: 20px;
@@ -93,7 +88,6 @@ body {
     height: 100%;
     min-height: 100vh;
 }
-
 .ligne_categorie {
     display: flex;
     flex-direction: row;
@@ -102,7 +96,6 @@ body {
     width: 70%;
     height: 60px;
 }
-
 .lien_categorie {
     display: flex;
     border-radius: 10px;
@@ -120,7 +113,6 @@ body {
     column-gap: 5%;
     padding: 5px;
 }
-
 .lien_niveau {
     display: flex;
     border-radius: 10px;
@@ -131,7 +123,6 @@ body {
     max-width: 200px;
     width: 30%;
 }
-
 .texte_vertical {
     margin-top: 70px;
     transform: rotate(270deg);
@@ -139,7 +130,6 @@ body {
     font-size: 1.2rem;
     text-decoration: none;
 }
-
 .texte_horizontal {
     position: relative;
     top: 5px;
@@ -147,6 +137,68 @@ body {
     font-weight: bold;
     font-size: 1.2rem;
     text-decoration: none;
+}
+
+/* Pages des questions */
+/* Div pour le nom du film et la catégorie */
+.conteneur_nom_film_categorie {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    top: 0;
+    left: 0;
+}
+.conteneur_pointe {
+    position: relative;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+.conteneur_pointe::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -17.8px;
+    width: 15%;
+    height: 100%;
+    background-color: inherit;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+.nom_film {
+    background-color: var(--rouge);
+    margin-left: 10px;
+}
+.categorie {
+    background-color: var(--vert);
+    margin-left: 40px;
+    margin-top: -5px;
+}
+/* Div pour les questions */
+.conteneur_question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.question {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--jaune);
+}
+.info {
+    color: black;
+    padding: 10px;
+}
+.reponse {
+    background-color: white;
+    color: black;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid var(--bleu);
 }
 
 

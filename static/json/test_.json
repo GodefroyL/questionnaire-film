@@ -1,57 +1,65 @@
 [
   {
     "id": 1,
-    "type": 7,
-    "question": ["La révolution c'est comme une bicyclette","(6 mots)."],
-    "info": "",
+    "categorie": "Citation à trous",
+    "film": "Rabbi Jacob",
+    "question": ["La révolution c'est comme une bicyclette","!"],
+    "info": "Nombre de mots : 6",
     "reponses": [["quand elle n'avance pas elle tombe"]]
   },
   {
     "id": 2,
-    "type": 1,
+    "categorie": "Quel film ?",
+    "film": "",
     "question": "Oui, je crois ...",
     "info": "",
     "reponses": ["le prénom"]
   },
   {
     "id": 3,
-    "type": 2,
+    "categorie": "Qui parle ?",
+    "film": "La grande Vadrouille",
     "question": "Y a pas d'hélice hélas ! -C'est là qu'est l'os.",
     "info": "Deux personnes (mettre 'et' entre les deux noms)",
     "reponses": ["augustin bouvet et stanislas lefort"]
   },
   {
     "id": 3,
-    "type": 3,
+    "categorie": "A qui est adressé cette phrase ?",
+    "film": "La grande Vadrouille",
     "question": "Il m’en faudrait p’t’être une deuxième",
     "info": "",
     "reponses": ["stanislas lefort", "louis de funes"]
   },
   {
     "id": 4,
-    "type": 4,
+    "categorie": "Phrase d'avant",
+    "film": "La grande Vadrouille",
     "question": "A l'opéra maitre",
     "info": "",
     "reponses": ["où vous croyez-vous"]
   },
   {
     "id": 5,
-    "type": 5,
+    "categorie": "Phrase d'après",
+    "film": "Le père tranquille",
     "question": "C'est un guet apens",
     "info": "",
     "reponses": ["non, ça va être une juste correction", "non, ca va etre une juste correction"]
   },
   {
     "id": 6,
-    "type": 6,
+    "categorie": "Remettre dans l'ordre",
+    "film": "test",
     "question": ["replique 1", "réplique 2", "réplique 3"],
     "info": "",
     "reponses": [2,1,3]
   },
   {
     "id": 7,
-    "type": 8,
-    "question": "Quel est le surnom que Vincent donne à Claude dans le Prénom ?",
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "Quel est le surnom que Vincent donne à Claude ?",
     "info": "",
     "reponses": ["la prune"]
   }
