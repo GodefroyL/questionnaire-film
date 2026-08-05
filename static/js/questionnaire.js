@@ -59,6 +59,7 @@
                 case "Phrase d'avant":
                 case "Phrase d'après":
                 case "Question de détail":
+                    console.log("Affichage de la question :", item.question, item.categorie);
                     question += `
                         <div class="conteneur_question">
                             <div class="question">${item.question}</div>
@@ -101,6 +102,7 @@
             questionContainer.innerHTML = question;
         }
         else {
+            console.log("Fin du questionnaire. Résultats :", resultats);
             affichageResultats();
         }
     }
