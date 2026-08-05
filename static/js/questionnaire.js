@@ -2,20 +2,19 @@
 (function() {
     // Sélecteurs DOM stockés dans des variables pour éviter les appels répétés
     const questionContainer = document.getElementById('question');
+    const nomFilmCategorieContainer = document.getElementById('nom_film_categorie');
     const validerButton = document.getElementById('valider');
-    const detailResultatsButton = document.getElementById('detailResultats');
-    const divDetail = document.getElementById('divDetail');
 
     // Variables internes
     let donnee = [];
     let index = -1;
     let resultats = {};
-    let currentDraggedElement = null;
 
     // Fonction principale pour lancer le questionnaire
-    function main() {
-        chargementDonnees();
-        affichageQuestion();
+    async function main() {
+        await chargementDonnees();
+        await affichageQuestion();
+        await affichageResultats();
     }
 
     // Fonction pour charger le fichier JSON
@@ -26,7 +25,6 @@
             const niveau = urlParams.get('niveau') ?? '';
             const questions = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
             donnee = await questions.json();
-            console.log(`Chargement du questionnaire: ${questionnaire}, niveau: ${niveau} avec ${donnee.length} questions.`);
         } catch (error) {
             console.error("Erreur lors du chargement du fichier JSON :", error);
         }
@@ -37,14 +35,21 @@
         index++;
         if (index < donnee.length) {
             const item = donnee[index];
-            let html = `
-                <div class="conteneur_nom_film_categorie">
+            if (item.categorie == 'Quel film ?') {
+                let nom_film_categorie = `
+                <div class="conteneur_pointe categorie">${item.categorie}</div>
+                `;
+            }
+            else {
+                let nom_film_categorie = `
                     <div class="conteneur_pointe nom_film">${item.film}</div>
                     <div class="conteneur_pointe categorie">${item.categorie}</div>
-                </div>
-            `;
+                `;
+            }
+            nomFilmCategorieContainer.innerHTML = nom_film_categorie;
             
             // Utilisation d'un switch-case pour gérer les différentes catégories
+            let question = '';
             switch (item.categorie) {
                 case "Quel film ?":
                 case "Qui parle ?":
@@ -52,45 +57,46 @@
                 case "Phrase d'avant":
                 case "Phrase d'après":
                 case "Question de détail":
-                    html += `
+                    question += `
                         <div class="conteneur_question">
                             <div class="question">${item.question}</div>
                             <div class="info">${item.info}</div>
                             <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
                         </div>
                     `;
-                case "Quel film ?":
-                    html = html.replace('<div class="conteneur_pointe nom_film">${item.film}</div>','');
+                    break;
 
-                case "Citation à trous":
-                    html += `
+                    case "Citation à trous":
+                    question += `
                         <div class="conteneur_question">
                             <div class="info">${item.info}</div>
                             <div class="question">
                     `;
                     for (let i = 0; i < item.question.length; i++) {
-                        html += `
+                        question += `
                             ${item.question[i]}
                             <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
                         `;
                     }
-                    html = html.slice(0, -80); // Supprime le dernier input ajouté
-                    html += `
+                    question = question.slice(0, -80); // Supprime le dernier input ajouté
+                    question += `
                         </div>
                         </div>
                     `;
                     setupInputWidthAdjustment();
+                    break;
                     
                 case "Remettre dans l'ordre":
-                    html += `
+                    question += `
                         Pas encore implémenté
                     `;
+                    break;
                     
                 default:
                     break;
             }
             
-            questionContainer.innerHTML = html;
+            questionContainer.innerHTML = question;
         }
         else {
             break;
@@ -100,10 +106,41 @@
 
     // Fonction pour valider l'élément courant
     function valider() {
-        // A faire plus tard
+        if (index < donnee.length) {
+            const item = donnee[index];
+            const reponse_utilisateur = document.querySelectorAll('input[name="reponse"]');
+            let reponses_valides = item.reponses;
+
+            switch (item.categorie) {
+                case "Quel film ?":
+                case "Qui parle ?":
+                case "A qui est adressé cette phrase ?":
+                case "Phrase d'avant":
+                case "Phrase d'après":
+                    if (reponses_valides.some(reponse => reponse === reponse_utilisateur.value.toLowerCase())) {
+                        resultats[item.id] = {
+                            reussi: true,
+                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur.value}`
+                        };
+                    }
+                    break;
+
+                case "Question de détail":
+                    for (let reponse of reponses_valides) {
+                        if (reponse_utilisateur.value.toLowerCase().includes(reponse)) {
+                            resultats[item.id] = {
+                                reussi: true,
+                                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur.value}`
+                            };
+                            break;
+                        }
+                    }
+                    break;
+            }
+        }
     }
 
-    // Fonction pour ajuster la largeur des inputs (utilise event delegation) uniquement pour citation à trous
+    // Fonction pour ajuster la largeur des inputs pour les citations à trous
     function setupInputWidthAdjustment() {
         questionContainer.addEventListener('input', function(e) {
             if (e.target.matches('input[type="text"][name="reponse"]')) {
