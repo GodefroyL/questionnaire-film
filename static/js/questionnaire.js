@@ -34,6 +34,7 @@
     // Fonction pour afficher les données
     function affichageQuestion() {
         index++;
+        console.log("Index actuel :", index);
         if (index < donnee.length) {
             const item = donnee[index];
             if (item.categorie == 'Quel film ?') {
