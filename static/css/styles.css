@@ -172,7 +172,7 @@ body {
 .categorie {
     background-color: var(--vert);
     margin-left: 40px;
-    margin-top: -15px;
+    margin-top: -5px;
 }
 /* Div pour les questions */
 .conteneur_question {
@@ -181,11 +181,12 @@ body {
     align-items: center;
     justify-content: center;
     width: 70%;
+    margin: 20px;
 }
 .question {
     background-color: var(--couleur-fond);
     color: black;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     border: 3px solid var(--jaune);
 }
@@ -196,7 +197,7 @@ body {
 .reponse {
     background-color: white;
     color: black;
-    padding: 10px;
+    padding: 5px;
     border-radius: 10px;
     border: 3px solid var(--bleu);
 }
