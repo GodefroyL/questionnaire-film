@@ -27,7 +27,6 @@ a {
     font-style: italic;
 }
 body {
-    width: 70%;
     margin-top: 60px;
     padding: 20px;
     background-color: var(--couleur-fond);
@@ -153,6 +152,7 @@ body {
     color: white;
     width: 100px;
     padding: 10px;
+    margin-top: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .conteneur_pointe::after {
@@ -172,7 +172,7 @@ body {
 .categorie {
     background-color: var(--vert);
     margin-left: 40px;
-    margin-top: -5px;
+    margin-top: -15px;
 }
 /* Div pour les questions */
 .conteneur_question {
@@ -180,14 +180,14 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 100%;
+    width: 70%;
 }
 .question {
     background-color: var(--couleur-fond);
     color: black;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid var(--jaune);
+    border: 3px solid var(--jaune);
 }
 .info {
     color: black;
@@ -198,7 +198,7 @@ body {
     color: black;
     padding: 10px;
     border-radius: 10px;
-    border: 1px solid var(--bleu);
+    border: 3px solid var(--bleu);
 }
 
 
