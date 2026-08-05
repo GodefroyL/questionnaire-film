@@ -100,9 +100,8 @@
             questionContainer.innerHTML = question;
         }
         else {
-            break;
+            affichageResultats();
         }
-        
     }
 
     // Fonction pour valider l'élément courant
@@ -133,7 +132,7 @@
                         };
                     }
                     else {
-                        resulats[item.id] = {
+                        resultats[item.id] = {
                         reussi: false,
                         affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                         };
@@ -150,7 +149,7 @@
                             break;
                         }
                         else {
-                            resulats[item.id] = {
+                            resultats[item.id] = {
                             reussi: false,
                             affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                             };
@@ -167,6 +166,21 @@
             }
             affichageQuestion();
         }
+    }
+
+    function affichageResultats() {
+        questionContainer.innerHTML = `
+            <div class="conteneur_resultats">
+                <h2>Résultats</h2>
+                <ul>
+                    ${Object.entries(resultats).map(([id, resultat]) => `
+                        <li class="${resultat.reussi ? 'reussite' : 'echec'}">
+                            ${resultat.affichage_resultat}
+                        </li>
+                    `).join('')}
+                </ul>
+            </div>
+        `;
     }
 
     // Fonction pour ajuster la largeur des inputs pour les citations à trous
