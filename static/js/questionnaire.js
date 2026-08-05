@@ -36,14 +36,15 @@
         console.log("Index actuel :", index, "nombre de questions :", donnee.length);
         if (index < donnee.length) {
             console.log("Affichage de la question :", donnee[index]);
+            let nom_film_categorie = '';
             const item = donnee[index];
             if (item.categorie == 'Quel film ?') {
-                let nom_film_categorie = `
+                nom_film_categorie = `
                 <div class="conteneur_pointe categorie">${item.categorie}</div>
                 `;
             }
             else {
-                let nom_film_categorie = `
+                nom_film_categorie = `
                     <div class="conteneur_pointe nom_film">${item.film}</div>
                     <div class="conteneur_pointe categorie">${item.categorie}</div>
                 `;
@@ -61,19 +62,16 @@
                 case "Question de détail":
                     console.log("Affichage de la question :", item.question, item.categorie);
                     question += `
-                        <div class="conteneur_question">
-                            <div class="question">${item.question}</div>
-                            <div class="info">${item.info}</div>
-                            <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
-                        </div>
+                        <div class="question">${item.question}</div>
+                        <div class="info">${item.info}</div>
+                        <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
                     `;
                     break;
 
                     case "Citation à trous":
                     question += `
-                        <div class="conteneur_question">
-                            <div class="info">${item.info}</div>
-                            <div class="question">
+                        <div class="info">${item.info}</div>
+                        <div class="question">
                     `;
                     for (let i = 0; i < item.question.length; i++) {
                         question += `
@@ -83,7 +81,6 @@
                     }
                     question = question.slice(0, -80); // Supprime le dernier input ajouté
                     question += `
-                        </div>
                         </div>
                     `;
                     setupInputWidthAdjustment();
@@ -143,24 +140,21 @@
                     break;
 
                 case "Question de détail":
+                    resultats[item.id] = {
+                        reussi: false,
+                        affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                    };
                     for (let reponse of reponses_valides) {
                         if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                             resultats[item.id] = {
                                 reussi: true,
                                 affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                             };
-                            break;
                         }
-                        else {
-                            resultats[item.id] = {
-                            reussi: false,
-                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
-                            };
                         }
-                    }
-                    break;
-                                    
+                    break;                                    
             }
+
             if (resultats[item.id].reussi){
                 questionContainer.classList.add('reussite');
             }
