@@ -1,9 +1,13 @@
 // Encapsulation des variables globales dans une IIFE pour éviter les conflits
 (function() {
     // Sélecteurs DOM stockés dans des variables pour éviter les appels répétés
-    const questionContainer = document.getElementById('question');
-    const nomFilmCategorieContainer = document.getElementById('nom_film_categorie');
-    const validerButton = document.getElementById('valider');
+    const ConteneurQuestion = document.getElementById('question');
+    const conteneurNomFilmCategorie = document.getElementById('nom_film_categorie');
+    const boutonValider = document.getElementById('valider');
+    if (!boutonValider) {
+        console.error("Le bouton de validation n'a pas été trouvé dans le DOM.");
+        return;
+    }
 
     // Variables internes
     let donnee = [];
@@ -49,7 +53,7 @@
                     <div class="conteneur_pointe categorie">${item.categorie}</div>
                 `;
             }
-            nomFilmCategorieContainer.innerHTML = nom_film_categorie;
+            conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
             
             // Utilisation d'un switch-case pour gérer les différentes catégories
             let question = '';
@@ -96,7 +100,7 @@
                     break;
             }
             
-            questionContainer.innerHTML = question;
+            ConteneurQuestion.innerHTML = question;
         }
         else {
             console.log("Fin du questionnaire. Résultats :", resultats);
@@ -110,9 +114,10 @@
             const item = donnee[index];
             const reponse_entree = document.querySelectorAll('input[name="reponse"]');
             const reponse_utilisateur = "";
+            let input_utilisateur = "";
             reponse_entree.forEach(input => {
-                input.value = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
-                reponse_utilisateur += " " + input.value;
+                input_utilisateur = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
+                reponse_utilisateur += " " + input_utilisateur;
             });
             reponse_utilisateur = reponse_utilisateur.slice(1);
             let reponses_valides = item.reponses;
@@ -125,7 +130,7 @@
                 case "Phrase d'après":
                 case "Citation à trous":
                 case "Remettre dans l'ordre":
-                    if (reponses_valides.some(reponse => reponse === reponse_utilisateur)) {
+                    if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
                         resultats[item.id] = {
                             reussi: true,
                             affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
@@ -156,20 +161,20 @@
             }
 
             if (resultats[item.id].reussi){
-                questionContainer.classList.add('reussite');
+                ConteneurQuestion.classList.add('reussite');
             }
             else {
-                questionContainer.classList.add('echec');
+                ConteneurQuestion.classList.add('echec');
             }
             setTimeout(() => {
-                questionContainer.classList.remove('reussite', 'echec');
+                ConteneurQuestion.classList.remove('reussite', 'echec');
             }, 300);
             affichageQuestion();
         }
     }
 
     function affichageResultats() {
-        questionContainer.innerHTML = `
+        ConteneurQuestion.innerHTML = `
             <div class="conteneur_resultats">
                 <h2>Résultats</h2>
                 <ul>
@@ -185,7 +190,7 @@
 
     // Fonction pour ajuster la largeur des inputs pour les citations à trous
     function setupInputWidthAdjustment() {
-        questionContainer.addEventListener('input', function(e) {
+        ConteneurQuestion.addEventListener('input', function(e) {
             if (e.target.matches('input[type="text"][name="reponse"]')) {
                 const input = e.target;
                 const tempSpan = document.createElement('span');
@@ -214,7 +219,12 @@
     }
 
     // Écouteurs d'événements pour les boutons
-    validerButton.addEventListener('click', valider);
+    boutonValider.addEventListener('click', valider);
+    boutonValider.addEventListener('keypress', function(e) {
+        if (e.key === 'Enter') {
+            valider();
+        }
+    });
 
     // lancement de la fonction principale au demarrage du script
     main();
