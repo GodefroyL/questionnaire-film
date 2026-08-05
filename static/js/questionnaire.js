@@ -13,6 +13,7 @@
     // Fonction principale pour lancer le questionnaire
     async function main() {
         await chargementDonnees();
+        console.log("Données chargées :", donnee);
         await affichageQuestion();
         await affichageResultats();
     }
@@ -108,7 +109,13 @@
     function valider() {
         if (index < donnee.length) {
             const item = donnee[index];
-            const reponse_utilisateur = document.querySelectorAll('input[name="reponse"]');
+            const reponse_entree = document.querySelectorAll('input[name="reponse"]');
+            const reponse_utilisateur = "";
+            reponse_entree.forEach(input => {
+                input.value = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
+                reponse_utilisateur += " " + input.value;
+            });
+            reponse_utilisateur = reponse_utilisateur.slice(1);
             let reponses_valides = item.reponses;
 
             switch (item.categorie) {
@@ -117,26 +124,48 @@
                 case "A qui est adressé cette phrase ?":
                 case "Phrase d'avant":
                 case "Phrase d'après":
-                    if (reponses_valides.some(reponse => reponse === reponse_utilisateur.value.toLowerCase())) {
+                case "Citation à trous":
+                case "Remettre dans l'ordre":
+                    if (reponses_valides.some(reponse => reponse === reponse_utilisateur)) {
                         resultats[item.id] = {
                             reussi: true,
-                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur.value}`
+                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                        };
+                    }
+                    else {
+                        resulats[item.id] = {
+                        reussi: false,
+                        affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                         };
                     }
                     break;
 
                 case "Question de détail":
                     for (let reponse of reponses_valides) {
-                        if (reponse_utilisateur.value.toLowerCase().includes(reponse)) {
+                        if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                             resultats[item.id] = {
                                 reussi: true,
-                                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur.value}`
+                                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                             };
                             break;
                         }
+                        else {
+                            resulats[item.id] = {
+                            reussi: false,
+                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                            };
+                        }
                     }
                     break;
+                                    
             }
+            if (resultats[item.id].reussi){
+                questionContainer.classList.add('reussite');
+            }
+            else {
+                questionContainer.classList.add('echec');
+            }
+            affichageQuestion();
         }
     }
 

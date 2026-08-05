@@ -217,12 +217,12 @@ body {
 }
 
 /* Classe pour appliquer l'animation de succès */
-.success {
+.reussite {
     animation: successAnimation 0.5s ease-in-out;
 }
 
 /* Classe pour appliquer l'animation d'échec */
-.error {
+.echec {
     animation: errorAnimation 0.5s ease-in-out;
 }
 
