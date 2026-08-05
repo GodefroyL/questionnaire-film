@@ -15,7 +15,6 @@
         await chargementDonnees();
         console.log("Données chargées :", donnee);
         await affichageQuestion();
-        await affichageResultats();
     }
 
     // Fonction pour charger le fichier JSON
