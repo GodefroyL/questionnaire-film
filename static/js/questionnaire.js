@@ -4,10 +4,6 @@
     const ConteneurQuestion = document.getElementById('question');
     const conteneurNomFilmCategorie = document.getElementById('nom_film_categorie');
     const boutonValider = document.getElementById('valider');
-    if (!boutonValider) {
-        console.error("Le bouton de validation n'a pas été trouvé dans le DOM.");
-        return;
-    }
 
     // Variables internes
     let donnee = [];
@@ -113,7 +109,7 @@
         if (index < donnee.length) {
             const item = donnee[index];
             const reponse_entree = document.querySelectorAll('input[name="reponse"]');
-            const reponse_utilisateur = "";
+            let reponse_utilisateur = "";
             let input_utilisateur = "";
             reponse_entree.forEach(input => {
                 input_utilisateur = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
