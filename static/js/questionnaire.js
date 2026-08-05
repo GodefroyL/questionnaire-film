@@ -36,6 +36,7 @@
         index++;
         console.log("Index actuel :", index, "nombre de questions :", donnee.length);
         if (index < donnee.length) {
+            console.log("Affichage de la question :", donnee[index]);
             const item = donnee[index];
             if (item.categorie == 'Quel film ?') {
                 let nom_film_categorie = `
@@ -167,6 +168,9 @@
             else {
                 questionContainer.classList.add('echec');
             }
+            setTimeout(() => {
+                questionContainer.classList.remove('reussite', 'echec');
+            }, 300);
             affichageQuestion();
         }
     }
