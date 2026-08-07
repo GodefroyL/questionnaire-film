@@ -169,7 +169,6 @@
             else {
                 ConteneurQuestion.classList.add('echec');
                 if (!deuxieme_chance) {
-                    alert("Mauvaise réponse ! Vous avez une deuxième chance pour cette question.");
                     index--;
                     deuxieme_chance = true;
                     affichageQuestion();
