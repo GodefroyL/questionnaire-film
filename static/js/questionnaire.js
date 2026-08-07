@@ -164,6 +164,7 @@
 
             if (resultats[item.id].reussi){
                 ConteneurQuestion.classList.add('reussite');
+                
             }
             else {
                 ConteneurQuestion.classList.add('echec');
@@ -172,6 +173,9 @@
                     index--;
                     deuxieme_chance = true;
                     affichageQuestion();
+                }
+                else {
+                    deuxieme_chance = false;
                 }
             }
             setTimeout(() => {
