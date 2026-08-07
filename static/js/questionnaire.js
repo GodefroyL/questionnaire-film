@@ -9,6 +9,7 @@
     let donnee = [];
     let index = -1;
     let resultats = {};
+    let deuxieme_chance = false;
 
     // Fonction principale pour lancer le questionnaire
     async function main() {
@@ -53,6 +54,11 @@
             
             // Utilisation d'un switch-case pour gérer les différentes catégories
             let question = '';
+            if (deuxieme_chance) {
+                question += `
+                    <div class="info">Deuxième tentative</div>
+                `;
+            }
             switch (item.categorie) {
                 case "Quel film ?":
                 case "Qui parle ?":
@@ -161,11 +167,17 @@
             }
             else {
                 ConteneurQuestion.classList.add('echec');
+                if (!deuxieme_chance) {
+                    alert("Mauvaise réponse ! Vous avez une deuxième chance pour cette question.");
+                    index--;
+                    deuxieme_chance = true;
+                    affichageQuestion();
+                }
             }
             setTimeout(() => {
                 ConteneurQuestion.classList.remove('reussite', 'echec');
-            }, 300);
-            affichageQuestion();
+                affichageQuestion();
+            }, 500);
         }
     }
 
