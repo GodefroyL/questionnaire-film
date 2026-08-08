@@ -169,7 +169,7 @@
             else {
                 ConteneurQuestion.classList.add('echec');
                 if (!deuxieme_chance) {
-                    index--;
+                    index=index-1;
                     deuxieme_chance = true;
                     affichageQuestion();
                 }
