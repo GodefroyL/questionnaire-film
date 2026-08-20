@@ -108,8 +108,10 @@
     // Récupération des réponses valides
         const item = donnee[index];
         let reponses_valides = item.reponses;
-    // Récupération de la réponse de l'utilisateur
+
+        // Récupération de la réponse de l'utilisateur
         const reponse_entree = document.querySelectorAll('input[name="reponse"]');
+
     // Normalisation de la réponse de l'utilisateur pour la vérification
         let reponse_utilisateur = "";
         let input_utilisateur = "";
@@ -125,6 +127,7 @@
                 reussi: false,
                 affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
             };
+        // Si la réponse de l'utilisateur comprends l'un des mots clefs valides, sa réponse est juste
             for (let reponse of reponses_valides) {
                 if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                     resultats[item.id] = {
@@ -132,9 +135,9 @@
                         affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                     };
                 }
-                }
-            break;                                            
+            }                                           
         } else {
+        // La réponse de l'utilisateur doit correspondre à une des réponses valides
             if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
                 resultats[item.id] = {
                     reussi: true,
@@ -147,8 +150,8 @@
                 affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                 };
             }
-            break;
         }
+
     // Annimation de réussite ou d'échec
         if (resultats[item.id].reussi){ConteneurQuestion.classList.add('reussite');}
         else {ConteneurQuestion.classList.add('echec');}
