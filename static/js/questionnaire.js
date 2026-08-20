@@ -54,7 +54,9 @@
         let question = '';
         if (deuxieme_chance) {
             question += `
-                <div class="info">Deuxième tentative</div>
+                <div class="info">
+                Deuxième tentative<br>Réponse de la première tentative : ${resultats[item.id].reponse}
+                </div>
             `;
         }
         switch (item.categorie) {
@@ -76,14 +78,14 @@
                 question += `
                     <div class="info">${item.info}</div>
                     <div class="question">
+                    ${item.question[0]}
                 `;
-                for (let i = 0; i < item.question.length; i++) {
+                for (let i = 1; i < item.question.length; i++) {
                     question += `
-                        ${item.question[i]}
                         <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
+                        ${item.question[i]}
                     `;
                 }
-                question = question.slice(0, -80); // Supprime le dernier input ajouté
                 question += `
                     </div>
                 `;
@@ -125,6 +127,7 @@
         if (item.categorie == "Question de détail") {
             resultats[item.id] = {
                 reussi: false,
+                reponse: reponse_utilisateur,
                 affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
             };
         // Si la réponse de l'utilisateur comprends l'un des mots clefs valides, sa réponse est juste
@@ -132,6 +135,7 @@
                 if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                     resultats[item.id] = {
                         reussi: true,
+                        reponse: reponse_utilisateur,
                         affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                     };
                 }
@@ -141,26 +145,34 @@
             if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
                 resultats[item.id] = {
                     reussi: true,
+                    reponse: reponse_utilisateur,
                     affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                 };
             }
             else {
                 resultats[item.id] = {
-                reussi: false,
-                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                    reussi: false,
+                    reponse: reponse_utilisateur,
+                    affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                 };
             }
         }
 
     // Annimation de réussite ou d'échec
-        if (resultats[item.id].reussi){ConteneurQuestion.classList.add('reussite');}
-        else {ConteneurQuestion.classList.add('echec');}
+        if (resultats[item.id].reussi){
+            ConteneurQuestion.classList.add('reussite');
+        // On reinitialise la variable deuxième chance pour la question suivante
+            deuxieme_chance = false
+        } else {
+            ConteneurQuestion.classList.add('echec');
+        // Inversion du booléen : si la deuxième chance n'est pas faite (false) on elle est à faire (true), si elle est faite, elle est a réinitialiser pour la question d'après (false)
+            deuxieme_chance = !deuxieme_chance
+        }
 
     // Lancement de la suite du questionnaire
         setTimeout(() => {
             ConteneurQuestion.classList.remove('reussite', 'echec');
-            if (!deuxieme_chance) {deuxieme_chance = true}
-            else {index++;}
+            if (!deuxieme_chance) {index++;}
             if (index < donnee.length){affichageQuestion(index);}
             else {affichageResultats()}
         }, 500);            
