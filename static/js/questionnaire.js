@@ -180,18 +180,15 @@
 
 
     function affichageResultats() {
-        ConteneurQuestion.innerHTML = `
+        let info_resultat = "";`
             <div class="conteneur_resultats">
-                <h2>Résultats</h2>
-                <ul>
-                    ${Object.entries(resultats).map(([id, resultat]) => `
-                        <li class="${resultat.reussi ? 'reussite' : 'echec'}">
-                            ${resultat.affichage_resultat}
-                        </li>
-                    `).join('')}
-                </ul>
-            </div>
-        `;
+            `;
+        for (question in resultats) {
+            info_resultat += `` // Ajouter le code
+        }
+        info_resultat += `Résultat : ${resultats}` // Supprimer après avoir implémenté la gestion finale
+        info_resultat+=`</div>`;
+        ConteneurQuestion.innerHTML = info_resultat
     }
 
     // Fonction pour ajuster la largeur des inputs pour les citations à trous
