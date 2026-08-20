@@ -7,7 +7,7 @@
 
     // Variables internes
     let donnee = [];
-    let index = -1;
+    let index = 0;
     let resultats = {};
     let deuxieme_chance = false;
 
@@ -15,7 +15,7 @@
     async function main() {
         await chargementDonnees();
         console.log("Données chargées :", donnee);
-        await affichageQuestion();
+        await affichageQuestion(index);
     }
 
     // Fonction pour charger le fichier JSON
@@ -32,157 +32,137 @@
     }
 
     // Fonction pour afficher les données
-    function affichageQuestion() {
-        index++;
-        console.log("Index actuel :", index, "nombre de questions :", donnee.length);
-        if (index < donnee.length) {
-            console.log("Affichage de la question :", donnee[index]);
-            let nom_film_categorie = '';
-            const item = donnee[index];
-            if (item.categorie == 'Quel film ?') {
-                nom_film_categorie = `
-                <div class="conteneur_pointe categorie">${item.categorie}</div>
-                `;
-            }
-            else {
-                nom_film_categorie = `
-                    <div class="conteneur_pointe nom_film">${item.film}</div>
-                    <div class="conteneur_pointe categorie">${item.categorie}</div>
-                `;
-            }
-            conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
-            
-            // Utilisation d'un switch-case pour gérer les différentes catégories
-            let question = '';
-            if (deuxieme_chance) {
-                question += `
-                    <div class="info">Deuxième tentative</div>
-                `;
-            }
-            switch (item.categorie) {
-                case "Quel film ?":
-                case "Qui parle ?":
-                case "A qui est adressé cette phrase ?":
-                case "Phrase d'avant":
-                case "Phrase d'après":
-                case "Question de détail":
-                    console.log("Affichage de la question :", item.question, item.categorie);
-                    question += `
-                        <div class="question">${item.question}</div>
-                        <div class="info">${item.info}</div>
-                        <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
-                    `;
-                    break;
-
-                    case "Citation à trous":
-                    question += `
-                        <div class="info">${item.info}</div>
-                        <div class="question">
-                    `;
-                    for (let i = 0; i < item.question.length; i++) {
-                        question += `
-                            ${item.question[i]}
-                            <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
-                        `;
-                    }
-                    question = question.slice(0, -80); // Supprime le dernier input ajouté
-                    question += `
-                        </div>
-                    `;
-                    setupInputWidthAdjustment();
-                    break;
-                    
-                case "Remettre dans l'ordre":
-                    question += `
-                        Pas encore implémenté
-                    `;
-                    break;
-                    
-                default:
-                    break;
-            }
-            
-            ConteneurQuestion.innerHTML = question;
+    function affichageQuestion(index) {
+    // Récupération de la question courante
+        let nom_film_categorie = '';
+        const item = donnee[index];
+    // Affichage du nom du film et de la catégorie
+        if (item.categorie == 'Quel film ?') {
+            nom_film_categorie = `
+            <div class="conteneur_pointe categorie">${item.categorie}</div>
+            `;
         }
         else {
-            console.log("Fin du questionnaire. Résultats :", resultats);
-            affichageResultats();
+            nom_film_categorie = `
+                <div class="conteneur_pointe nom_film">${item.film}</div>
+                <div class="conteneur_pointe categorie">${item.categorie}</div>
+            `;
         }
+        conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
+        
+    // Remplissage de la zone de question selon la catégorie
+        let question = '';
+        if (deuxieme_chance) {
+            question += `
+                <div class="info">Deuxième tentative</div>
+            `;
+        }
+        switch (item.categorie) {
+            case "Quel film ?":
+            case "Qui parle ?":
+            case "A qui est adressé cette phrase ?":
+            case "Phrase d'avant":
+            case "Phrase d'après":
+            case "Question de détail":
+                console.log("Affichage de la question :", item.question, item.categorie);
+                question += `
+                    <div class="question">${item.question}</div>
+                    <div class="info">${item.info}</div>
+                    <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
+                `;
+                break;
+
+                case "Citation à trous":
+                question += `
+                    <div class="info">${item.info}</div>
+                    <div class="question">
+                `;
+                for (let i = 0; i < item.question.length; i++) {
+                    question += `
+                        ${item.question[i]}
+                        <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
+                    `;
+                }
+                question = question.slice(0, -80); // Supprime le dernier input ajouté
+                question += `
+                    </div>
+                `;
+                setupInputWidthAdjustment();
+                break;
+                
+            case "Remettre dans l'ordre":
+                question += `
+                    Pas encore implémenté
+                `;
+                break;
+                
+            default:
+                break;
+        }
+        
+        ConteneurQuestion.innerHTML = question;
     }
 
     // Fonction pour valider l'élément courant
     function valider() {
-        if (index < donnee.length) {
-            const item = donnee[index];
-            const reponse_entree = document.querySelectorAll('input[name="reponse"]');
-            let reponse_utilisateur = "";
-            let input_utilisateur = "";
-            reponse_entree.forEach(input => {
-                input_utilisateur = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
-                reponse_utilisateur += " " + input_utilisateur;
-            });
-            reponse_utilisateur = reponse_utilisateur.slice(1);
-            let reponses_valides = item.reponses;
+    // Récupération des réponses valides
+        const item = donnee[index];
+        let reponses_valides = item.reponses;
+    // Récupération de la réponse de l'utilisateur
+        const reponse_entree = document.querySelectorAll('input[name="reponse"]');
+    // Normalisation de la réponse de l'utilisateur pour la vérification
+        let reponse_utilisateur = "";
+        let input_utilisateur = "";
+        reponse_entree.forEach(input => {
+            input_utilisateur = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
+            reponse_utilisateur += " " + input_utilisateur;
+        });
+        reponse_utilisateur = reponse_utilisateur.slice(1); // Supprime l'espace initial
 
-            switch (item.categorie) {
-                case "Quel film ?":
-                case "Qui parle ?":
-                case "A qui est adressé cette phrase ?":
-                case "Phrase d'avant":
-                case "Phrase d'après":
-                case "Citation à trous":
-                case "Remettre dans l'ordre":
-                    if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
-                        resultats[item.id] = {
-                            reussi: true,
-                            affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
-                        };
-                    }
-                    else {
-                        resultats[item.id] = {
-                        reussi: false,
-                        affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
-                        };
-                    }
-                    break;
-
-                case "Question de détail":
+    // Vérification de la réponse de l'utilisateur (la vérification est différente pour la catégorie "question de détail")
+        if (item.categorie == "Question de détail") {
+            resultats[item.id] = {
+                reussi: false,
+                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+            };
+            for (let reponse of reponses_valides) {
+                if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                     resultats[item.id] = {
-                        reussi: false,
+                        reussi: true,
                         affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
                     };
-                    for (let reponse of reponses_valides) {
-                        if (reponse_utilisateur.toLowerCase().includes(reponse)) {
-                            resultats[item.id] = {
-                                reussi: true,
-                                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
-                            };
-                        }
-                        }
-                    break;                                    
-            }
-
-            if (resultats[item.id].reussi){
-                ConteneurQuestion.classList.add('reussite');
-                
+                }
+                }
+            break;                                            
+        } else {
+            if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
+                resultats[item.id] = {
+                    reussi: true,
+                    affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                };
             }
             else {
-                ConteneurQuestion.classList.add('echec');
-                if (!deuxieme_chance) {
-                    index=index-1;
-                    deuxieme_chance = true;
-                    affichageQuestion();
-                }
-                else {
-                    deuxieme_chance = false;
-                }
+                resultats[item.id] = {
+                reussi: false,
+                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                };
             }
-            setTimeout(() => {
-                ConteneurQuestion.classList.remove('reussite', 'echec');
-                affichageQuestion();
-            }, 500);
+            break;
         }
+    // Annimation de réussite ou d'échec
+        if (resultats[item.id].reussi){ConteneurQuestion.classList.add('reussite');}
+        else {ConteneurQuestion.classList.add('echec');}
+
+    // Lancement de la suite du questionnaire
+        setTimeout(() => {
+            ConteneurQuestion.classList.remove('reussite', 'echec');
+            if (!deuxieme_chance) {deuxieme_chance = true}
+            else {index++;}
+            if (index < donnee.length){affichageQuestion(index);}
+            else {affichageResultats()}
+        }, 500);            
     }
+
 
     function affichageResultats() {
         ConteneurQuestion.innerHTML = `
