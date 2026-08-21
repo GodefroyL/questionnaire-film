@@ -179,7 +179,7 @@
     }
 
 
-    function affichageResultats() {
+    function affichageResultats(resultats) {
     // Suppression de la div nom film et catégorie et du bouton 'valider'
         conteneurNomFilmCategorie.innerHTML = '';
         boutonValider.style.display = "none";

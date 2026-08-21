@@ -45,7 +45,7 @@
     "film": "Le père tranquille",
     "question": "C'est un guet apens",
     "info": "",
-    "reponses": ["non, ça va être une juste correction", "non, ca va etre une juste correction"]
+    "reponses": ["non ça va être une juste correction", "non ca va etre une juste correction"]
   },
   {
     "id": 6,
