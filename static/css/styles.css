@@ -180,8 +180,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    width: 70%;
+    width: auto;
+    max-width: 70%;
     margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
 }
 .question {
     background-color: var(--couleur-fond);
@@ -203,37 +206,28 @@ body {
 }
 
 
+/* Annimations pour le résultat des questions */
 /* Animation pour le succès (vert) */
 @keyframes successAnimation {
     0% { transform: scale(1); background-color: var(--couleur-fond); }
     50% { transform: scale(1.05); background-color: var(--vert); }
     100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
-
 /* Animation pour l'échec (rouge) */
 @keyframes errorAnimation {
     0% { transform: scale(1); background-color: var(--couleur-fond); }
     50% { transform: scale(1.05); background-color: var(--rouge); }
     100% { transform: scale(1); background-color: var(--couleur-fond); }
 }
-
 /* Classe pour appliquer l'animation de succès */
 .reussite {
     animation: successAnimation 0.5s ease-in-out;
 }
-
 /* Classe pour appliquer l'animation d'échec */
 .echec {
     animation: errorAnimation 0.5s ease-in-out;
 }
 
-
-/* Style pour les messages hors programme */
-.hors-programme {
-    color: var(--marron) !important;
-    font-size: 0.9rem !important;
-    margin-top: 15px !important;
-}
 
 /* Style pour les résultats */
 .resultats-container {
