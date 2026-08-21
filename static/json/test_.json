@@ -5,7 +5,7 @@
     "film": "Rabbi Jacob",
     "question": ["La révolution c'est comme une bicyclette ","!"],
     "info": "Nombre de mots : 6",
-    "reponses": [["quand elle n'avance pas elle tombe"]]
+    "reponses": [["quand elle n'avance pas elle tombe"], ["quand elle n avance pas elle tombe"]]
   },
   {
     "id": 2,
@@ -13,7 +13,7 @@
     "film": "",
     "question": "Oui, je crois ...",
     "info": "",
-    "reponses": ["le prénom"]
+    "reponses": ["le prénom", "le prenom"]
   },
   {
     "id": 3,
@@ -21,7 +21,7 @@
     "film": "La grande Vadrouille",
     "question": "Y a pas d'hélice hélas ! -C'est là qu'est l'os.",
     "info": "Deux personnes (mettre 'et' entre les deux noms)",
-    "reponses": ["augustin bouvet et stanislas lefort"]
+    "reponses": ["augustin bouvet et stanislas lefort", "stanislas lefort et augustin bouvet", "louis de funes et bourvil", "bourvil et louis de fune", "de funes et bourvil", "bourvil et de funes", "lefort et bouvet", "bouvet et lefort"]
   },
   {
     "id": 3,
@@ -29,7 +29,7 @@
     "film": "La grande Vadrouille",
     "question": "Il m’en faudrait p’t’être une deuxième",
     "info": "",
-    "reponses": ["stanislas lefort", "louis de funes"]
+    "reponses": ["stanislas lefort", "louis de funes", "de funes", "lefort"]
   },
   {
     "id": 4,
@@ -37,7 +37,7 @@
     "film": "La grande Vadrouille",
     "question": "A l'opéra maitre",
     "info": "",
-    "reponses": ["où vous croyez-vous"]
+    "reponses": ["et où vous croyez-vous"]
   },
   {
     "id": 5,
@@ -61,6 +61,6 @@
     "film": "Le prénom",
     "question": "Quel est le surnom que Vincent donne à Claude ?",
     "info": "",
-    "reponses": ["la prune"]
+    "reponses": ["la prune", "prune"]
   }
 ]

@@ -211,6 +211,13 @@ body {
     color: white;
 }
 
+/* Affichage des résultats */
+.bouton_resultat {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
 
 /* Annimations pour le résultat des questions */
 /* Animation pour le succès (vert) */

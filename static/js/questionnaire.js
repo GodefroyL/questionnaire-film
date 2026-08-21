@@ -1,7 +1,7 @@
 // Encapsulation des variables globales dans une IIFE pour éviter les conflits
 (function() {
     // Sélecteurs DOM stockés dans des variables pour éviter les appels répétés
-    const ConteneurQuestion = document.getElementById('question');
+    const conteneurQuestion = document.getElementById('question');
     const conteneurNomFilmCategorie = document.getElementById('nom_film_categorie');
     const boutonValider = document.getElementById('valider');
 
@@ -14,16 +14,17 @@
     // Fonction principale pour lancer le questionnaire
     async function main() {
         await chargementDonnees();
-        console.log("Données chargées :", donnee);
         await affichageQuestion(index);
     }
 
     // Fonction pour charger le fichier JSON
     async function chargementDonnees() {
         try {
+        // Récupération des informations dans l'url de la page
             const urlParams = new URLSearchParams(window.location.search);
             const questionnaire = urlParams.get('questionnaire');
             const niveau = urlParams.get('niveau') ?? '';
+        // Chargement du fichier json
             const questions = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
             donnee = await questions.json();
         } catch (error) {
@@ -34,9 +35,10 @@
     // Fonction pour afficher les données
     function affichageQuestion(index) {
     // Récupération de la question courante
-        let nom_film_categorie = '';
         const item = donnee[index];
-    // Affichage du nom du film et de la catégorie
+
+        // Affichage du nom du film et de la catégorie
+        let nom_film_categorie = '';
         if (item.categorie == 'Quel film ?') {
             nom_film_categorie = `
             <div class="conteneur_pointe categorie">${item.categorie}</div>
@@ -66,7 +68,6 @@
             case "Phrase d'avant":
             case "Phrase d'après":
             case "Question de détail":
-                console.log("Affichage de la question :", item.question, item.categorie);
                 question += `
                     <div class="question">${item.question}</div>
                     <div class="info">${item.info}</div>
@@ -101,8 +102,7 @@
             default:
                 break;
         }
-        
-        ConteneurQuestion.innerHTML = question;
+        conteneurQuestion.innerHTML = question;
     }
 
     // Fonction pour valider l'élément courant
@@ -160,40 +160,52 @@
 
     // Annimation de réussite ou d'échec
         if (resultats[item.id].reussi){
-            ConteneurQuestion.classList.add('reussite');
+            conteneurQuestion.classList.add('reussite');
         // On reinitialise la variable deuxième chance pour la question suivante
             deuxieme_chance = false
         } else {
-            ConteneurQuestion.classList.add('echec');
+            conteneurQuestion.classList.add('echec');
         // Inversion du booléen : si la deuxième chance n'est pas faite (false) on elle est à faire (true), si elle est faite, elle est a réinitialiser pour la question d'après (false)
             deuxieme_chance = !deuxieme_chance
         }
 
     // Lancement de la suite du questionnaire
         setTimeout(() => {
-            ConteneurQuestion.classList.remove('reussite', 'echec');
+            conteneurQuestion.classList.remove('reussite', 'echec');
             if (!deuxieme_chance) {index++;}
             if (index < donnee.length){affichageQuestion(index);}
-            else {affichageResultats()}
+            else {affichageResultats(resultats)}
         }, 500);            
     }
 
 
     function affichageResultats() {
-        let info_resultat = "";`
-            <div class="conteneur_resultats">
+    // Suppression de la div nom film et catégorie et du bouton 'valider'
+        conteneurNomFilmCategorie.innerHTML = '';
+        boutonValider.style.display = "none";
+    // Initialisation de la variable pour l'affichage des résultats
+        let info_resultat = '<div class="conteneur_resultats">';
+    // Parcours des résultats
+        for (let id = 1; id < resultats.length; i++) {
+        // Affichage du bouton
+            let couleur;
+            if (resultats[id].reussi) {couleur = 'var(--vert)';} else {couleur = 'var(--rouge)';}
+            info_resultat += `
+                <button class="bouton_resultat" style="color: ${couleur} onclick="afficherCorrection(${resultats[id]})">${id}</button>"
             `;
-        for (question in resultats) {
-            info_resultat += `` // Ajouter le code
         }
         info_resultat += `Résultat : ${resultats}` // Supprimer après avoir implémenté la gestion finale
         info_resultat+=`</div>`;
-        ConteneurQuestion.innerHTML = info_resultat
+        conteneurQuestion.innerHTML = info_resultat
+    }
+
+    function afficherCorrection(resultat) {
+        // A faire
     }
 
     // Fonction pour ajuster la largeur des inputs pour les citations à trous
     function setupInputWidthAdjustment() {
-        ConteneurQuestion.addEventListener('input', function(e) {
+        conteneurQuestion.addEventListener('input', function(e) {
             if (e.target.matches('input[type="text"][name="reponse"]')) {
                 const input = e.target;
                 const tempSpan = document.createElement('span');
