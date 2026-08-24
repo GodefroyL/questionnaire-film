@@ -1,0 +1,17 @@
+[
+    {
+        "nom": "Le père tanquille",
+        "niveaux": 2,
+        "image": "../images/le_pere_tranquille"
+    },
+    {
+        "nom": "La grande vadrouille",
+        "niveaux": 2,
+        "image": "../images/la_grande_vadrouille"
+    },
+    {
+        "nom": "Bienvenue à bord",
+        "niveaux": 2,
+        "image": "../images/bienvenue_a_bord"
+    }
+]
