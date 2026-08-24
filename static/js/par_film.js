@@ -1,6 +1,7 @@
 fetch('../json/liste_film.json')
     .then(reponse => reponse.json())
     .then(fichiersJSON => {
+        console.log("test")
         const conteneur = document.getElementById('accueil_film');
         let ligneActuelle = null;
         const listeCouleurs = ['var(--vert)', 'var(--jaune)', 'var(--rouge)', 'var(--bleu)', 'var(--marron)']
