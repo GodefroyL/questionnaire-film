@@ -1,4 +1,4 @@
-fetch('json/liste_film.json')
+fetch('../static/json/liste_film.json')
     .then(reponse => reponse.json())
     .then(fichiersJSON => {
         const conteneur = document.getElementById('accueil_film');
