@@ -13,5 +13,15 @@
         "nom": "Bienvenue à bord",
         "niveaux": 2,
         "image": "../images/bienvenue_a_bord"
+    },
+    {
+        "nom": "le_capitan",
+        "niveaux": 2,
+        "image": "../images/le_capitan"
+    },
+    {
+        "nom": "Suits, Avocats sur mesures",
+        "niveau": 2,
+        "image": "../images/suits"
     }
 ]
