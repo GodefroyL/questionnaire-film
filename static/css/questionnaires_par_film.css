@@ -1,0 +1,25 @@
+/* Style pour la page questionnaire par film */
+
+.accueil_film {
+    /* à faire */
+    padding: 20px;
+}
+
+.ligne {
+    display: flex;
+    flex-direction: row;
+}
+
+.a {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 15px;
+    border: solid 1px grey;
+}
+
+.img {
+    overflow: hidden;
+    border-radius: 5px;
+    margin: 2px;
+}

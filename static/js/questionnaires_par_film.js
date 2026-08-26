@@ -13,13 +13,13 @@ fetch('../static/json/liste_film.json')
             }
 
             const bouton = document.createElement('a');
-            bouton.href = `https://godefroyl.github.io/questionnaire-film/html/questionnaire_par_film?film=${index}`;
+            bouton.href = `https://godefroyl.github.io/questionnaire-film/html/questionnaire?film=${index}`;
             bouton.className = 'bouton_par_film';
             bouton.textContent = info_fichier.nom;
             bouton.style.backgroundColor = listeCouleurs[(~~(index / 4)) % 5];
 
             const image = document.createElement('img');
-            image.src = info_fichier.image;
+            image.src = `${info_fichier.image}.*`;
             image.alt = info_fichier.nom;
             bouton.insertBefore(image, bouton.firstChild);
 
