@@ -41,26 +41,6 @@ body {
     flex-direction: column;
 }
 
-/* Animations globales */
-@keyframes successAnimation {
-    0% { transform: scale(1); background-color: var(--couleur-fond); }
-    50% { transform: scale(1.05); background-color: var(--vert); }
-    100% { transform: scale(1); background-color: var(--couleur-fond); }
-}
-
-@keyframes errorAnimation {
-    0% { transform: scale(1); background-color: var(--couleur-fond); }
-    50% { transform: scale(1.05); background-color: var(--rouge); }
-    100% { transform: scale(1); background-color: var(--couleur-fond); }
-}
-
-.reussite {
-    animation: successAnimation 0.5s ease-in-out;
-}
-
-.echec {
-    animation: errorAnimation 0.5s ease-in-out;
-}
 
 /* Responsive global */
 @media (max-width: 768px) {
