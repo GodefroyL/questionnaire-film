@@ -1,0 +1,80 @@
+/* Définition des couleurs et variables globales */
+:root {
+    --vert: #4CAF50;
+    --jaune: #FFC000;
+    --rouge: #94140B;
+    --bleu: #2196F3;
+    --marron: #795548;
+    --couleur-fond: #CCDAEA;
+    --couleur-fond-header: #B0C4DE;
+}
+
+/* Styles globaux communs à toutes les pages */
+
+header {
+    background-color: var(--couleur-fond-header);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 50px;
+    text-align: center;
+    align-content: center;
+    color: white;
+    font-size: large;
+    font-weight: bold;
+}
+
+a {
+    color: white;
+    font-style: italic;
+}
+
+body {
+    margin-top: 60px;
+    padding: 20px;
+    background-color: var(--couleur-fond);
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+/* Animations globales */
+@keyframes successAnimation {
+    0% { transform: scale(1); background-color: var(--couleur-fond); }
+    50% { transform: scale(1.05); background-color: var(--vert); }
+    100% { transform: scale(1); background-color: var(--couleur-fond); }
+}
+
+@keyframes errorAnimation {
+    0% { transform: scale(1); background-color: var(--couleur-fond); }
+    50% { transform: scale(1.05); background-color: var(--rouge); }
+    100% { transform: scale(1); background-color: var(--couleur-fond); }
+}
+
+.reussite {
+    animation: successAnimation 0.5s ease-in-out;
+}
+
+.echec {
+    animation: errorAnimation 0.5s ease-in-out;
+}
+
+/* Responsive global */
+@media (max-width: 768px) {
+    h2 {
+        font-size: 1.2rem;
+    }
+
+    p {
+        font-size: 1rem;
+    }
+
+    div {
+        margin: 5px;
+        padding: 3px;
+        width: 90%;
+    }
+}

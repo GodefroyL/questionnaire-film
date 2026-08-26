@@ -6,7 +6,10 @@
         <title>{{ site.title }} - {{ page.title }}</title>
             <link rel="icon" href="{{ site.url }}/static/images/logo.ico">
 
-        <link rel="stylesheet" href="{{ site.url }}/static/css/styles.css">
+        <link rel="stylesheet" href="{{ site.url }}/static/css/base.css">
+        {% if page.css %}
+        <link rel="stylesheet" href="{{ site.url }}/static/css/{{ page.css }}">
+        {% endif %}
     </head>
 
     <header>

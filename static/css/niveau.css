@@ -1,0 +1,36 @@
+/* Styles spécifiques pour les pages de choix de niveau */
+
+.choix_niveaux {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5%;
+    padding: 5px;
+}
+
+.lien_niveau {
+    display: flex;
+    border-radius: 10px;
+    min-height: 200px;
+    max-height: 400px;
+    height: 80%;
+    min-width: 120px;
+    max-width: 200px;
+    width: 30%;
+}
+
+.texte_vertical {
+    margin-top: 70px;
+    transform: rotate(270deg);
+    transform-origin: left top;
+    font-size: 1.2rem;
+    text-decoration: none;
+}
+
+.texte_horizontal {
+    position: relative;
+    top: 5px;
+    left: -25px;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-decoration: none;
+}

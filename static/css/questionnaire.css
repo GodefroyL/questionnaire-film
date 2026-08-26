@@ -1,0 +1,113 @@
+/* Styles spécifiques pour les pages de questionnaire */
+
+/* Div pour le nom du film et la catégorie */
+.conteneur_nom_film_categorie {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    margin-top: 60px;
+    top: 0;
+    left: 0;
+}
+
+.conteneur_pointe {
+    position: relative;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    margin-top: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.conteneur_pointe::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: -17.9px;
+    width: 15%;
+    height: 100%;
+    background-color: inherit;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
+}
+
+.nom_film {
+    background-color: var(--rouge);
+    margin-left: 10px;
+}
+
+.categorie {
+    background-color: var(--vert);
+    margin-left: 40px;
+    margin-top: -5px;
+}
+
+/* Div pour les questions */
+.conteneur_question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+    max-width: 70%;
+    margin: 20px;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.question {
+    background-color: var(--couleur-fond);
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--jaune);
+}
+
+.info {
+    color: black;
+    padding: 5px;
+}
+
+.reponse {
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid var(--bleu);
+}
+
+.bouton_valider {
+    padding: 10px 20px;
+    border-radius: 15px;
+    background-color: var(--vert);
+    color: white;
+}
+
+/* Affichage des résultats */
+.bouton_resultat {
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+}
+
+/* Style pour les résultats */
+.resultats-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 600px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.resultats-container h2 {
+    color: var(--bleu);
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.resultats-container p {
+    font-size: 1.2rem;
+    color: #333;
+}
