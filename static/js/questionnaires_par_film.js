@@ -19,8 +19,7 @@ fetch('../static/json/liste_film.json')
             bouton.style.backgroundColor = listeCouleurs[(~~(index / 4)) % 5];
 
             const image = document.createElement('img');
-            image.src = `{{ site.url }}${info_fichier.image}`;
-            image.alt = info_fichier.nom;
+            image.src = `${info_fichier.image}`;
             bouton.insertBefore(image, bouton.firstChild);
 
             ligneActuelle.appendChild(bouton);
