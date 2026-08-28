@@ -2,26 +2,26 @@
     {
         "nom": "Le père tanquille",
         "niveaux": 2,
-        "image": "/static/images/films/le_pere_tranquille"
+        "image": "/static/images/films/le_pere_tranquille.jpg"
     },
     {
         "nom": "La grande vadrouille",
         "niveaux": 2,
-        "image": "../static/images/films/la_grande_vadrouille"
+        "image": "/static/images/films/la_grande_vadrouille.jpg"
     },
     {
         "nom": "Bienvenue à bord",
         "niveaux": 2,
-        "image": "../static/images/films/bienvenue_a_bord"
+        "image": "/static/images/films/bienvenue_a_bord.jpg"
     },
     {
         "nom": "Le Capitan",
         "niveaux": 2,
-        "image": "../static/images/films/le_capitan"
+        "image": "/static/images/films/le_capitan.jpg"
     },
     {
         "nom": "Suits, Avocats sur mesures",
         "niveau": 2,
-        "image": "../static/images/films/suits"
+        "image": "/static/images/films/suits.jpg"
     }
 ]
