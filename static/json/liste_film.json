@@ -2,7 +2,7 @@
     {
         "nom": "Le père tanquille",
         "niveaux": 2,
-        "image": "../static/images/films/le_pere_tranquille"
+        "image": "/static/images/films/le_pere_tranquille"
     },
     {
         "nom": "La grande vadrouille",
