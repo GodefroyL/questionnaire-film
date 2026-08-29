@@ -9,14 +9,16 @@
 .ligne {
     display: flex;
     flex-direction: row;
+    align-content: space-between;
     width: 60%;
-    padding: 5%;
+    
 }
 
 .bouton_par_film {
     display: flex;
     flex-direction: column;
     align-items: center;
+    width: 20%;
     padding: 1%;
     border-radius: 15px;
     border: solid 1px grey;
