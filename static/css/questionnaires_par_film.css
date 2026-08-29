@@ -11,7 +11,7 @@
     flex-direction: row;
 }
 
-.a {
+a {
     display: flex;
     flex-direction: column;
     margin: 10px;
@@ -20,7 +20,7 @@
     border: solid 1px grey;
 }
 
-.img {
+img {
     overflow: hidden;
     border-radius: 5px;
     margin: 2px;
