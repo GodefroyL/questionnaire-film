@@ -4,21 +4,21 @@
     /* à faire */
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .ligne {
     display: flex;
     flex-direction: row;
-    align-content: space-between;
     width: 60%;
-    
 }
 
 .bouton_par_film {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 20%;
+    width: 20vw;
+    margin: 2vw;
     padding: 1%;
     border-radius: 15px;
     border: solid 1px grey;
