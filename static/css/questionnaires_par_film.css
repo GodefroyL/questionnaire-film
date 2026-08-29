@@ -9,21 +9,22 @@
 .ligne {
     display: flex;
     flex-direction: row;
+    width: 60%;
+    padding: 5%;
 }
 
-a {
+.bouton_par_film {
     display: flex;
     flex-direction: column;
-    margin: 10px;
-    padding: 5%;
+    align-items: center;
+    padding: 1%;
     border-radius: 15px;
     border: solid 1px grey;
 }
 
-img {
+.image_film {
     overflow: hidden;
     border-radius: 5px;
-    margin: 2px;
-    max-height: 50px;
-    max-width: 20px;
+    height: 350px;
+    width: auto;
 }

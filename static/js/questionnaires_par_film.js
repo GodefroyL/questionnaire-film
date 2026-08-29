@@ -20,6 +20,7 @@ fetch('../static/json/liste_film.json')
 
             const image = document.createElement('img');
             image.src = `${info_fichier.image}`;
+            image.className = 'image_film'
             bouton.insertBefore(image, bouton.firstChild);
 
             ligneActuelle.appendChild(bouton);
