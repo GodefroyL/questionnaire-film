@@ -40,7 +40,6 @@ a {
 }
 
 .contenu {
-    margin-top: 90px;
     padding: 20px;
     display: flex;
     align-content: center;
@@ -52,7 +51,7 @@ a {
 .titre {
     text-align: center;
     font-size: 2rem;
-    margin-top: 65px;
+    margin-top: 90px;
     color: var(--bleu);
 }
 
