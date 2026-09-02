@@ -47,8 +47,10 @@ span {
     .accueil {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;
+    padding-right: 5%;
+    width: 90%;
     }
-    span {
+    .bouton_accueil span {
         font-size: 1.2rem;
     }
 }
