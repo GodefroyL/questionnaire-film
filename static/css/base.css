@@ -42,6 +42,13 @@ body {
     flex-direction: row;
 }
 
+title {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: var(--bleu);
+}
+
 
 /* Responsive global */
 @media (max-width: 550px) {
