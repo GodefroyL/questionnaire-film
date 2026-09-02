@@ -11,15 +11,15 @@
         <link rel="stylesheet" href="{{ site.url }}/static/css/{{ page.css }}">
         {% endif %}
     </head>
-
-    <header>
-        <a href="{{ site.url }}/index.html">DGL - film</a>
-    </header>
-    <div class="titre">
-        {{ page.title }}
-    </div>
     <body>
-        {{ content }}
+        <header>
+            <a href="{{ site.url }}/index.html">DGL - film</a>
+        </header>
+        <div class="titre">
+            {{ page.title }}
+        </div>
+        <div class="contenu">
+            {{ content }}
+        </div>
     </body>
-
 </html>

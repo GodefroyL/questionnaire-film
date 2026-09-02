@@ -10,6 +10,14 @@
 }
 
 /* Styles globaux communs à toutes les pages */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: var(--couleur-fond);
+    display: flex;
+    flex-direction: column;
+}
 
 header {
     background-color: var(--couleur-fond-header);
@@ -31,10 +39,9 @@ a {
     font-style: italic;
 }
 
-body {
+.contenu {
     margin-top: 90px;
     padding: 20px;
-    background-color: var(--couleur-fond);
     display: flex;
     align-content: center;
     justify-content: center;
