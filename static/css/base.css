@@ -15,9 +15,10 @@ header {
     background-color: var(--couleur-fond-header);
     width: 100%;
     position: fixed;
+    padding-bottom: 5px;
     top: 0;
     right: 0;
-    height: 50px;
+    height: 55px;
     text-align: center;
     align-content: center;
     color: white;
@@ -31,30 +32,21 @@ a {
 }
 
 body {
-    margin-top: 60px;
+    margin-top: 65px;
     padding: 20px;
     background-color: var(--couleur-fond);
     display: flex;
     align-content: center;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 
 /* Responsive global */
-@media (max-width: 768px) {
-    h2 {
-        font-size: 1.2rem;
-    }
-
-    p {
-        font-size: 1rem;
-    }
-
-    div {
-        margin: 5px;
+@media (max-width: 550px) {
+    body {
         padding: 3px;
-        width: 90%;
+        flex-direction: column;
     }
 }

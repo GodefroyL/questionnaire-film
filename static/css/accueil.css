@@ -25,6 +25,10 @@
     flex-direction: row;
 }
 
+span {
+    font-size: 1.5rem;
+}
+
 .bouton_accueil img {
     margin-left: -25px;
     height: 70px;
@@ -37,4 +41,14 @@
 .bouton_accueil span {
     font-size: 1.5rem;
     margin-left: 20px;
+}
+
+@media (max-width: 550px) {
+    .accueil {
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    }
+    span {
+        font-size: 1.2rem;
+    }
 }
