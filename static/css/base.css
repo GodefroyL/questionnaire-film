@@ -56,7 +56,7 @@ body {
         padding: 3px;
         flex-direction: column;
     }
-    title {
+    .titre {
         font-size: 1.5rem;
     }
 }
