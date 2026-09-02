@@ -30,3 +30,12 @@
     width: 100%;
     margin-bottom: 10px;
 }
+
+@media (max-width: 550px) {
+    .ligne {
+        width: 90%;
+    }
+    .bouton_par_film {
+        width: 40%;
+    }
+}
