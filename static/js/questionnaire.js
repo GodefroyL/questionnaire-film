@@ -14,9 +14,20 @@
     // Fonction principale pour lancer le questionnaire
     async function main() {
         await chargementDonnees();
+        await affichageTitre();
         await affichageQuestion(index);
     }
 
+    async function affichageTitre() {
+        try {
+            const urlParams = new URLSearchParams(window.location.search);
+            const questionnaire = urlParams.get('questionnaire');
+            const titreElement = document.querySelector('.titre');
+            titreElement.textContent = `Questionnaire : ${questionnaire}`;
+        } catch (error) {
+            console.error("Erreur lors de l'affichage du titre :", error);
+        }
+    }
     // Fonction pour charger le fichier JSON
     async function chargementDonnees() {
         try {

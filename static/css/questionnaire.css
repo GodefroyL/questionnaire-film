@@ -142,7 +142,9 @@
         max-width: 90%;
     }
     .conteneur_nom_film_categorie {
+        position: static;
         margin: 10px;
-        margin-top: 50px;
+        margin-left: -3%;
+        align-self: baseline;
     }
 }
