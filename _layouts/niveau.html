@@ -8,22 +8,22 @@ css: niveau
     
     {% if nombre_niveaux >= 1 %}
     <a class="lien_niveau" style="background-color: var(--vert); width: 100%" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=debutant">
-        <span class="texte_vertical">Niveau</span>
-        <span class="texte_horizontal">Débutant</span>
+        <div class="texte_vertical">Niveau</div>
+        <div class="texte_horizontal">Débutant</div>
     </a>
     {% endif %}
     
     {% if nombre_niveaux >= 2 %}
     <a class="lien_niveau" style="background-color: var(--jaune); width: 50%" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=confirme">
-        <span class="texte_vertical">Niveau</span>
-        <span class="texte_horizontal">Confirmé</span>
+        <div class="texte_vertical">Niveau</div>
+        <div class="texte_horizontal">Confirmé</div>
     </a>
     {% endif %}
     
     {% if nombre_niveaux >= 3 %}
     <a class="lien_niveau" style="background-color: var(--rouge); width: 20%" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=expert">
-        <span class="texte_vertical">Niveau</span>
-        <span class="texte_horizontal">Expert</span>
+        <div class="texte_vertical">Niveau</div>
+        <div class="texte_horizontal">Expert</div>
     </a>
     {% endif %}
 </div>

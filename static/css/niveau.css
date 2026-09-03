@@ -18,7 +18,7 @@
     width: 30%;
 }
 
-span .texte_vertical {
+.texte_vertical {
     margin-top: 70px;
     transform: rotate(270deg);
     transform-origin: left top;
@@ -26,7 +26,7 @@ span .texte_vertical {
     text-decoration: none;
 }
 
-span .texte_horizontal {
+.texte_horizontal {
     position: relative;
     top: 5px;
     left: -25px;
