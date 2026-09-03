@@ -34,3 +34,17 @@
     font-size: 1.2rem;
     text-decoration: none;
 }
+
+@media (max-width: 550px) {
+    .choix_niveaux {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .lien_niveau {
+        height: 100px;
+        width: 100%;
+    }
+    span {
+        font-size: 1rem;
+    }
+}
