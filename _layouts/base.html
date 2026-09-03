@@ -10,6 +10,9 @@
         {% if page.css %}
         <link rel="stylesheet" href="{{ site.url }}/static/css/{{ page.css }}">
         {% endif %}
+        {% if page.layout == "niveau" %}
+        <link rel="stylesheet" href="{{ site.url }}/static/css/niveau.css">
+        {% endif %}
     </head>
     <body>
         <header>
