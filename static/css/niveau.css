@@ -41,10 +41,11 @@
         row-gap: 10px;
     }
     .lien_niveau {
+        min-height: auto;
         height: 100px;
         width: 100%;
     }
-    span {
+    span.texte_vertical span.texte_horizontal {
         font-size: 1rem;
     }
 }
