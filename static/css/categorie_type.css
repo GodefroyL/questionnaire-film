@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 550px) {
+    .ligne_categorie {
+        width: 90%;
+        column-gap: 2%;
+    }
     .lien_categorie {
         font-size: 0.8rem;
     }
