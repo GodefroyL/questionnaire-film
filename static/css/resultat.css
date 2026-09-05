@@ -44,3 +44,13 @@
     margin-top: 20px;
     font-size: 1.35rem;
 }
+
+@media (max-width: 800px) {
+    .affichage_resultat {
+        width: 90%;
+    }
+    .message_resultat {
+        margin-top: 0;
+        font-size: 1.4rem;
+    }
+}

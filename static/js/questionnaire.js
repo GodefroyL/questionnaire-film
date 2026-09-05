@@ -52,7 +52,7 @@
         let nom_film_categorie = '';
         if (item.categorie == 'Quel film ?') {
             nom_film_categorie = `
-            <div class="conteneur_pointe categorie">${item.categorie}</div>
+            <div class="conteneur_pointe categorie" style="margin-top: 40px">${item.categorie}</div>
             `;
         }
         else {
