@@ -22,12 +22,13 @@ function affichage_resultat() {
     let nombre_question_reussie = 0;
     const liste_id = Object.keys(donneGlobales.resultats)
     const nombre_question_totale = liste_id.length;
+    console.log(donneGlobales.resultats)
     for(let id in liste_id) {
         resultat = donneGlobales.resultats[id];
         const bouton = document.createElement('button');
         bouton.className = 'bouton_resultat';
         bouton.textContent = id;
-        if(resultat[reussi]){
+        if(resultat.reussi){
             bouton.style.backgroundColor = 'green';
             nombre_question_reussie++;
         } else {bouton.style.backgroundColor = 'red';}
@@ -46,7 +47,7 @@ function detail_resultat(resultat) {
     donneGlobales.detail_resultat.appendChild(question);
     const reponse_utilisateur = document.createElement('span');
     reponse_utilisateur.textContent = 'Votre réponse : ' + resultat.reponse;
-    if(resultat[reussi]){reponse_utilisateur.style.color = 'green';} else {reponse_utilisateur.style.backgroundColor = 'red';}
+    if(resultat.reussi){reponse_utilisateur.style.color = 'green';} else {reponse_utilisateur.style.backgroundColor = 'red';}
     donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
     const bonne_reponse = document.createElement('span');
     bonne_reponse.textContent = 'Réponse attendue : ' + resultat.bonne_reponse;
