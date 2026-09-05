@@ -45,7 +45,7 @@ function affichage_resultat() {
 }
 
 function affichage_detail(id, resultat) {
-    donneGlobales.detail_resultat.appendChild('');
+    donneGlobales.detail_resultat.innerHTML = '';
     
     if (id_affichée!==id) {
         id_affichée = id;
