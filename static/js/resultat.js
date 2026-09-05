@@ -21,7 +21,7 @@ function recup_info () {
 function affichage_resultat() {
     let nombre_question_reussie = 0;
     const liste_id = Object.keys(donneGlobales.resultats)
-    const nombre_question_totale = liste_id.length();
+    const nombre_question_totale = liste_id.length;
     for(let id in liste_id) {
         resultat = donneGlobales.resultats[id];
         const bouton = document.createElement('button');
