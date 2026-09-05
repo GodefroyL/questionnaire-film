@@ -8,6 +8,8 @@ const donneGlobales = {
     resultats: null
 };
 
+const id_affichée = null;
+
 function recup_info () {
 // Récupérations des élements html
     donneGlobales.message_resultat = document.getElementById("message_resultat");
@@ -45,34 +47,29 @@ function affichage_resultat() {
 }
 
 function affichage_detail(id, resultat) {
-    donneGlobales.detail_resultat.innerHTML = '';
-// Affichage de la question
-    const question = document.createElement('span');
-    question.textContent = 'Question : ' + resultat.question;
-    donneGlobales.detail_resultat.appendChild(question);
+    if (id_affichée==id) {donneGlobales.detail_resultat.innerHTML = '';} else {
+        id_affichée = id;
+        donneGlobales.detail_resultat.innerHTML = '';
+    // Affichage de la question
+        const question = document.createElement('span');
+        question.textContent = 'Question : ' + resultat.question;
+        donneGlobales.detail_resultat.appendChild(question);
 
-// Affichage de la réponse de l'utilisateur
-    const reponse_utilisateur = document.createElement('span');
-    reponse_utilisateur.textContent = 'Votre réponse : ' + resultat.reponse;
-    if(resultat.reussi){reponse_utilisateur.style.color = 'green';}
-    else {
-        reponse_utilisateur.style.color = 'red';
-    // Affichage de la bonne réponse (uniquement si c'est faux)
-        const bonne_reponse = document.createElement('span');
-        bonne_reponse.textContent = 'Réponse attendue : ' + resultat.bonne_reponse;
-        bonne_reponse.style.color = 'green';
-        donneGlobales.detail_resultat.appendChild(bonne_reponse);}
-    donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
-    const bouton = document.getElementById(`question${id}`);
-    bouton.addEventListener('click', () => fermer_detail(id,resultat));
-
+    // Affichage de la réponse de l'utilisateur
+        const reponse_utilisateur = document.createElement('span');
+        reponse_utilisateur.textContent = 'Votre réponse : ' + resultat.reponse;
+        if(resultat.reussi){reponse_utilisateur.style.color = 'green';}
+        else {
+            reponse_utilisateur.style.color = 'red';
+        // Affichage de la bonne réponse (uniquement si c'est faux)
+            const bonne_reponse = document.createElement('span');
+            bonne_reponse.textContent = 'Réponse attendue : ' + resultat.bonne_reponse;
+            bonne_reponse.style.color = 'green';
+            donneGlobales.detail_resultat.appendChild(bonne_reponse);}
+        donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
+    }
 }
 
-function fermer_detail(id,resultat) {
-    donneGlobales.detail_resultat.innerHTML = '';
-    const bouton = document.getElementById(`question${id}`);
-    bouton.addEventListener("click", () => affichage_detail(id, resultat));
-}
 
 recup_info();
 affichage_resultat();
