@@ -20,7 +20,7 @@ function recup_info () {
 
 function affichage_resultat() {
     let nombre_question_reussie = 0;
-    const nombre_question_totale = donneGlobales.length();
+    const nombre_question_totale = donneGlobales.resultats.length();
     for(let id in donneGlobales.resultats.keys()) {
         resultat = donneGlobales.resultats[id];
         const bouton = document.createElement('button');
