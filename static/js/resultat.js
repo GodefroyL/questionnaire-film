@@ -20,11 +20,11 @@ function recup_info () {
 
 function affichage_resultat() {
     let nombre_question_reussie = 0;
-    const liste_id = Object.keys(donneGlobales.resultats)
-    const nombre_question_totale = liste_id.length;
-    console.log(liste_id)
-    for(let id in liste_id) {
+    const nombre_question_totale = donneGlobales.resultats.length;
+    console.log(nombre_question_totale);
+    for(const id in donneGlobales.resultats) {
         resultat = donneGlobales.resultats[id];
+        console.log(resultat);
         const bouton = document.createElement('button');
         bouton.className = 'bouton_resultat';
         bouton.textContent = id;
