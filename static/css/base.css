@@ -52,7 +52,9 @@ a {
     text-align: center;
     font-size: 2rem;
     margin-top: 90px;
-    color: var(--bleu);
+    color: var(--couleur-fond-header);
+    -webkit-text-stroke: 2px black;
+    font-weight: bold;
 }
 
 
