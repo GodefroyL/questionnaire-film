@@ -38,7 +38,7 @@ function affichage_resultat() {
         bouton.addEventListener("click", () => affichage_detail(id, resultat));
         donneGlobales.resultat_par_question.appendChild(bouton)
     }
-    donneGlobales.message_resultat.appendChild(`Score : ${nombre_question_reussie}/${nombre_question_totale}`);
+    donneGlobales.message_resultat.innerHTML = `Score : ${nombre_question_reussie}/${nombre_question_totale}`;
 }
 
 function affichage_detail(id, resultat) {
