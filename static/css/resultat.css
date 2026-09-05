@@ -22,6 +22,7 @@
 .resultat_par_question {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     column-gap: 15px;
     margin-top: 20px;
 }
