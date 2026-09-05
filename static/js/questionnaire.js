@@ -138,6 +138,7 @@
         if (item.categorie == "Question de détail") {
             resultats[item.id] = {
                 reussi: false,
+                categorie: item.categorie,
                 question: item.question,
                 reponse: reponse_utilisateur,
                 bonne_reponse: item.reponses[0]
@@ -147,6 +148,7 @@
                 if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                     resultats[item.id] = {
                         reussi: true,
+                        categorie: item.categorie,
                         question: item.question,
                         reponse: reponse_utilisateur,
                         bonne_reponse: item.reponses[0]
@@ -154,10 +156,12 @@
                 }
             }                                           
         } else {
+    // A voir : mettre les deux réponses qd il y a deux échecs
         // La réponse de l'utilisateur doit correspondre à une des réponses valides
             if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
                 resultats[item.id] = {
                     reussi: true,
+                    categorie: item.categorie,
                     question: item.question,
                     reponse: reponse_utilisateur,
                     bonne_reponse: item.reponses[0]
@@ -166,6 +170,7 @@
             else {
                 resultats[item.id] = {
                     reussi: false,
+                    categorie: item.categorie,
                     question: item.question,
                     reponse: reponse_utilisateur,
                     bonne_reponse: item.reponses[0]

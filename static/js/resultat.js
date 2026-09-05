@@ -47,6 +47,11 @@ function affichage_detail(id, resultat) {
     if (id_affichée!==id) {
         id_affichée = id;
 // A faire : affichage des questions suivant les types, notmment pour les citations à trous
+    // Affichage de la catégorie
+        const categorie = document.createElement('span')
+        categorie.textContent = 'Catégorie : ' + resultat.categorie;
+        donneGlobales.detail_resultat.appendChild(categorie);
+
     // Affichage de la question
         const question = document.createElement('span');
         question.textContent = 'Question : ' + resultat.question;
