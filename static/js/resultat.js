@@ -8,7 +8,7 @@ const donneGlobales = {
     resultats: null
 };
 
-const id_affichée = null;
+let id_affichée = null;
 
 function recup_info () {
 // Récupérations des élements html
