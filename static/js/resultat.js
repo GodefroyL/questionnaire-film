@@ -15,7 +15,8 @@ function recup_info () {
     donneGlobales.detail_resultat = document.getElementById("detail_resultat");
 
 // Récupération des résultats
-    donneGlobales.resultats = localStorage.getItem("resultat")    
+    const resultats = localStorage.getItem("resultat");
+    donneGlobales.resultats = JSON.parse(resultats);
 }
 
 function affichage_resultat() {
