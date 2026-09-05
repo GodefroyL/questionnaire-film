@@ -1,28 +1,45 @@
 /* Style pour la page de résultat */
+:root {
+    --reussi: #008000A0;
+    --echec: #E42D2DE0;
+}
 
 .affichage_resultat {
     display: flex;
     flex-direction: column;
+    width: 60%;
+    align-items: center;
 }
 
 .message_resultat {
     font-weight: bold;
+    font-size: 1.7rem;
+    color: white;
+    margin-top: 10px;
+    -webkit-text-stroke: 0.5px var(--couleur-fond-header);
 }
 
 .resultat_par_question {
     display: flex;
     flex-direction: row;
-    row-gap: 15px;
+    column-gap: 15px;
+    margin-top: 20px;
 }
 
 .bouton_resultat {
     color: white;
     font-style: italic;
-    border-radius: 5px;
-    padding: 5px;
+    border-radius: 15px;
+    height: 50px;
+    width: 50px;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .detail_resultat {
     display: flex;
     flex-direction: column;
+    row-gap: 10px;
+    margin-top: 20px;
+    font-size: 1.35rem;
 }

@@ -32,16 +32,13 @@ function affichage_resultat() {
         bouton.id = `question${id}`
         bouton.textContent = id;
         if(resultat.reussi){
-            bouton.style.backgroundColor = 'green';
+            bouton.style.backgroundColor = 'var(--reussi)';
             nombre_question_reussie++;
-        } else {bouton.style.backgroundColor = 'red';}
+        } else {bouton.style.backgroundColor = 'var(--echec';}
         bouton.addEventListener("click", () => affichage_detail(id, resultat));
         donneGlobales.resultat_par_question.appendChild(bouton)
     }
-    const message_resultat = document.createElement('div');
-    message_resultat.className = 'message_resultat';
-    message_resultat.textContent = `Score : ${nombre_question_reussie}/${nombre_question_totale}`;
-    donneGlobales.message_resultat.appendChild(message_resultat);
+    donneGlobales.message_resultat.appendChild(`Score : ${nombre_question_reussie}/${nombre_question_totale}`);
 }
 
 function affichage_detail(id, resultat) {
@@ -57,13 +54,13 @@ function affichage_detail(id, resultat) {
     // Affichage de la réponse de l'utilisateur
         const reponse_utilisateur = document.createElement('span');
         reponse_utilisateur.textContent = 'Votre réponse : ' + resultat.reponse;
-        if(resultat.reussi){reponse_utilisateur.style.color = 'green';}
+        if(resultat.reussi){reponse_utilisateur.style.color = 'var(--reussi)';}
         else {
-            reponse_utilisateur.style.color = 'red';
+            reponse_utilisateur.style.color = 'var(--echec)';
         // Affichage de la bonne réponse (uniquement si c'est faux)
             const bonne_reponse = document.createElement('span');
             bonne_reponse.textContent = 'Réponse attendue : ' + resultat.bonne_reponse;
-            bonne_reponse.style.color = 'green';
+            bonne_reponse.style.color = 'var(--reussi)';
             donneGlobales.detail_resultat.appendChild(bonne_reponse);}
         donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
     }
