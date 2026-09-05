@@ -1,0 +1,28 @@
+/* Style pour la page de résultat */
+
+.affichage_resultat {
+    display: flex;
+    flex-direction: column;
+}
+
+.message_resultat {
+    font-weight: bold;
+}
+
+.resultat_par_question {
+    display: flex;
+    flex-direction: row;
+    row-gap: 15px;
+}
+
+.bouton_resultat {
+    color: white;
+    font-style: italic;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.detail_resultat {
+    display: flex;
+    flex-direction: column;
+}

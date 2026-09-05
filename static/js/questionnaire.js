@@ -23,7 +23,7 @@
             const urlParams = new URLSearchParams(window.location.search);
             const questionnaire = urlParams.get('questionnaire');
             const titreElement = document.querySelector('.titre');
-            titreElement.textContent = `Questionnaire : ${questionnaire}`;
+            titreElement.textContent = `Questionnaire : ${questionnaire.replace('_',' ')}`;
         } catch (error) {
             console.error("Erreur lors de l'affichage du titre :", error);
         }
@@ -138,16 +138,18 @@
         if (item.categorie == "Question de détail") {
             resultats[item.id] = {
                 reussi: false,
+                question: item.question,
                 reponse: reponse_utilisateur,
-                affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                bonne_reponse: item.reponses[0]
             };
         // Si la réponse de l'utilisateur comprends l'un des mots clefs valides, sa réponse est juste
             for (let reponse of reponses_valides) {
                 if (reponse_utilisateur.toLowerCase().includes(reponse)) {
                     resultats[item.id] = {
                         reussi: true,
+                        question: item.question,
                         reponse: reponse_utilisateur,
-                        affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                        bonne_reponse: item.reponses[0]
                     };
                 }
             }                                           
@@ -156,15 +158,17 @@
             if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
                 resultats[item.id] = {
                     reussi: true,
+                    question: item.question,
                     reponse: reponse_utilisateur,
-                    affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                    bonne_reponse: item.reponses[0]
                 };
             }
             else {
                 resultats[item.id] = {
                     reussi: false,
+                    question: item.question,
                     reponse: reponse_utilisateur,
-                    affichage_resultat: `Question: ${item.question} - Réponse: ${reponse_utilisateur}`
+                    bonne_reponse: item.reponses[0]
                 };
             }
         }
@@ -191,23 +195,11 @@
 
 
     function affichageResultats(resultats) {
-    // Suppression de la div nom film et catégorie et du bouton 'valider'
-        conteneurNomFilmCategorie.innerHTML = '';
-        boutonValider.style.display = "none";
-    // Initialisation de la variable pour l'affichage des résultats
-        let info_resultat = '<div class="conteneur_resultats">';
-    // Parcours des résultats
-        for (let id = 1; id < resultats.length; i++) {
-        // Affichage du bouton
-            let couleur;
-            if (resultats[id].reussi) {couleur = 'var(--vert)';} else {couleur = 'var(--rouge)';}
-            info_resultat += `
-                <button class="bouton_resultat" style="color: ${couleur} onclick="afficherCorrection(${resultats[id]})">${id}</button>"
-            `;
-        }
-        info_resultat += `Résultat : ${resultats}` // Supprimer après avoir implémenté la gestion finale
-        info_resultat+=`</div>`;
-        conteneurQuestion.innerHTML = info_resultat
+        // Stocker dans localStorage (persiste après fermeture du navigateur)
+        localStorage.setItem("resultat", JSON.stringify(resultats));
+
+        // Rediriger vers la page résultat
+        window.location.href = "resultat.html";
     }
 
     function afficherCorrection(resultat) {

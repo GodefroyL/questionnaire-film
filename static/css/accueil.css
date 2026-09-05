@@ -39,7 +39,7 @@
     margin-left: 20px;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
     .accueil {
     border-top-right-radius: 0px;
     border-bottom-right-radius: 0px;

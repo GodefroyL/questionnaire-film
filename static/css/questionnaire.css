@@ -134,7 +134,7 @@
     animation: errorAnimation 0.5s ease-in-out;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
     .conteneur_question {
         max-width: 90%;
     }

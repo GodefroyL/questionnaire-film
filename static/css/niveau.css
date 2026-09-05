@@ -36,7 +36,7 @@
     text-decoration: none;
 }
 
-@media (max-width: 550px) {
+@media (max-width: 800px) {
     .choix_niveaux {
         flex-direction: column;
         row-gap: 10px;
