@@ -63,12 +63,16 @@ function affichage_detail(id, resultat) {
         bonne_reponse.style.color = 'green';
         donneGlobales.detail_resultat.appendChild(bonne_reponse);}
     donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
-    const bouton = document.getElementById(`question${id}`)
-    bouton.addEventListener('click', () => fermer_detail())
+    const bouton = document.getElementById(`question${id}`);
+    bouton.addEventListener('click', () => fermer_detail(id,resultat));
 
 }
 
-function fermer_detail() {donneGlobales.detail_resultat.innerHTML = ''}
+function fermer_detail(id,resultat) {
+    donneGlobales.detail_resultat.innerHTML = '';
+    const bouton = document.getElementById(`question${id}`);
+    bouton.addEventListener("click", () => affichage_detail(id, resultat));
+}
 
 recup_info();
 affichage_resultat();
