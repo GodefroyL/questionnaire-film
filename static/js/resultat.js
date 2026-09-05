@@ -55,3 +55,4 @@ function detail_resultat(resultat) {
 
 recup_info();
 affichage_resultat();
+console.log(document.body)
