@@ -63,6 +63,8 @@ function affichage_detail(id, resultat) {
             bonne_reponse.style.color = 'var(--reussi)';
             donneGlobales.detail_resultat.appendChild(bonne_reponse);}
         donneGlobales.detail_resultat.appendChild(reponse_utilisateur);
+    } else {
+        id_affichée = null;
     }
 }
 
