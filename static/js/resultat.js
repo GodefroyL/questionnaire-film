@@ -24,11 +24,9 @@ function recup_info () {
 function affichage_resultat() {
     let nombre_question_reussie = 0;
     let nombre_question_totale = 0;
-    console.log(nombre_question_totale);
     for(const id in donneGlobales.resultats) {
         nombre_question_totale++;
         const resultat = donneGlobales.resultats[id];
-        console.log(resultat);
         const bouton = document.createElement('button');
         bouton.className = 'bouton_resultat';
         bouton.id = `question${id}`
@@ -47,7 +45,7 @@ function affichage_resultat() {
 }
 
 function affichage_detail(id, resultat) {
-    donneGlobales.detail_resultat.innerHTML = '';
+    donneGlobales.detail_resultat.appendChild('');
     
     if (id_affichée!==id) {
         id_affichée = id;
