@@ -42,14 +42,15 @@ function affichage_resultat() {
     }
     const message_resultat = document.createElement('div');
     message_resultat.className = 'message_resultat';
-    message_resultat.textContent = `Résultat : ${nombre_question_reussie}/${nombre_question_totale}`;
+    message_resultat.textContent = `Score : ${nombre_question_reussie}/${nombre_question_totale}`;
     donneGlobales.message_resultat.appendChild(message_resultat);
 }
 
 function affichage_detail(id, resultat) {
-    if (id_affichée==id) {donneGlobales.detail_resultat.innerHTML = '';} else {
+    donneGlobales.detail_resultat.innerHTML = '';
+    
+    if (id_affichée!==id) {
         id_affichée = id;
-        donneGlobales.detail_resultat.innerHTML = '';
     // Affichage de la question
         const question = document.createElement('span');
         question.textContent = 'Question : ' + resultat.question;
