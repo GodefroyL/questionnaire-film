@@ -22,7 +22,7 @@ function affichage_resultat() {
     let nombre_question_reussie = 0;
     const liste_id = Object.keys(donneGlobales.resultats)
     const nombre_question_totale = liste_id.length;
-    console.log(donneGlobales.resultats)
+    console.log(liste_id)
     for(let id in liste_id) {
         resultat = donneGlobales.resultats[id];
         const bouton = document.createElement('button');
