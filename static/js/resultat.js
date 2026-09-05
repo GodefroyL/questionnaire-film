@@ -41,7 +41,7 @@ function affichage_resultat() {
     donneGlobales.message_resultat.appendChild(message_resultat);
 }
 
-function detail_resultat(resultat) {
+function affichage_detail(resultat) {
     const question = document.createElement('span');
     question.textContent = 'Question : ' + resultat.question;
     donneGlobales.detail_resultat.appendChild(question);
