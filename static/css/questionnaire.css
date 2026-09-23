@@ -2,13 +2,9 @@
 
 /* Div pour le nom du film et la catégorie */
 .conteneur_nom_film_categorie {
-    position: fixed;
     display: flex;
     flex-direction: column;
-    margin: 20px;
-    margin-top: 60px;
-    top: 0;
-    left: 25vh;
+    margin-left: -78%;
 }
 
 .conteneur_pointe {
