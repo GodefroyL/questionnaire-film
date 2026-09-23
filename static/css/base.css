@@ -36,7 +36,6 @@ header {
 main {
     display: flex;
     flex-direction: row;
-    height: 100%;
 }
 
 a {
@@ -47,11 +46,11 @@ a {
 .contenu {
     padding: 20px;
     width: 70%;
+    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
     background-color: var(--couleur-fond);
-    padding: 10px;
 }
 
 .titre {
@@ -76,5 +75,12 @@ a {
     }
     .titre {
         font-size: 1.5rem;
+    }
+    main {
+        flex-direction: column;
+    }
+    .pub {
+        height: auto;
+        width: 100%;
     }
 }
