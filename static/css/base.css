@@ -36,6 +36,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    margin-top: 55px;
 }
 
 a {
@@ -56,7 +57,7 @@ a {
 .titre {
     text-align: center;
     font-size: 2rem;
-    margin-top: 90px;
+    margin: 30px;
     color: var(--couleur-fond-header);
     -webkit-text-stroke: 0.3px black;
     font-weight: bold;
