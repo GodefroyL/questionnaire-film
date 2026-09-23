@@ -45,6 +45,7 @@ a {
 
 .contenu {
     padding: 20px;
+    width: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,7 +64,7 @@ a {
 
 .pub {
     background-color: red;
-    width: 10%;
+    width: 15%;
 }
 
 /* Responsive global */
