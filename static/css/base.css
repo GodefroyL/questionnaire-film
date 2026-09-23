@@ -56,6 +56,10 @@ a {
     font-weight: bold;
 }
 
+.pub {
+    background-color: white;
+    width: 10%;
+}
 
 /* Responsive global */
 @media (max-width: 800px) {
