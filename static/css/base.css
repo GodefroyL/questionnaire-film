@@ -36,6 +36,7 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    height: 100%;
 }
 
 a {
@@ -47,10 +48,10 @@ a {
     padding: 20px;
     width: 70%;
     display: flex;
-    justify-content: center;
     align-items: center;
     flex-direction: column;
     background-color: var(--couleur-fond);
+    padding: 10px;
 }
 
 .titre {
@@ -63,7 +64,7 @@ a {
 }
 
 .pub {
-    background-color: red;
+    background-color: white;
     width: 15%;
 }
 
