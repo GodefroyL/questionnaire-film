@@ -20,13 +20,15 @@
         <header>
             <a href="{{ site.url }}/index.html">DGL - film</a>
         </header>
-        <div class="titre">
-            {{ page.title }}
-        </div>
-        <div class="contenu">
+        <main>
             <div class="pub"></div>
-            {{ content }}
+            <div class="contenu">
+                <div class="titre">
+                    {{ page.title }}
+                </div>
+                {{ content }}
+            </div>
             <div class="pub"></div>
-        </div>
+        </main>
     </body>
 </html>
