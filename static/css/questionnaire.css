@@ -140,7 +140,7 @@
     .conteneur_nom_film_categorie {
         position: static;
         margin: 10px;
-        margin-left: -3%;
+        margin-left: 0;
         align-self: baseline;
     }
 }
