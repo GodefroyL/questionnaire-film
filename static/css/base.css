@@ -21,7 +21,7 @@ body {
 header {
     background-color: var(--couleur-fond-header);
     width: 100%;
-    position: fixed;
+    position: absolute;
     padding-bottom: 5px;
     top: 0;
     right: 0;
@@ -88,6 +88,7 @@ a {
     .contenu {
         width: 100%;
         height: auto;
+        padding: 0;
     }
     .pub {
         height: 70px;
