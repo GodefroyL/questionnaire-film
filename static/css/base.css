@@ -69,8 +69,8 @@ a {
 }
 
 .pub * {
-    max-width: fit-content;
-    max-height: fit-content;
+    max-width: inherit;
+    max-height: inherit;
 }
 
 /* Responsive global */
