@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Chargement de l'URL initiale
-        webView.loadUrl("https://godefroyl.github.io/questionnaire-film/")
+        webView.loadUrl("https://films.dgl-application.fr/")
     }
 
     override fun onBackPressed() {

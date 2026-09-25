@@ -33,6 +33,10 @@
 }
 
 @media (max-width: 800px) {
+    .accueil_categorie {
+        min-height: min-content;
+        height: auto;
+    }
     .ligne_categorie {
         width: 90%;
         column-gap: 2%;
