@@ -15,7 +15,7 @@ fetch('../static/json/liste_film.json')
             }
 
             const bouton = document.createElement('a');
-            bouton.href = `https://godefroyl.github.io/questionnaire-film/html/questionnaire?film=${index}`;
+            bouton.href = `{{ site.url }}/html/questionnaire?questionnaire=${index}`;
             bouton.className = 'bouton_par_film';
             bouton.textContent = info_fichier.nom;
             bouton.style.backgroundColor = listeCouleurs[(~~(index / film_par_colonne)) % 5];
