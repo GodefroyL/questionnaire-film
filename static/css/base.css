@@ -37,6 +37,7 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 55px;
+    background-color: var(--couleur-fond);
 }
 
 a {
@@ -92,7 +93,6 @@ a {
     .pub {
         height: 70px;
         width: 100%;
-        margin-top: 60px;
     }
     .pub * {
         max-height: 70px;
