@@ -69,8 +69,7 @@ a {
 }
 
 .pub * {
-    max-width: inherit;
-    max-height: inherit;
+    max-width: 15%;
 }
 
 /* Responsive global */
@@ -94,5 +93,8 @@ a {
         height: 70px;
         width: 100%;
         margin-top: 60px;
+    }
+    .pub * {
+        max-height: 70px;
     }
 }
