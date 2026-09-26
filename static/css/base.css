@@ -36,7 +36,9 @@ header {
 main {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     margin-top: 55px;
+    background-color: var(--couleur-fond);
 }
 
 a {
@@ -46,7 +48,8 @@ a {
 
 .contenu {
     padding: 30px;
-    width: 70%;
+    width: 60%;
+    min-width: 600px;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -65,11 +68,11 @@ a {
 
 .pub {
     background-color: white;
-    width: 15%;
+    width: 20%;
 }
 
 .pub * {
-    max-width: 15%;
+    max-width: 20%;
 }
 
 /* Responsive global */
@@ -92,7 +95,6 @@ a {
     .pub {
         height: 70px;
         width: 100%;
-        margin-top: 60px;
     }
     .pub * {
         max-height: 70px;
