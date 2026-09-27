@@ -64,7 +64,9 @@ a {
     font-weight: bold;
 }
 
-.pub-ordinateur {
+/* Pub */
+.pub-ordi {
+    display: block;
     background-color: grey;
     width: 20%;
     height: auto;
@@ -98,11 +100,12 @@ a {
         padding: 20px 0;
     }
     .pub-tel {
+        display: block;
         background-color: grey;
         width: 100%;
         height: auto;
     }
-    .pub-ordinateur {
+    .pub-ordi {
         display: none;
     }
 }
