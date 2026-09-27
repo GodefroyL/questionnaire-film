@@ -89,6 +89,7 @@ a {
     }
     .contenu {
         width: 100%;
+        min-width: 100%;
         height: auto;
         padding: 20px 0;
     }
