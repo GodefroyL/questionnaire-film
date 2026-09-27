@@ -66,10 +66,10 @@ a {
 
 /* Pub */
 .pub-ordi {
-    display: block;
+    display: flex;
     background-color: grey;
     width: 20%;
-    max-width: 20%;
+    max-width: 20% !important;
     height: auto;
 }
 .pub-tel {
@@ -78,7 +78,7 @@ a {
 .pub {
     background-color: grey;
     width: 100vw;
-    height: auto;
+    height:auto;
 
 }
 
@@ -104,7 +104,9 @@ a {
         display: block;
         background-color: grey;
         max-width: 100vw;
-        height: auto;
+    }
+    .haut {
+        height: 70px !important;
     }
     .pub-ordi {
         display: none;
