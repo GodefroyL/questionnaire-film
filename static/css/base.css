@@ -16,6 +16,7 @@ body {
     padding: 0;
     display: flex;
     flex-direction: column;
+    background-color: var(--couleur-fond);
 }
 
 header {
@@ -46,12 +47,12 @@ a {
 
 .contenu {
     padding: 30px;
-    width: 70%;
+    width: 60%;
+    min-width: 580px;
     height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
-    background-color: var(--couleur-fond);
 }
 
 .titre {
@@ -63,13 +64,19 @@ a {
     font-weight: bold;
 }
 
-.pub {
-    background-color: white;
-    width: 15%;
+.pub-ordinateur {
+    background-color: grey;
+    width: 20%;
+    height: auto;
 }
+.pub-tel {
+    display: none;
+}
+.pub {
+    background-color: grey;
+    width: 100%;
+    height: auto;
 
-.pub * {
-    max-width: 15%;
 }
 
 /* Responsive global */
@@ -90,12 +97,12 @@ a {
         height: auto;
         padding: 20px 0;
     }
-    .pub {
-        height: 70px;
+    .pub-tel {
+        background-color: grey;
         width: 100%;
-        margin-top: 60px;
+        height: auto;
     }
-    .pub * {
-        max-height: 70px;
+    .pub-ordinateur {
+        display: none;
     }
 }
