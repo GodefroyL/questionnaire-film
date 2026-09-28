@@ -33,14 +33,6 @@
   },
   {
     "id": 4,
-    "categorie": "Phrase d'avant",
-    "film": "La grande Vadrouille",
-    "question": "A l'opéra maitre",
-    "info": "",
-    "reponses": ["et où vous croyez-vous"]
-  },
-  {
-    "id": 5,
     "categorie": "Phrase d'après",
     "film": "Le père tranquille",
     "question": "C'est un guet apens",
@@ -48,15 +40,7 @@
     "reponses": ["non ça va être une juste correction", "non ca va etre une juste correction"]
   },
   {
-    "id": 6,
-    "categorie": "Remettre dans l'ordre",
-    "film": "test",
-    "question": ["replique 1", "réplique 2", "réplique 3"],
-    "info": "",
-    "reponses": [2,1,3]
-  },
-  {
-    "id": 7,
+    "id": 5,
     "categorie": "Question de détail",
     "film": "Le prénom",
     "question": "Quel est le surnom que Vincent donne à Claude ?",

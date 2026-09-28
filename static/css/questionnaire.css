@@ -79,35 +79,11 @@
     color: white;
 }
 
-/* Affichage des résultats */
-.bouton_resultat {
-    padding: 5px;
-    border-radius: 10px;
-    color: white;
+input[type="text"] {
+    field-sizing: content;
+    min-width: 3ch;
+    max-width: 100%;
 }
-
-/* Style pour les résultats */
-.resultats-container {
-    background-color: white;
-    border-radius: 10px;
-    padding: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    max-width: 600px;
-    margin: 20px auto;
-    text-align: center;
-}
-
-.resultats-container h2 {
-    color: var(--bleu);
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.resultats-container p {
-    font-size: 1.2rem;
-    color: #333;
-}
-
 
 /* Animations de réussite ou d'échec */
 @keyframes successAnimation {

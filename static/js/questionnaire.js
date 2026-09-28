@@ -100,7 +100,7 @@
                 question += `
                     </div>
                 `;
-                setupInputWidthAdjustment();
+//                setupInputWidthAdjustment();
                 break;
 
             case "Remettre dans l'ordre":
@@ -204,10 +204,6 @@
 
         // Rediriger vers la page résultat
         window.location.href = "resultat.html";
-    }
-
-    function afficherCorrection(resultat) {
-        // A faire
     }
 
     // Fonction pour ajuster la largeur des inputs pour les citations à trous
