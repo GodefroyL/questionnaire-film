@@ -53,6 +53,8 @@ a {
     display: flex;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: 2147483647;
 }
 
 .titre {
@@ -77,9 +79,6 @@ a {
 }
 .pub {
     background-color: grey;
-    width: 100vw;
-    height:auto;
-
 }
 
 /* Responsive global */
