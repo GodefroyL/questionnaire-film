@@ -49,7 +49,6 @@ a {
     padding: 30px;
     width: 60%;
     min-width: 580px;
-    height: 100vh;
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -102,10 +101,13 @@ a {
     .pub-tel {
         display: block;
         background-color: grey;
-        max-width: 100vw;
+        margin-bottom: 5px;
     }
     .haut {
-        height: 70px !important;
+        max-height: 80px !important;
+    }
+    .haut * {
+        max-height: 80px !important;
     }
     .pub-ordi {
         display: none;
