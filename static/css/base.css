@@ -38,6 +38,7 @@ main {
     display: flex;
     flex-direction: row;
     margin-top: 55px;
+    min-height: 60vh;
 }
 
 a {
@@ -92,6 +93,7 @@ a {
     }
     main {
         flex-direction: column;
+        min-height: 0;
     }
     .contenu {
         width: 100%;
