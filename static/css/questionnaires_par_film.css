@@ -36,10 +36,10 @@
 @media (max-width: 800px) {
     .ligne {
         width: 96%;
-        min-width: none;
+        min-width: 0;
     }
     .bouton_par_film {
         width: 44%;
-        min-width: none;
+        min-width: 0;
     }
 }
