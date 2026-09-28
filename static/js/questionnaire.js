@@ -76,7 +76,6 @@
             case "Quel film ?":
             case "Qui parle ?":
             case "A qui est adressé cette phrase ?":
-            case "Phrase d'avant":
             case "Phrase d'après":
             case "Question de détail":
                 question += `
@@ -88,7 +87,7 @@
 
                 case "Citation à trous":
                 question += `
-                    <div class="info">${item.info}</div>
+                    <div class="info">${item.info}<br>"qu'il" ou "n'est" = 2 mots</div>
                     <div class="question">
                     ${item.question[0]}
                 `;
@@ -103,7 +102,7 @@
                 `;
                 setupInputWidthAdjustment();
                 break;
-                
+
             case "Remettre dans l'ordre":
                 question += `
                     Pas encore implémenté
