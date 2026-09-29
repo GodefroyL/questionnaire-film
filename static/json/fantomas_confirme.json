@@ -1,0 +1,65 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Fantomas",
+    "question": ["Quoi qu'il en soit,","Fantomas ! Tu peux bien avoir 100", ", tu n'auras jamais qu'une",", ne la relève pas trop, elle finira","!"],
+    "info": "Nombre de mots : 3 - 1 - 2 - 2",
+    "reponses": [["tu peux trembler visages seule tête par tomber"], ["tu peux trembler visages seule tete par tomber"]]
+  },
+  {
+    "id": 2,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas",
+    "question": "Je ne parleraai qu'en présence de mon avocat !",
+    "info": "",
+    "reponses": ["vous allez en avoir besoin d'un avocat", "vous allez en avoir besoin d'un avocat et d'un bon", "vous allez en avoir besoin d un avocat", "vous allez en avoir besoin d un avocat et d un bon"]
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas",
+    "question": "Et à la une hein ! Sur 4 colonnes ! ... Ca va encore faire monter le tirage.",
+    "info": "",
+    "reponses": ["le directeur", "le directeur du point du jour", "le directeur du journal", "directeur", "robert dalban"]
+  },
+  {
+    "id": 4,
+    "categorie": "A qui est adressé cette phrase ?",
+    "film": "Fantomas",
+    "question": "Tu n'as pas fini d'entendre parler de toi.",
+    "info": "",
+    "reponses": ["fandor", "jérome fandor", "le journaliste", "jean marais", "journalise"]
+  },
+  {
+    "id": 5,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas",
+    "question": "Du sang à la une ! Voilà ce qui vous fait vivre. Mais s'il n'y avait pas d'assassain et de crime, vous n'auriez plus qu'a vous faire inscrire au chomage",
+    "info": "",
+    "reponses": ["Mais après vous monsieur le commissaire", "Mais après vous m le commissaire", "Mais après vous monsieur le commissaire car nous, nous n'avons pas que les crimes pour exercer notre métier", "Mais après vous m le commissaire car nous, nous n'avons pas que les crimes pour exercer notre métier", "Mais après vous monsieur le commissaire car nous, nous n'avons pas que les crimes pour exercer notre metier", "Mais après vous m le commissaire car nous, nous n'avons pas que les crimes pour exercer notre metier"]
+  },
+  {
+    "id": 6,
+    "categorie": "Question de détail",
+    "film": "Fantomas",
+    "question": "Quel délai Fantomas donne-t-il au journalise pour écrire un arcticle qui lui convient ?",
+    "info": "",
+    "reponses": ["48", "48h", "quarante-huit", "quarante huit"]
+  },
+  {
+    "id": 7,
+    "categorie":"Qui parle ?",
+    "film": "Fantomas",
+    "question": "Encore un peu de patience, deux cerveaux valent mieux qu'un !",
+    "info": "",
+    "reponses": ["fantomas"]
+  },
+  {
+    "id": 8,
+    "categorie":"A qui est adressé cette phrase ?",
+    "question": "Alors Fantomas vous a donné 48 heures pour l'exécution. Mais pour l'exécution de qui, l'exécution de quoi ?",
+    "info": "",
+    "reponses": ["fandor", "jérome fandor", "le journaliste", "jean marais", "journalise"]
+  }
+]

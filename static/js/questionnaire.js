@@ -75,7 +75,7 @@
         switch (item.categorie) {
             case "Quel film ?":
             case "Qui parle ?":
-            case "A qui est adressé cette phrase ?":
+            case "A qui est adressée cette phrase ?":
             case "Phrase d'après":
             case "Question de détail":
                 question += `

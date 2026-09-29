@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas",
+    "question": "Mais bougre d'imbécile, c'est en changeant de veste ! Il faut que je pense à tout ! Moi !",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+  },
+  {
+    "id": 2,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Fantomas",
+    "question": "Quand je t'ai pas vu ce matin au journal, je ... j'ai eu peur qu'il te sois arrivé quelque chose",
+    "info": "",
+    "reponses": ["fandor", "le journaliste", "jean marais"]
+  },
+  {
+    "id": 3,
+    "categorie": "Question de détail",
+    "film": "Fantomas",
+    "question": "Quel est le nom du journal dans le film ?",
+    "info": "",
+    "reponses": ["le point du jour"]
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas",
+    "question": "Non, non ce n'est pas fini ! Nous nous retrouverons Fantomas, et cette fois tu ne m'échaperas pas, tu seras puni !",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+  },
+  {
+    "id": 5,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas",
+    "question": "Tu boiras et tu mangeras quand tu auras parlé",
+    "info": "",
+    "reponses": ["48 heures de diètes n'ont jamais tué personne monsieur le commissaire."]
+  },
+  {
+    "id": 6,
+    "categorie": "Citation à trous",
+    "film": "Fantomas",
+    "question": ["Attention,", "quelques", "passera te","."],
+    "info": "",
+    "reponses": [["dans instants fantomas prendre"]]
+  },
+  {
+    "id": 7,
+    "categorie":"A qui est adressée cette phrase ?",
+    "film": "Fantomas",
+    "question": "Mais non, c'est pourtant vrai qu'il était faux",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas",
+    "question": "Ah bravo monsieur le comissaire, j'ai bien marché !",
+    "info": "",
+    "reponses": ["et bien moi je ne marche plus"]
+  }
+]
