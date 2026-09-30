@@ -1,3 +1,8 @@
+// =============================================================================
+// questionnaire.js
+// Dépend de validation.js (fonctions normaliser et estCorrect), à charger avant.
+// =============================================================================
+
 // Encapsulation des variables globales dans une IIFE pour éviter les conflits
 (function() {
     // Sélecteurs DOM stockés dans des variables pour éviter les appels répétés
@@ -10,6 +15,7 @@
     let index = 0;
     let resultats = {};
     let deuxieme_chance = false;
+    let verrou = false; // Verrou anti double validation : pendant les 500 ms d'animation, un second clic ou un second appui sur Entrée faisait index++ deux fois et sautait une question.
 
     // Fonction principale pour lancer le questionnaire
     async function main() {
@@ -23,11 +29,12 @@
             const urlParams = new URLSearchParams(window.location.search);
             const questionnaire = urlParams.get('questionnaire');
             const titreElement = document.querySelector('.titre');
-            titreElement.textContent = `Questionnaire : ${questionnaire.replace('_',' ')}`;
+            titreElement.textContent = `Questionnaire : ${questionnaire.replace(/_/g, ' ')}`; // /_/g car replace('_', ' ') ne remplacerait que le premier "_"
         } catch (error) {
             console.error("Erreur lors de l'affichage du titre :", error);
         }
     }
+
     // Fonction pour charger le fichier JSON
     async function chargementDonnees() {
         try {
@@ -48,6 +55,12 @@
     // Récupération de la question courante
         const item = donnee[index];
 
+        // Si le JSON n'a pas pu être chargé, item est undefined on sort proprement.
+        if (!item) {
+            conteneurQuestion.innerHTML = `<div class="info">Impossible de charger le questionnaire.</div>`;
+            return;
+        }
+
         // Affichage du nom du film et de la catégorie
         let nom_film_categorie = '';
         if (item.categorie == 'Quel film ?') {
@@ -56,13 +69,11 @@
             `;
         }
         else {
-            nom_film_categorie = `
-                <div class="conteneur_pointe nom_film">${item.film}</div>
-                <div class="conteneur_pointe categorie">${item.categorie}</div>
-            `;
+            nom_film_categorie += `<div class="conteneur_pointe nom_film">${item.film}</div>`;
+            nom_film_categorie += `<div class="conteneur_pointe categorie">${item.categorie}</div>`;
         }
         conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
-        
+
     // Remplissage de la zone de question selon la catégorie
         let question = '';
         if (deuxieme_chance) {
@@ -85,7 +96,7 @@
                 `;
                 break;
 
-                case "Citation à trous":
+            case "Citation à trous":
                 question += `
                     <div class="info">${item.info}<br>"qu'il" ou "n'est" = 2 mots</div>
                     <div class="question">
@@ -100,7 +111,6 @@
                 question += `
                     </div>
                 `;
-//                setupInputWidthAdjustment();
                 break;
 
             case "Remettre dans l'ordre":
@@ -108,76 +118,44 @@
                     Pas encore implémenté
                 `;
                 break;
-                
             default:
                 break;
         }
         conteneurQuestion.innerHTML = question;
+
+        // Place le curseur dans le premier champ de saisie : on peut répondre directement au clavier, sans cliquer, et la touche Entrée (voir plus bas) enchaîne ensuite les champs.
+        const premierChamp = conteneurQuestion.querySelector('input[name="reponse"]');
+        if (premierChamp) premierChamp.focus();
     }
 
-    // Fonction pour valider l'élément courant
+    // Fonction pour valider l'élément courant toute la partie "normalisation + comparaison" (environ 60 lignes, avec deux blocs quasi identiques pour "Question de détail" et le reste) est remplacée par des appels à normaliser() et estCorrect() de validation.js.
     function valider() {
-    // Récupération des réponses valides
+        // Ignore les validations pendant l'animation entre deux questions
+        if (verrou) return;
+
         const item = donnee[index];
-        let reponses_valides = item.reponses;
 
-        // Récupération de la réponse de l'utilisateur
-        const reponse_entree = document.querySelectorAll('input[name="reponse"]');
+        // On récupère les valeurs brutes des champs ; la normalisation est faite dans estCorrect().
+        const saisies = [...document.querySelectorAll('input[name="reponse"]')].map(input => input.value);
 
-    // Normalisation de la réponse de l'utilisateur pour la vérification
-        let reponse_utilisateur = "";
-        let input_utilisateur = "";
-        reponse_entree.forEach(input => {
-            input_utilisateur = input.value.trim().toLowerCase().replace(/[.,\/#!$%\^&\*;:{}=\-_`~()]/g," ").replace(/\s{2,}/g," ");
-            reponse_utilisateur += " " + input_utilisateur;
-        });
-        reponse_utilisateur = reponse_utilisateur.slice(1); // Supprime l'espace initial
+        // Saisie entièrement vide : on ne valide pas, pour ne pas consommer une tentative par erreur.
+        if (!saisies.some(valeur => valeur.trim() !== '')) return;
 
-    // Vérification de la réponse de l'utilisateur (la vérification est différente pour la catégorie "question de détail")
-        if (item.categorie == "Question de détail") {
-            resultats[item.id] = {
-                reussi: false,
-                categorie: item.categorie,
-                question: item.question,
-                reponse: reponse_utilisateur,
-                bonne_reponse: item.reponses[0]
-            };
-        // Si la réponse de l'utilisateur comprends l'un des mots clefs valides, sa réponse est juste
-            for (let reponse of reponses_valides) {
-                if (reponse_utilisateur.toLowerCase().includes(reponse)) {
-                    resultats[item.id] = {
-                        reussi: true,
-                        categorie: item.categorie,
-                        question: item.question,
-                        reponse: reponse_utilisateur,
-                        bonne_reponse: item.reponses[0]
-                    };
-                }
-            }                                           
-        } else {
-    // A voir : mettre les deux réponses qd il y a deux échecs
-        // La réponse de l'utilisateur doit correspondre à une des réponses valides
-            if (reponses_valides.some(reponse => reponse == reponse_utilisateur)) {
-                resultats[item.id] = {
-                    reussi: true,
-                    categorie: item.categorie,
-                    question: item.question,
-                    reponse: reponse_utilisateur,
-                    bonne_reponse: item.reponses[0]
-                };
-            }
-            else {
-                resultats[item.id] = {
-                    reussi: false,
-                    categorie: item.categorie,
-                    question: item.question,
-                    reponse: reponse_utilisateur,
-                    bonne_reponse: item.reponses[0]
-                };
-            }
-        }
+        verrou = true;
 
-    // Annimation de réussite ou d'échec
+        // Vérification déléguée à validation.js.
+        // Passez { tolerant: true } en 3e argument pour accepter de petites fautes de frappe (par exemple pour la catégorie "Phrase d'après").
+        const reussi = estCorrect(item, saisies, { tolerant: true });
+
+        resultats[item.id] = {
+            reussi: reussi,
+            categorie: item.categorie,
+            question: item.question,
+            reponse: normaliser(saisies.join(" ")),
+            bonne_reponse: item.reponses[0]
+        };
+
+    // Animation de réussite ou d'échec
         if (resultats[item.id].reussi){
             conteneurQuestion.classList.add('reussite');
         // On reinitialise la variable deuxième chance pour la question suivante
@@ -194,9 +172,10 @@
             if (!deuxieme_chance) {index++;}
             if (index < donnee.length){affichageQuestion(index);}
             else {affichageResultats(resultats)}
-        }, 500);            
+            // [AJOUT] Déverrouille une fois la question suivante affichée
+            verrou = false;
+        }, 500);
     }
-
 
     function affichageResultats(resultats) {
         // Stocker dans localStorage (persiste après fermeture du navigateur)
@@ -206,41 +185,29 @@
         window.location.href = "resultat.html";
     }
 
-    // Fonction pour ajuster la largeur des inputs pour les citations à trous
-    function setupInputWidthAdjustment() {
-        conteneurQuestion.addEventListener('input', function(e) {
-            if (e.target.matches('input[type="text"][name="reponse"]')) {
-                const input = e.target;
-                const tempSpan = document.createElement('span');
-                tempSpan.style.visibility = 'hidden';
-                tempSpan.style.whiteSpace = 'pre';
-                tempSpan.style.fontFamily = window.getComputedStyle(input).fontFamily;
-                tempSpan.style.fontSize = window.getComputedStyle(input).fontSize;
-                tempSpan.style.padding = window.getComputedStyle(input).padding;
-                tempSpan.textContent = input.value || input.placeholder;
-
-                document.body.appendChild(tempSpan);
-                const newWidth = Math.min(
-                    Math.max(tempSpan.offsetWidth + 20, 50),
-                    300
-                );
-                document.body.removeChild(tempSpan);
-
-                input.style.width = newWidth + 'px';
-            }
-        });
-
-        // Déclencher l'ajustement pour les inputs existants
-        document.querySelectorAll('input[type="text"][name="reponse"]').forEach(input => {
-            input.dispatchEvent(new Event('input'));
-        });
-    }
-
-    // Écouteurs d'événements pour les boutons
+    // Écouteurs d'événements
     boutonValider.addEventListener('click', valider);
-    boutonValider.addEventListener('keypress', function(e) {
-        if (e.key === 'Enter') {
-            valider();
+
+    // Touche Entrée dans une zone de saisie :
+    //  - si ce n'est pas le dernier champ, on passe au champ suivant ;
+    //  - si c'est le dernier champ (ou le seul), on valide.
+    // L'écouteur est posé UNE SEULE FOIS sur le conteneur (délégation d'événements) : le contenu du conteneur est recréé à chaque question via innerHTML, donc un écouteur posé sur les champs serait perdu.
+    conteneurQuestion.addEventListener('keydown', function(e) {
+        // On ne réagit qu'à Entrée, dans un champ de réponse
+        if (e.key !== 'Enter') return;
+        if (!e.target.matches('input[name="reponse"]')) return;
+        // Ignore l'Entrée qui sert à valider un mot dans un clavier de composition (saisie en cours sur certains claviers mobiles)
+        if (e.isComposing) return;
+
+        e.preventDefault(); // empêche tout comportement par défaut (envoi de formulaire...)
+
+        const champs = [...conteneurQuestion.querySelectorAll('input[name="reponse"]')];
+        const position = champs.indexOf(e.target);
+
+        if (position < champs.length - 1) {
+            champs[position + 1].focus(); // champ suivant
+        } else {
+            valider();                    // dernier champ : on valide
         }
     });
 
