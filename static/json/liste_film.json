@@ -1,31 +1,43 @@
 [
     {
         "nom": "Fantomas",
+        "lien": "fantomas",
         "niveaux": 2,
         "image": "../static/images/films/fantomas.jpeg"
     },
     {
+        "nom": "Mais où est donc passée la 7eme compagnie",
+        "lien": "7e-compagnie-1",
+        "niveau": 2,
+        "image": "../static/images/films/7e-compagnie-1.jpeg"
+    },
+    {
         "nom": "Le père tranquille",
+        "lien": "pere-tranquille",
         "niveaux": 2,
         "image": "../static/images/films/le_pere_tranquille.jpg"
     },
     {
         "nom": "La grande vadrouille",
+        "lien": "la-grande-vadrouille",
         "niveaux": 2,
         "image": "../static/images/films/la_grande_vadrouille.jpg"
     },
     {
         "nom": "Bienvenue à bord",
+        "lien": "bianvenue-a-bord",
         "niveaux": 2,
         "image": "../static/images/films/bienvenue_a_bord.jpg"
     },
     {
         "nom": "Le Capitan",
+        "lien": "le-capitan",
         "niveaux": 2,
         "image": "../static/images/films/le_capitan.jpg"
     },
     {
         "nom": "Suits, Avocats sur mesures",
+        "lien": "suits",
         "niveau": 2,
         "image": "../static/images/films/suits.jpg"
     }

@@ -56,10 +56,10 @@ function tolerance(valide) {
 // estCorrect(item, saisies, options)
 //  - item     : la question courante (élément du JSON)
 //  - saisies  : tableau des valeurs brutes des champs de saisie (un seul élément, sauf pour "Citation à trous")
-//  - options.tolerant : true pour accepter de petites fautes de frappe (désactivé par défaut : comportement identique à avant)
+//  - options.tolerant : true pour accepter de petites fautes de frappe (activé par défaut)
 // Retourne true / false.
 // -----------------------------------------------------------------------------
-function estCorrect(item, saisies, { tolerant = false } = {}) {
+function estCorrect(item, saisies, { tolerant = true } = {}) {
   // Les champs sont joints puis normalisés d'un seul coup : les espaces
   // multiples ou les champs vides ne créent plus de décalage.
   const entree_utilisateur = normaliser(saisies.join(" "));
@@ -67,9 +67,7 @@ function estCorrect(item, saisies, { tolerant = false } = {}) {
   // Une saisie vide n'est jamais correcte
   if (!entree_utilisateur) return false;
 
-  // "Question de détail" : avant, .includes() sur une sous-chaîne, donc
-  // "148" ou "480" validaient la réponse "48". On cherche maintenant le mot ou
-  // groupe de mots ENTIER, en entourant de espaces les deux chaînes.
+  // "Question de détail" : avant, .includes() sur une sous-chaîne, donc "148" ou "480" validaient la réponse "48". On cherche maintenant le mot ou groupe de mots ENTIER, en entourant de espaces les deux chaînes.
   if (item.categorie === "Question de détail") {
     return valides.some(v => (" " + entree_utilisateur + " ").includes(" " + v + " "));
   }

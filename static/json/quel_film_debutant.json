@@ -5,7 +5,7 @@
     "film": "Rabbi Jacob",
     "question": ["La révolution c'est comme une bicyclette ","!"],
     "info": "Nombre de mots : 6",
-    "reponses": [["quand elle n'avance pas elle tombe"], ["quand elle n avance pas elle tombe"]]
+    "reponses": [["quand elle n avance pas elle tombe"]]
   },
   {
     "id": 2,
@@ -13,6 +13,6 @@
     "film": "",
     "question": "Oui, je crois ...",
     "info": "",
-    "reponses": ["le prénom", "le prenom"]
+    "reponses": ["le prenom"]
   }
 ]

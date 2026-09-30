@@ -15,7 +15,7 @@ fetch('../static/json/liste_film.json')
             }
 
             const bouton = document.createElement('a');
-            bouton.href = `https://films.dgl-application.fr/html/questionnaire_par_film/${info_fichier.nom}.html`;
+            bouton.href = `https://films.dgl-application.fr/html/questionnaire_par_film/${info_fichier.lien}.html`;
             bouton.className = 'bouton_par_film';
             bouton.textContent = info_fichier.nom;
             bouton.style.backgroundColor = listeCouleurs[(~~(index / film_par_colonne)) % 5];

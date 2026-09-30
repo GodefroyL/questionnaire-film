@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "categorie": "Qui parle ?",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Pour moi ce serait du à l'ail, demande lui du à l'ail",
+    "info": "",
+    "reponses": ["tassin", "soldat tassin"]
+  },
+  {
+    "id": 2,
+    "categorie": "Question de détail",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Quand Chaudard dit « Oui ça il serait étonné ! », de qui parle-t-il ?",
+    "info": "",
+    "reponses": ["du capitaine dumont", "capitaine dumont", "de son capitaine", "le capitaine dumont"]
+  },
+  {
+    "id": 3,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Comment qu't'es payé toi ? à la tête ?",
+    "info": "",
+    "reponses": ["tassin", "soldat tassin"]
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "La guerre p'tit on la fait ou on la fait pas",
+    "info": "",
+    "reponses": ["chaudard", "chaudar", "chef chaudard", "chef chaudar"]
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "C'est ça que tu voulais dire ?",
+    "info": "",
+    "reponses": ["pitivier", "pithiviers", "soldat pitivier", "soldat pithiviers"]
+  },
+  {
+    "id": 6,
+    "categorie": "Citation à trous",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": ["Mais", " mais", ", le soldat", " a seulement", " qu'on peut encore", " aux bochs avant", " c'est tout."],
+    "info": "Nombre de mots : 1 - 1 - 1 - 2 - 3 - 2",
+    "reponses": [["non non pitivier voulu dire faire du mal de rejoindre"]]
+  },
+  {
+    "id": 7,
+    "categorie": "Phrase d'après",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Bonne nuit assassin",
+    "info": "",
+    "reponses": ["bonne nuit la balai"]
+  },
+  {
+    "id": 8,
+    "categorie": "Citation à trous",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": ["D'un autre côté, moi je vais te dire un truc, marcher", "", ", avec la chaleur qui fait, on va se", ", c'est", "", ", surtout que on va", " pour", "", " ?"],
+    "info": "Nombre de mots : 3 - 1 - 3 - 1 - 1 - 1",
+    "reponses": [["toute la journée trainer une vraie connerie marcher aller où"]]
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Et comment qu'je ferai pour marcher sans souliers ?",
+    "info": "",
+    "reponses": ["ah c'est vrai ça comment qu'tu veux marcher sans chaussures ?"]
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "Mais où est donc passée la 7ème compagnie",
+    "question": "Ah oui faudra pas nous gêner parce que…",
+    "info": "",
+    "reponses": ["parce que ça nous gâterai le plaisir"]
+  }
+]

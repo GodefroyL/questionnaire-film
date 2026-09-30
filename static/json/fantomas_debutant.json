@@ -37,14 +37,14 @@
     "film": "Fantomas",
     "question": "Tu boiras et tu mangeras quand tu auras parlé",
     "info": "",
-    "reponses": ["48 heures de diètes n'ont jamais tué personne monsieur le commissaire."]
+    "reponses": ["48 heures de diete n ont jamais tue personne monsieur le commissaire", "48 heures de dietes n ont jamais tue personne monsieur le commissaire", "48h de diete n ont jamais tue personne monsieur le commissaire"]
   },
   {
     "id": 6,
     "categorie": "Citation à trous",
     "film": "Fantomas",
     "question": ["Attention,", "quelques", "passera te","."],
-    "info": "",
+    "info": "Nombre de mots : 1 - 2 - 1",
     "reponses": [["dans instants fantomas prendre"]]
   },
   {
@@ -59,7 +59,7 @@
     "id": 8,
     "categorie": "Phrase d'après",
     "film": "Fantomas",
-    "question": "Ah bravo monsieur le comissaire, j'ai bien marché !",
+    "question": "Ah bravo monsieur le commissaire, j'ai bien marché !",
     "info": "",
     "reponses": ["et bien moi je ne marche plus"]
   }
