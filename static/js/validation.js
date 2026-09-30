@@ -67,6 +67,10 @@ function estCorrect(item, saisies, { tolerant = true } = {}) {
   // Une saisie vide n'est jamais correcte
   if (!entree_utilisateur) return false;
 
+  const valides = item.reponses.map(r =>
+    normaliser(Array.isArray(r) ? r.join(" ") : r)
+  );
+
   // "Question de détail" : avant, .includes() sur une sous-chaîne, donc "148" ou "480" validaient la réponse "48". On cherche maintenant le mot ou groupe de mots ENTIER, en entourant de espaces les deux chaînes.
   if (item.categorie === "Question de détail") {
     return valides.some(v => (" " + entree_utilisateur + " ").includes(" " + v + " "));
