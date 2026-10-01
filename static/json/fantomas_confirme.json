@@ -5,7 +5,8 @@
     "film": "Fantomas",
     "question": ["Quoi qu'il en soit,","Fantomas ! Tu peux bien avoir 100", ", tu n'auras jamais qu'une",", ne la relève pas trop, elle finira","!"],
     "info": "Nombre de mots : 3 - 1 - 2 - 2",
-    "reponses": [["tu peux trembler visages seule tete par tomber"]]
+    "reponses": [["tu peux trembler visages seule tete par tomber"]],
+    "reponse_affichée": "Quoi qu'il en soit, tu peux trembler Fantomas ! Tu peux bien avoir 100 visages, tu n'auras jamais qu'une seule tête, ne la relève pas trop, elle finira par tomber !"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "film": "Fantomas",
     "question": "Je ne parleraai qu'en présence de mon avocat !",
     "info": "",
-    "reponses": ["vous allez en avoir besoin d un avocat", "vous allez en avoir besoin d un avocat et d un bon"]
+    "reponses": ["vous allez en avoir besoin d un avocat", "vous allez en avoir besoin d un avocat et d un bon"],
+    "reponse_affichée": "Vous allez en avoir besoin d'un avocat"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "film": "Fantomas",
     "question": "Et à la une hein ! Sur 4 colonnes ! ... Ca va encore faire monter le tirage.",
     "info": "",
-    "reponses": ["le directeur", "le directeur du point du jour", "le directeur du journal", "directeur", "robert dalban"]
+    "reponses": ["le directeur", "le directeur du point du jour", "le directeur du journal", "directeur", "robert dalban"],
+    "reponse_affichée": "Le directeur du journal"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "film": "Fantomas",
     "question": "Tu n'as pas fini d'entendre parler de toi.",
     "info": "",
-    "reponses": ["fandor", "jerome fandor", "le journaliste", "jean marais", "journalise"]
+    "reponses": ["fandor", "jerome fandor", "le journaliste", "jean marais", "journalise"],
+    "reponse_affichée": "Le journaliste"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "film": "Fantomas",
     "question": "Du sang à la une ! Voilà ce qui vous fait vivre. Mais s'il n'y avait pas d'assassain et de crime, vous n'auriez plus qu'a vous faire inscrire au chomage",
     "info": "",
-    "reponses": ["mais apres vous monsieur le commissaire", "mais apres vous m le commissaire", "mais apres vous monsieur le commissaire car nous nous n avons pas que les crimes pour exercer notre metier", "mais apres vous m le commissaire car nous nous n avons pas que les crimes pour exercer notre metier"]
+    "reponses": ["mais apres vous monsieur le commissaire", "mais apres vous m le commissaire", "mais apres vous monsieur le commissaire car nous nous n avons pas que les crimes pour exercer notre metier", "mais apres vous m le commissaire car nous nous n avons pas que les crimes pour exercer notre metier"],
+    "reponse_affichée": "Mais après vous monsieur le commissaire"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "film": "Fantomas",
     "question": "Quel délai Fantomas donne-t-il au journalise pour écrire un arcticle qui lui convient ?",
     "info": "",
-    "reponses": ["48", "48h", "quarante huit"]
+    "reponses": ["48", "48h", "quarante huit"],
+    "reponse_affichée": "48 heures"
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "film": "Fantomas",
     "question": "Encore un peu de patience, deux cerveaux valent mieux qu'un !",
     "info": "",
-    "reponses": ["fantomas"]
+    "reponses": ["fantomas"],
+    "reponse_affichée": "Fantomas"
   },
   {
     "id": 8,
@@ -61,6 +68,7 @@
     "film": "Fantomas",
     "question": "Alors Fantomas vous a donné 48 heures pour l'exécution. Mais pour l'exécution de qui, l'exécution de quoi ?",
     "info": "",
-    "reponses": ["fandor", "jerome fandor", "le journaliste", "jean marais", "journalise"]
+    "reponses": ["fandor", "jerome fandor", "le journaliste", "jean marais", "journalise"],
+    "reponse_affichée": "Le journaliste"
   }
 ]

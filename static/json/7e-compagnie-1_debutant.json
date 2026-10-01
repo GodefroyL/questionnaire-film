@@ -5,7 +5,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Il va aussi y avoir la question de trouver à manger chef",
     "info": "",
-    "reponses": ["pitivier", "pithiviers", "soldat pitivier", "soldat pithiviers"]
+    "reponses": ["pitivier", "pithiviers", "soldat pitivier", "soldat pithiviers"],
+    "reponse_affichée": "Pithivier"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Un petit peu plus par là",
     "info": "",
-    "reponses": ["duvauchel", "lieutenant duvauchel", "le lieutenant duvauchel"]
+    "reponses": ["duvauchel", "lieutenant duvauchel", "le lieutenant duvauchel", "du vauchel", "lieutenant du vauchel", "le lieutenant du vauchel"],
+    "reponse_affichée": "Lieutenant Duvauchel"
   },
   {
     "id": 3,
@@ -21,15 +23,17 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "« Dites-leur de foutre le camp, je me charge du reste » à qui Chaudard et ses deux hommes doivent-il dire de foutre le camp ?",
     "info": "",
-    "reponses": ["la 7e compagnie", "la septième compagnie", "7e compagnie", "septième compagnie"]
+    "reponses": ["à la 7e compagnie", "à la septième compagnie", "7e compagnie", "septième compagnie", "aux hommes de la 7e compagnie"],
+    "reponse_affichée": "à la 7ème Compagnie"
   },
   {
     "id": 4,
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
-    "question": ["Capitaine Dumont ! Capitaine Dumont, rendez-vous", "", "", ", vous êtes", " Ne résistez pas", ", sortez du", " vers", "", " et jetez", "", " dans", "", " Nous n'attendrons", "", " ."],
-    "info": "Nombre de mots : 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1",
-    "reponses": [["avec vos hommes encerclés inutilement bois la route vos armes la fossé pas longtemps"]]
+    "question": ["Capitaine Dumont ! Capitaine Dumont, rendez-vous", ", vous êtes", ". Ne résistez pas", ", sortez du", "vers", "et jetez", "dans", "Nous n'attendrons", "."],
+    "info": "Nombre de mots : 3 - 1 - 1 - 1 - 2 - 2 - 2 - 2",
+    "reponses": [["avec vos hommes encercles inutilement bois la route vos armes la fosse pas longtemps"]],
+    "reponse_affichée": "Capitaine Dumont ! Capitaine Dumont, rendez-vous avec vos hommes, vous êtes encerclés. Ne résistez pas inutilement, sortez du bois vers la route et jetez vos armes dans la fossé Nous n'attendrons pas longtemps."
   },
   {
     "id": 5,
@@ -37,15 +41,17 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Tu parles le canon… je sais même pas comment il marche le canon.",
     "info": "",
-    "reponses": ["tassin", "soldat tassin"]
+    "reponses": ["tassin", "soldat tassin"],
+    "reponse_affichée": "Tassin"
   },
   {
     "id": 6,
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
-    "question": ["Vous nous emmenez où ? - En Allemagne, pour pas", "", " : soldats allemands chez", ", soldats", " chez", " !"],
+    "question": ["Vous nous emmenez où ? - En Allemagne, pour pas", ": soldats allemands chez", ", soldats", "chez", "!"],
     "info": "Nombre de mots : 3 - 1 - 1 - 1",
-    "reponses": [["faire de jalousie vous français nous"]]
+    "reponses": [["faire de jalousie vous francais nous"]],
+    "reponse_affichée": "Vous nous emmenez où ? - En Allemagne, pour pas faire de jalousie : soldats allemands chez vous, soldats français chez nous !"
   },
   {
     "id": 7,
@@ -53,15 +59,17 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "J'fatigue Chef",
     "info": "",
-    "reponses": ["moi aussi"]
+    "reponses": ["moi aussi"],
+    "reponse_affichée": "Moi aussi !"
   },
   {
     "id": 8,
     "categorie": "A qui est adressée cette phrase ?",
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "C'est malin hein, c'est malin !",
-    "info": "",
-    "reponses": ["tassin et pitivier", "tassin et pithiviers", "soldat tassin et pitivier", "soldat tassin et pithiviers"]
+    "info": "Deux personnes, mettre 'et' entre les deux noms",
+    "reponses": ["tassin et pitivier", "tassin et pithiviers", "soldat tassin et pitivier", "soldat tassin et pithiviers"],
+    "reponse_affichée": "Tassin et Pithivier"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Lui qui se plaignait toujours d'avoir une compagnie de pantouflard ?",
     "info": "",
-    "reponses": ["quoi nous pantouflard ?", "quoi nous pantouflard"]
+    "reponses": ["quoi nous pantouflard", "quoi nous pantouflards"],
+    "reponse_affichée": "Quoi ! Nous pantouflards"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Ça fait beaucoup",
     "info": "",
-    "reponses": ["ça fait trop"]
+    "reponses": ["ca fait trop"],
+    "reponse_affichée": "Ca fait trop"
   }
 ]

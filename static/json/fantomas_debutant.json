@@ -5,7 +5,8 @@
     "film": "Fantomas",
     "question": "Mais bougre d'imbécile, c'est en changeant de veste ! Il faut que je pense à tout ! Moi !",
     "info": "",
-    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "film": "Fantomas",
     "question": "Quand je t'ai pas vu ce matin au journal, je ... j'ai eu peur qu'il te sois arrivé quelque chose",
     "info": "",
-    "reponses": ["fandor", "le journaliste", "jean marais"]
+    "reponses": ["fandor", "le journaliste", "jean marais"],
+    "reponse_affichée": "Le journaliste"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "film": "Fantomas",
     "question": "Quel est le nom du journal dans le film ?",
     "info": "",
-    "reponses": ["le point du jour"]
+    "reponses": ["le point du jour"],
+    "reponse_affichée": "Le point du jour"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "film": "Fantomas",
     "question": "Non, non ce n'est pas fini ! Nous nous retrouverons Fantomas, et cette fois tu ne m'échaperas pas, tu seras puni !",
     "info": "",
-    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
   },
   {
     "id": 5,
@@ -37,7 +41,8 @@
     "film": "Fantomas",
     "question": "Tu boiras et tu mangeras quand tu auras parlé",
     "info": "",
-    "reponses": ["48 heures de diete n ont jamais tue personne monsieur le commissaire", "48 heures de dietes n ont jamais tue personne monsieur le commissaire", "48h de diete n ont jamais tue personne monsieur le commissaire"]
+    "reponses": ["48 heures de diete n ont jamais tue personne monsieur le commissaire", "48 heures de dietes n ont jamais tue personne monsieur le commissaire", "48h de diete n ont jamais tue personne monsieur le commissaire"],
+    "reponse_affichée": "48 heures de diète n'ont jamais tué personne monsieur le commissaire"
   },
   {
     "id": 6,
@@ -45,7 +50,8 @@
     "film": "Fantomas",
     "question": ["Attention,", "quelques", "passera te","."],
     "info": "Nombre de mots : 1 - 2 - 1",
-    "reponses": [["dans instants fantomas prendre"]]
+    "reponses": [["dans instants fantomas prendre"]],
+    "reponse_affichée": "Attention, dans quelques instants fantomas passera te prendre."
   },
   {
     "id": 7,
@@ -53,7 +59,8 @@
     "film": "Fantomas",
     "question": "Mais non, c'est pourtant vrai qu'il était faux",
     "info": "",
-    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"]
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
   },
   {
     "id": 8,
@@ -61,6 +68,7 @@
     "film": "Fantomas",
     "question": "Ah bravo monsieur le commissaire, j'ai bien marché !",
     "info": "",
-    "reponses": ["et bien moi je ne marche plus"]
+    "reponses": ["et bien moi je ne marche plus"],
+    "reponse_affichée": "Et bien moi je ne marche plus"
   }
 ]

@@ -5,7 +5,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Pour moi ce serait du à l'ail, demande lui du à l'ail",
     "info": "",
-    "reponses": ["tassin", "soldat tassin"]
+    "reponses": ["tassin", "soldat tassin"],
+    "reponse_affichée": "Tassin"
   },
   {
     "id": 2,
@@ -13,7 +14,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Quand Chaudard dit « Oui ça il serait étonné ! », de qui parle-t-il ?",
     "info": "",
-    "reponses": ["du capitaine dumont", "capitaine dumont", "de son capitaine", "le capitaine dumont"]
+    "reponses": ["du capitaine dumont", "capitaine dumont", "de son capitaine", "le capitaine dumont"],
+    "reponse_affichée": "Du capitaine Dumont"
   },
   {
     "id": 3,
@@ -21,7 +23,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Comment qu't'es payé toi ? à la tête ?",
     "info": "",
-    "reponses": ["tassin", "soldat tassin"]
+    "reponses": ["tassin", "soldat tassin"],
+    "reponse_affichée": "Tassin"
   },
   {
     "id": 4,
@@ -29,7 +32,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "La guerre p'tit on la fait ou on la fait pas",
     "info": "",
-    "reponses": ["chaudard", "chaudar", "chef chaudard", "chef chaudar"]
+    "reponses": ["chaudard", "chaudar", "chef chaudard", "chef chaudar"],
+    "reponse_affichée": "Chaudard"
   },
   {
     "id": 5,
@@ -37,15 +41,17 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "C'est ça que tu voulais dire ?",
     "info": "",
-    "reponses": ["pitivier", "pithiviers", "soldat pitivier", "soldat pithiviers"]
+    "reponses": ["pitivier", "pithiviers", "soldat pitivier", "soldat pithiviers"],
+    "reponse_affichée": "Pithivier"
   },
   {
     "id": 6,
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
-    "question": ["Mais", " mais", ", le soldat", " a seulement", " qu'on peut encore", " aux bochs avant", " c'est tout."],
+    "question": ["Mais", " mais", ", le soldat", " a seulement", " qu'on peut encore", " aux boches avant", " c'est tout."],
     "info": "Nombre de mots : 1 - 1 - 1 - 2 - 3 - 2",
-    "reponses": [["non non pitivier voulu dire faire du mal de rejoindre"]]
+    "reponses": [["non non pitivier voulu dire faire du mal de rejoindre"]],
+    "reponse_affichée": "Mais non mais nom, le soldat Pithivier a seulement voulu dire qu'on peut encore faire du mal aux boches avant de rejoindre, c'est tout."
   },
   {
     "id": 7,
@@ -53,15 +59,17 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Bonne nuit assassin",
     "info": "",
-    "reponses": ["bonne nuit la balai"]
+    "reponses": ["bonne nuit la balai"],
+    "reponse_affichée": "Bonne nuilt la balai"
   },
   {
     "id": 8,
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
-    "question": ["D'un autre côté, moi je vais te dire un truc, marcher", "", ", avec la chaleur qui fait, on va se", ", c'est", "", ", surtout que on va", " pour", "", " ?"],
-    "info": "Nombre de mots : 3 - 1 - 3 - 1 - 1 - 1",
-    "reponses": [["toute la journée trainer une vraie connerie marcher aller où"]]
+    "question": ["D'un autre côté, moi je vais te dire un truc, marcher", ", avec la chaleur qui fait, on va se", ", c'est", ", surtout que on va", " pour", " ?"],
+    "info": "Nombre de mots : 3 - 1 - 3 - 1 - 2",
+    "reponses": [["toute la journée trainer une vraie connerie marcher aller ou"]],
+    "reponse_affichée": "D'un autre côté, moi je vais te dire un truc, marcher toute la journée avec la chaleur qui fait, on va se trainer, c'est une vraie connerie, surtout que on va marcher pour aller où ?"
   },
   {
     "id": 9,
@@ -69,7 +77,8 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Et comment qu'je ferai pour marcher sans souliers ?",
     "info": "",
-    "reponses": ["ah c'est vrai ça comment qu'tu veux marcher sans chaussures ?"]
+    "reponses": ["ah c est vrai ca comment qu tu veux marcher sans chaussures","ah c est vrai ca comment que tu veux marcher sans chaussures"],
+    "reponse_affichée": "Ah c'est vrai ça ! Comment qu'tu veux marcher sans chaussures"
   },
   {
     "id": 10,
@@ -77,6 +86,7 @@
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": "Ah oui faudra pas nous gêner parce que…",
     "info": "",
-    "reponses": ["parce que ça nous gâterai le plaisir"]
+    "reponses": ["parce que ca nous gaterai le plaisir"],
+    "reponse_affichée": "Parce que ça nous gâterai le plaisir"
   }
 ]

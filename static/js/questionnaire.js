@@ -29,7 +29,9 @@
             const urlParams = new URLSearchParams(window.location.search);
             const questionnaire = urlParams.get('questionnaire');
             const titreElement = document.querySelector('.titre');
-            titreElement.textContent = `Questionnaire : ${questionnaire.replace(/_/g, ' ')}`; // /_/g car replace('_', ' ') ne remplacerait que le premier "_"
+            const titre = questionnaire.replace(/_/g, ' ')           // /_/g car replace('_', ' ') ne remplacerait que le premier "_"
+            titreElement.textContent = `Questionnaire : ${titre}`;
+            resultats["questionnaire"] = titre
         } catch (error) {
             console.error("Erreur lors de l'affichage du titre :", error);
         }
@@ -147,12 +149,14 @@
         // Passez { tolerant: true } en 3e argument pour accepter de petites fautes de frappe (par exemple pour la catégorie "Phrase d'après").
         const reussi = estCorrect(item, saisies, { tolerant: true });
 
+        const bonne_reponse = item.reponse_affichée || item.reponses[0] // Récupération de la réponse à afficher
+
         resultats[item.id] = {
             reussi: reussi,
             categorie: item.categorie,
             question: item.question,
             reponse: normaliser(saisies.join(" ")),
-            bonne_reponse: item.reponses[0]
+            bonne_reponse: bonne_reponse
         };
 
     // Animation de réussite ou d'échec
