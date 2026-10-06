@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Immaginez ces têtes sans corps nous confier leurs impressions et leurs états d'âmes.",
+    "info": "",
+    "reponses": ["fantomas", "jean marais"],
+    "reponse_affichée": "Fantomas"
+  },
+  {
+    "id": 2,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas se déchaîne",
+    "question": "Alors méfiez vous des apparences et contrôlez toujours qui est qui",
+    "info": "",
+    "reponses": ["qui est qui", "qui et qui"],
+    "reponse_affichée": "Qui est qui ?"
+  },
+  {
+    "id": 3,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Je crois comprendre qu'ils veulent qu'on le baptise.",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Il faut réviser vos méthodes !",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
+  },
+  {
+    "id": 5,
+    "categorie": "Citation à trous",
+    "film": "Fantomas se déchaîne",
+    "question": ["Vous n'allez tout de même pas","à une future","son dernier","."],
+    "info": "Nombre de mots : 1 - 4 - 1",
+    "reponses": [["refuser victime de la science cigare"]],
+    "reponse_affichée": "Vous n'allez tout de même pas refuser à une future victime de la science son dernier cigare."
+  },
+  {
+    "id": 6,
+    "categorie": "Question de détail",
+    "film": "Fantomas se déchaîne",
+    "question": "Dans quelle ville se déroule le congrès scientifique",
+    "info": "",
+    "reponses": ["rome"],
+    "reponse_affichée": "Rome"
+  },
+  {
+    "id": 7,
+    "categorie":"A qui est adressée cette phrase ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Et de vous prouver que je tiens toujours ... mes promesses",
+    "info": "",
+    "reponses": ["helene", "fiancee", "fiancee de fandor"],
+    "reponse_affichée": "Hélène"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas se déchaîne",
+    "question": "Mais vous dormez ?",
+    "info": "",
+    "reponses": ["que d un oeil que d un oeil"],
+    "reponse_affichée": "Que d'un œil que d'un œil"
+  },
+  {
+    "id": 9,
+    "categorie": "Citation à trous",
+    "film": "Fantomas se déchaîne",
+    "question": ["Monsieur le"," en vertue des pouvoirs qui me sont","et au nom du"," je vous","commendeur dans l'ordre des jean-","."],
+    "info": "Nombre de mots : 1 - 1 - 4 - 1 - 1",
+    "reponses": ["commissaire conferes president de la republique nomme foutres", "commissaire conferes president de la republique nomme foutre", "commissaire confere president de la republique nomme foutres", "commissaire confere president de la republique nomme foutre"],
+    "reponse_affichée": "Monsieur le commissaire, en vertue des pouvoirs qui me sont conférés et au nom du président de la république, je vous nomme commendeur dans l'ordre des jean-foutres."
+  }
+]

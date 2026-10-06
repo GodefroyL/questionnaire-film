@@ -6,6 +6,12 @@
         "image": "../static/images/films/fantomas.jpeg"
     },
     {
+        "nom": "Fantomas se déchaîne",
+        "lien": "fantomas-se-dechaine",
+        "niveau": 2,
+        "image": "../static/images/films/fantomas-se-dechaine.jpeg"
+    },
+    {
         "nom": "Mais où est donc passée la 7eme compagnie",
         "lien": "7e-compagnie-1",
         "niveau": 2,

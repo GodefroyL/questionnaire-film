@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Y'a pas de micro, y'a pas de commissaire, y'a rien",
+    "info": "",
+    "reponses": ["inspecteur bertrand", "bertrand", "michel bertrand"],
+    "reponse_affichée": "L'inspecteur Bertrand"
+  },
+  {
+    "id": 2,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas se déchaîne",
+    "question": "Oh écoute te fiche pas de moi et puis pourquoi prends-tu cette voie pour me parler ?",
+    "info": "",
+    "reponses": ["mais parce que je suis fantomas"],
+    "reponse_affichée": "Mais parce que je suis fantomas"
+  },
+  {
+    "id": 3,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Surveillez Lefevre pendant que je me change",
+    "info": "",
+    "reponses": ["inspecteur bertrand", "bertrand", "michel bertrand"],
+    "reponse_affichée": "L'inspecteur Bertrand"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Fantomas se déchaîne",
+    "question": "On ne peut pas savoir, c'est encore emballé",
+    "info": "",
+    "reponses": ["commissaire juve", "juve", "louis de funes", "commissaire", "le commissaire", "le commissaire juve"],
+    "reponse_affichée": "Le commissaire Juve"
+  },
+  {
+    "id": 5,
+    "categorie": "Citation à trous",
+    "film": "Fantomas se déchaîne",
+    "question": ["Ce journaliste [...] n'a hélas pas",", ses procédés",". Il ne poursuit qu'un but, faire","et faire ",", monter le","tout en","les honnêtes gens !"],
+    "info": "Nombre de mots : 1 - 2 - 2 - 3 - 1 - 1",
+    "reponses": [["change non plus sa publicite monter le tirage tirage terrorisant"]],
+    "reponse_affichée": "Ce journaliste [...] n'a hélas pas changé, ses procédés non plus. Il ne poursuit qu'un but, faire sa publicité et faire monter le tirage, monter le tirage tout en terrorisant les honnêtes gens !"
+  },
+  {
+    "id": 6,
+    "categorie": "Question de détail",
+    "film": "Fantomas se déchaîne",
+    "question": "A combien de secondes sont réglés les cigares de Juve chez Fantomas",
+    "info": "",
+    "reponses": ["19", "19s", "19 secondes"],
+    "reponse_affichée": "19"
+  },
+  {
+    "id": 7,
+    "categorie":"A qui est adressée cette phrase ?",
+    "film": "Fantomas se déchaîne",
+    "question": "Comme vous le voyez professeur, toute résistance est inutile",
+    "info": "",
+    "reponses": ["fandor", "le journaliste", "jean marais"],
+    "reponse_affichée": "Fandor"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Fantomas se déchaîne",
+    "question": "Avec votre troisième main ?",
+    "info": "",
+    "reponses": ["oui ma main qui est sur le ventre"],
+    "reponse_affichée": "Oui ma main qui est sur le ventre"
+  },
+  {
+    "id": 9,
+    "categorie": "Citation à trous",
+    "film": "Fantomas se déchaîne",
+    "question": ["Mais enfin",", vous manquez de","et de","hein. Allez vous","vous ! Allez vous",". Non mais dîtes donc !","police","vous m'entendez ?","."],
+    "info": "Nombre de mots : 1 - 1 - 2 - 1 - 1 - 3 - 1 - 1",
+    "reponses": ["messieurs calme sang froid assoir assoir je veux une relax relax"],
+    "reponse_affichée": "Mais enfin messieurs, vous manquez de calme et de sang froid hein. Allez vous assoir vous ! Allez vous assoir. Non mais dîtes donc ! Je veux une police relax vous m'entendez ? Relax"
+  }
+]
