@@ -87,8 +87,12 @@ input[type="text"] {
 
 /* Avancement */
 .avancement {
+    margin: 10px;
     color: white;
     font-size: medium;
+    font-weight: bold;
+    -webkit-text-stroke: 0.3px black;
+
 }
 
 /* Animations de réussite ou d'échec */

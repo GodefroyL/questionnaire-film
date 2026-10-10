@@ -78,7 +78,7 @@
         conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
 
     // Affichage de l'avancement
-        avancement.textContent = `${index} / ${donnee.length}`;
+        avancement.textContent = `${index + 1} / ${donnee.length}`;
 
     // Remplissage de la zone de question selon la catégorie
         let question = '';
