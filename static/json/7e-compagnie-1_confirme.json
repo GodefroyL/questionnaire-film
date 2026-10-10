@@ -49,7 +49,8 @@
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": ["Mais", " mais", ", le soldat", " a seulement", " qu'on peut encore", " aux boches avant", " c'est tout."],
-    "info": "Nombre de mots : 1 - 1 - 1 - 2 - 3 - 2",
+    "info": "",
+    "nombre_mot":[1,1,1,2,3,2],
     "reponses": [["non non pitivier voulu dire faire du mal de rejoindre"]],
     "reponse_affichée": "Mais non mais nom, le soldat Pithivier a seulement voulu dire qu'on peut encore faire du mal aux boches avant de rejoindre, c'est tout."
   },
@@ -67,7 +68,8 @@
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": ["D'un autre côté, moi je vais te dire un truc, marcher", ", avec la chaleur qui fait, on va se", ", c'est", ", surtout que on va", " pour", " ?"],
-    "info": "Nombre de mots : 3 - 1 - 3 - 1 - 2",
+    "info": "",
+    "nombre_mot": [3,1,3,1,2],
     "reponses": [["toute la journée trainer une vraie connerie marcher aller ou"]],
     "reponse_affichée": "D'un autre côté, moi je vais te dire un truc, marcher toute la journée avec la chaleur qui fait, on va se trainer, c'est une vraie connerie, surtout que on va marcher pour aller où ?"
   },

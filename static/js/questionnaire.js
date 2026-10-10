@@ -9,6 +9,7 @@
     const conteneurQuestion = document.getElementById('question');
     const conteneurNomFilmCategorie = document.getElementById('nom_film_categorie');
     const boutonValider = document.getElementById('valider');
+    const avancement = document.getElementById('avancement');
 
     // Variables internes
     let donnee = [];
@@ -76,6 +77,9 @@
         }
         conteneurNomFilmCategorie.innerHTML = nom_film_categorie;
 
+    // Affichage de l'avancement
+        avancement.textContent = `${index} / ${donnee.length}`;
+
     // Remplissage de la zone de question selon la catégorie
         let question = '';
         if (deuxieme_chance) {
@@ -100,13 +104,13 @@
 
             case "Citation à trous":
                 question += `
-                    <div class="info">${item.info}<br>"qu'il" ou "n'est" = 2 mots</div>
+                    <div class="info">${item.info}</div>
                     <div class="question">
                     ${item.question[0]}
                 `;
                 for (let i = 1; i < item.question.length; i++) {
                     question += `
-                        <input type="text" name="reponse" class="reponse" placeholder="Zone de réponse">
+                        <input type="text" name="reponse" class="reponse" placeholder="${item.nombre_mot[i-1]} mot(s)">
                         ${item.question[i]}
                     `;
                 }
@@ -139,9 +143,6 @@
 
         // On récupère les valeurs brutes des champs ; la normalisation est faite dans estCorrect().
         const saisies = [...document.querySelectorAll('input[name="reponse"]')].map(input => input.value);
-
-        // Saisie entièrement vide : on ne valide pas, pour ne pas consommer une tentative par erreur.
-        if (!saisies.some(valeur => valeur.trim() !== '')) return;
 
         verrou = true;
 

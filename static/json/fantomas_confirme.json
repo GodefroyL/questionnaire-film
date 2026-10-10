@@ -4,7 +4,8 @@
     "categorie": "Citation à trous",
     "film": "Fantomas",
     "question": ["Quoi qu'il en soit,","Fantomas ! Tu peux bien avoir 100", ", tu n'auras jamais qu'une",", ne la relève pas trop, elle finira","!"],
-    "info": "Nombre de mots : 3 - 1 - 2 - 2",
+    "info": "",
+    "nombre_mot": [3,1,2,2],
     "reponses": [["tu peux trembler visages seule tete par tomber"]],
     "reponse_affichée": "Quoi qu'il en soit, tu peux trembler Fantomas ! Tu peux bien avoir 100 visages, tu n'auras jamais qu'une seule tête, ne la relève pas trop, elle finira par tomber !"
   },

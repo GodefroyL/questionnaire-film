@@ -85,6 +85,12 @@ input[type="text"] {
     max-width: 100%;
 }
 
+/* Avancement */
+.avancement {
+    color: white;
+    font-size: medium;
+}
+
 /* Animations de réussite ou d'échec */
 @keyframes successAnimation {
     0% { transform: scale(1); background-color: var(--couleur-fond); }

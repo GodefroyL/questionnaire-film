@@ -40,7 +40,8 @@
     "categorie": "Citation à trous",
     "film": "Fantomas se déchaîne",
     "question": ["Vous n'allez tout de même pas","à une future","son dernier","."],
-    "info": "Nombre de mots : 1 - 4 - 1",
+    "info": "",
+    "nombre_mot": [1,4,1],
     "reponses": [["refuser victime de la science cigare"]],
     "reponse_affichée": "Vous n'allez tout de même pas refuser à une future victime de la science son dernier cigare."
   },
@@ -76,7 +77,8 @@
     "categorie": "Citation à trous",
     "film": "Fantomas se déchaîne",
     "question": ["Monsieur le"," en vertue des pouvoirs qui me sont","et au nom du"," je vous","commendeur dans l'ordre des jean-","."],
-    "info": "Nombre de mots : 1 - 1 - 4 - 1 - 1",
+    "info": "",
+    "nombre_mot": [1,1,4,1,1],
     "reponses": ["commissaire conferes president de la republique nomme foutres", "commissaire conferes president de la republique nomme foutre", "commissaire confere president de la republique nomme foutres", "commissaire confere president de la republique nomme foutre"],
     "reponse_affichée": "Monsieur le commissaire, en vertue des pouvoirs qui me sont conférés et au nom du président de la république, je vous nomme commendeur dans l'ordre des jean-foutres."
   }

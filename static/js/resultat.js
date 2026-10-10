@@ -25,6 +25,7 @@ function affichage_resultat() {
     let nombre_question_reussie = 0;
     let nombre_question_totale = 0;
     for(const id in donneGlobales.resultats) {
+        if (id == 'questionnaire') {continue;}
         nombre_question_totale++;
         const resultat = donneGlobales.resultats[id];
         const bouton = document.createElement('button');

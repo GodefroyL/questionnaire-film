@@ -31,7 +31,8 @@
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": ["Capitaine Dumont ! Capitaine Dumont, rendez-vous", ", vous êtes", ". Ne résistez pas", ", sortez du", "vers", "et jetez", "dans", "Nous n'attendrons", "."],
-    "info": "Nombre de mots : 3 - 1 - 1 - 1 - 2 - 2 - 2 - 2",
+    "info": "",
+    "nombre_mot": [3,1,1,1,2,2,2,2],
     "reponses": [["avec vos hommes encercles inutilement bois la route vos armes la fosse pas longtemps"]],
     "reponse_affichée": "Capitaine Dumont ! Capitaine Dumont, rendez-vous avec vos hommes, vous êtes encerclés. Ne résistez pas inutilement, sortez du bois vers la route et jetez vos armes dans la fossé Nous n'attendrons pas longtemps."
   },
@@ -49,7 +50,8 @@
     "categorie": "Citation à trous",
     "film": "Mais où est donc passée la 7ème compagnie",
     "question": ["Vous nous emmenez où ? - En Allemagne, pour pas", ": soldats allemands chez", ", soldats", "chez", "!"],
-    "info": "Nombre de mots : 3 - 1 - 1 - 1",
+    "info": "",
+    "nombre_mot": [3,1,1,1],
     "reponses": [["faire de jalousie vous francais nous"]],
     "reponse_affichée": "Vous nous emmenez où ? - En Allemagne, pour pas faire de jalousie : soldats allemands chez vous, soldats français chez nous !"
   },
