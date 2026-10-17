@@ -42,7 +42,7 @@
     flex-direction: column;
     row-gap: 10px;
     margin-top: 20px;
-    font-size: 1.35rem;
+    font-size: 1.1rem;
 }
 
 @media (max-width: 800px) {

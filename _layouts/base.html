@@ -50,6 +50,11 @@
                 <div class="titre">
                     {{ page.title }}
                 </div>
+                {% if page.inforamtion_page %}
+                <div class="inforamtion_page">
+                    {{ page.inforamtion_page }}
+                </div>
+                {% endif %}
                 {{ content }}
             </div>
 
