@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://films.dgl-application.fr/sitemap.xml
