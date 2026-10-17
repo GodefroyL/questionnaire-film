@@ -34,6 +34,13 @@ header {
     font-weight: bold;
 }
 
+footer {
+    text-align: center;
+    padding: 12px 8px;
+    font-size: 0.85em;
+    background-color: var(--couleur-fond-header);
+}
+
 main {
     display: flex;
     flex-direction: row;

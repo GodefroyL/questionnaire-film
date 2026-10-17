@@ -1,0 +1,44 @@
+/* Pages de texte : à propos, contact, confidentialité, mentions légales */
+.page_texte {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 10px 16px 30px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.page_texte h2 {
+    margin-top: 28px;
+    margin-bottom: 8px;
+    font-size: 1.25em;
+}
+
+.page_texte h3 {
+    margin-top: 18px;
+    margin-bottom: 6px;
+    font-size: 1.05em;
+}
+
+.page_texte p,
+.page_texte ul {
+    margin: 8px 0;
+}
+
+.page_texte ul {
+    padding-left: 22px;
+}
+
+.page_texte a {
+    text-decoration: underline;
+}
+
+.page_texte .maj {
+    font-size: 0.85em;
+    opacity: 0.75;
+}
+
+.page_texte .a_completer {
+    background-color: #fff3b0;
+    padding: 0 3px;
+    border-radius: 3px;
+}
