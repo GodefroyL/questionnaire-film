@@ -22,10 +22,11 @@ body {
 header {
     background-color: var(--couleur-fond-header);
     width: 100%;
-    position: absolute;
+    position: fixed;
     padding-bottom: 5px;
     top: 0;
     right: 0;
+    z-index: 999;
     height: 55px;
     text-align: center;
     align-content: center;
@@ -35,15 +36,22 @@ header {
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
     text-align: center;
     padding: 12px 8px;
     font-size: 0.85em;
     background-color: var(--couleur-fond-header);
+    z-index: 999;
+    
 }
 
 main {
     display: flex;
     flex-direction: row;
+    align-self: center;
     margin-top: 55px;
     min-height: 50vh;
 }
@@ -62,7 +70,7 @@ a {
     flex-direction: column;
     /* Pour forcer le contenu à être en premier plan */
     position: relative;
-    z-index: 2147483647;
+    z-index: 900;
 }
 
 .titre {
