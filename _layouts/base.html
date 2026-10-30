@@ -8,6 +8,11 @@
         <meta name="description" content="{{ page.description }}">
         {% endif %}
         <link rel="icon" href="{{ site.url }}/static/images/logo.ico">
+        
+        <!-- Preconnect to Google for AdSense -->
+        <link rel="preconnect" href="https://pagead2.googlesyndication.com">
+        <!-- Cookie Consent CSS -->
+        <link rel="stylesheet" href="{{ site.url }}/static/css/cookie-consent.css">
 
         <link rel="stylesheet" href="{{ site.url }}/static/css/base.css">
         {% if page.css %}
@@ -23,6 +28,27 @@
         {% endif %}
     </head>
     <body>
+        <!-- Cookie Consent Banner - CMP for Google AdSense -->
+        <div id="cookie-consent-banner" class="cookie-consent-banner cookie-consent-hidden">
+            <button class="cookie-consent-close" aria-label="Fermer">&times;</button>
+            <div class="cookie-consent-content">
+                <p class="cookie-consent-text">
+                    <strong>Ce site utilise des cookies et des technologies similaires.</strong><br>
+                    Nous et nos partenaires utilisons des cookies pour afficher des annonces personnalisées ou non, 
+                    mesurer leur efficacité et comprendre les habitudes de nos visiteurs. 
+                    En cliquant sur "Accepter tout", vous acceptez le stockage de cookies sur votre appareil 
+                    pour améliorer la navigation, analyser l'utilisation du site et aider nos efforts de marketing.
+                </p>
+                <p class="cookie-consent-text">
+                    <a href="{{ site.url }}/html/pages_footer/confidentialite.html" target="_blank">Politique de confidentialité</a>
+                </p>
+                <div class="cookie-consent-actions">
+                    <button class="cookie-consent-button cookie-consent-manage">Gérer les options</button>
+                    <button class="cookie-consent-button cookie-consent-reject-all secondary">Tout refuser</button>
+                    <button class="cookie-consent-button cookie-consent-accept-all">Accepter tout</button>
+                </div>
+            </div>
+        </div>
         <header>
             <a href="{{ site.url }}/index.html">DGL - film</a>
         </header>
@@ -77,10 +103,23 @@
             <a href="{{ site.url }}/html/pages_footer/mentions-legales.html">Mentions légales</a>
         </footer>
 
+        <!-- Load Cookie Consent JS -->
+        <script src="{{ site.url }}/static/js/cookie-consent.js"></script>
+        
         {% if page.ads %}
         <script>
             // On ne garde que les emplacements réellement visibles (ordi OU téléphone), puis on initialise chacun une seule fois : évite l'erreur "No slot size for availableWidth=0" causée par les emplacements masqués en CSS.
             window.addEventListener('load', function () {
+                // Check if consent has been given before initializing ads
+                const consent = localStorage.getItem('cookie_consent');
+                if (!consent || !consent.includes('ads')) {
+                    // If no consent for ads, don't initialize them
+                    document.querySelectorAll('ins.adsbygoogle').forEach(function(ins) {
+                        ins.remove();
+                    });
+                    return;
+                }
+                
                 document.querySelectorAll('ins.adsbygoogle').forEach(function (ins) {
                     if (ins.offsetWidth === 0) {
                         ins.remove();
