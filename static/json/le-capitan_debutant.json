@@ -159,22 +159,5 @@
       "bah et pourquoi pas"
     ],
     "reponse_affichée": "Bah et pourquoi pas ?"
-  },
-  {
-    "id": 12,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le Capitan",
-    "question": [
-      "Qu'il s'amuse, c'est de son âge. Il pensera moins à régner",
-      "Dis donc toi, tu te rends pas compte c'est de la poudre",
-      "Je ne veux pas que tu doutes de mon pouvoir",
-      "Bah il faut que tu ais l'air menaçant figure toi",
-      "Me faites pas dire c'que j'ai pas dit hein"
-    ],
-    "info": "",
-    "reponses": [
-      "3 5 4 1 2"
-    ],
-    "reponse_affichée": "Je ne veux pas que tu doutes de mon pouvoir / Me faites pas dire c'que j'ai pas dit hein / Bah il faut que tu ais l'air menaçant figure toi / Qu'il s'amuse, c'est de son âge. Il pensera moins à régner / Dis donc toi, tu te rends pas compte c'est de la poudre"
   }
 ]

@@ -181,22 +181,5 @@
       "comme radin"
     ],
     "reponse_affichée": "Comme radin"
-  },
-  {
-    "id": 14,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le prénom",
-    "question": [
-      "Je crois vraiment que des personnes que j'ai pu rencontrer dans ma vie tu es celle qui résume le mieux ce mot : égoïsme.",
-      "Alors quand !",
-      "Non Babou dit ça parce que ton égoïsme est savant, il n'est pas à la portée du premier venu.",
-      "Ah non non tu n'es pas égoïste, tu es l'égoïsme.",
-      "Toujours peut-être pas mais heu ça fait un moment."
-    ],
-    "info": "",
-    "reponses": [
-      "4 3 1 5 2"
-    ],
-    "reponse_affichée": "Ah non non tu n'es pas égoïste, tu es l'égoïsme. / Non Babou dit ça parce que ton égoïsme est savant, il n'est pas à la portée du premier venu. / Je crois vraiment que des personnes que j'ai pu rencontrer dans ma vie tu es celle qui résume le mieux ce mot : égoïsme. / Toujours peut-être pas mais heu ça fait un moment. / Alors quand !"
   }
 ]

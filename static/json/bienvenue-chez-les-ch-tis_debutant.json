@@ -128,22 +128,5 @@
       "t es mute dans le nord pas de calais"
     ],
     "reponse_affichée": "T'es muté dans le nord"
-  },
-  {
-    "id": 10,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Bienvenue chez les ch'tis",
-    "question": [
-      "Et ben… c'est du propre.",
-      "Ça va passer vite, ça va passer vite…",
-      "Non à vélo !",
-      "Mais asseyez vous je vous en prie, moi c'est déjà fait.",
-      "Déjà ils boivent, tous, beaucoup."
-    ],
-    "info": "",
-    "reponses": [
-      "4 2 5 1 3"
-    ],
-    "reponse_affichée": "Mais asseyez vous je vous en prie, moi c'est déjà fait. / Ça va passer vite, ça va passer vite… / Déjà ils boivent, tous, beaucoup. / Et ben… c'est du propre. / Non à vélo !"
   }
 ]

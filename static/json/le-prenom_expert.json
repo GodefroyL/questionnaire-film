@@ -180,22 +180,5 @@
       "mais c est ce que tu as dit"
     ],
     "reponse_affichée": "Mais c'est ce que tu as dit"
-  },
-  {
-    "id": 14,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le prénom",
-    "question": [
-      "Mais ta sœur va le faire, mais ne t'inquiète pas mon gros bébé, mais ça la dérange pas, elle aime ça même jouer la boniche.",
-      "Et puis à quoi ça me servirait ? tu m'as jamais emmené à un seul de tes colloques de toute façon",
-      "Même si l'inverse n'est pas vrai",
-      "On est tous pareil alors, on est dans le non pardon ce soir",
-      "Alors qui va me demander pardon à moi ? Qui va me demander pardon ?"
-    ],
-    "info": "",
-    "reponses": [
-      "2 5 3 1 4"
-    ],
-    "reponse_affichée": "Et puis à quoi ça me servirait ? tu m'as jamais emmené à un seul de tes colloques de toute façon / Alors qui va me demander pardon à moi ? Qui va me demander pardon ? / Même si l'inverse n'est pas vrai / Mais ta sœur va le faire, mais ne t'inquiète pas mon gros bébé, mais ça la dérange pas, elle aime ça même jouer la boniche. / On est tous pareil alors, on est dans le non pardon ce soir"
   }
 ]

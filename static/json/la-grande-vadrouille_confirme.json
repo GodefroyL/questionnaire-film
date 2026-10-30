@@ -131,22 +131,5 @@
       "l opera maitre"
     ],
     "reponse_affichée": "A l'opéra maitre"
-  },
-  {
-    "id": 10,
-    "categorie": "Remettre dans l'ordre",
-    "film": "La grande vadrouille",
-    "question": [
-      "Qui est ce maréchal ?",
-      "Je suis pas commissaire, je suis major Achbach",
-      "A la bonne heure, vous devenez raisonnable herr Kapellmeister, alors ?",
-      "Assez tremblé",
-      "De moi vous osez vous foutez ?"
-    ],
-    "info": "",
-    "reponses": [
-      "4 2 3 1 5"
-    ],
-    "reponse_affichée": "Assez tremblé / Je suis pas commissaire, je suis major Achbach / A la bonne heure, vous devenez raisonnable herr Kapellmeister, alors ? / Qui est ce maréchal ? / De moi vous osez vous foutez ?"
   }
 ]

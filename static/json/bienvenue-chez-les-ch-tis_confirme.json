@@ -102,22 +102,5 @@
       "non j pleure pas"
     ],
     "reponse_affichée": "Non j'pleure pas"
-  },
-  {
-    "id": 8,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Bienvenue chez les ch'tis",
-    "question": [
-      "Plus au nord",
-      "Ah tu peux pas, là c'est disciplinaire",
-      "L'île de quoi ?",
-      "Tu vas rester deux ans là-bas",
-      "Ah non pas à Paris, me dis pas qu'ils m'envoient à Paris"
-    ],
-    "info": "",
-    "reponses": [
-      "5 1 3 2 4"
-    ],
-    "reponse_affichée": "Ah non pas à Paris, me dis pas qu'ils m'envoient à Paris / Plus au nord / L'île de quoi ? / Ah tu peux pas, là c'est disciplinaire / Tu vas rester deux ans là-bas"
   }
 ]

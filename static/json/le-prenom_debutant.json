@@ -46,10 +46,10 @@
     ],
     "reponses": [
       [
-        "toi toi qui represents concentre plus pur moelle egoisme"
+        "incroyable toi qui represents concentre plus pur moelle egoisme"
       ]
     ],
-    "reponse_affichée": "C'est incroyable mais toi que tu dises ça, toi ! Toi qui représentes la quintessence, le concentré le plus pur, la substantifique moelle de l'égoïsme !"
+    "reponse_affichée": "C'est incroyable mais incroyable que tu dises ça, toi ! Toi qui représentes la quintessence, le concentré le plus pur, la substantifique moelle de l'égoïsme !"
   },
   {
     "id": 3,
@@ -172,22 +172,5 @@
       "c est vrai qu on se bidonne"
     ],
     "reponse_affichée": "C'est vrai qu'on se bidonne"
-  },
-  {
-    "id": 14,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le prénom",
-    "question": [
-      "Et bah moi c'est garçon et garçon",
-      "Thomas tu envoie un texte à Molière ?",
-      "Alors là je ne sais plus quoi te dire tant c'est n'importe quoi !",
-      "J'ai Bernard et Raoul, Babou à toi l'honneur, le chat est né avant.",
-      "Elle a tellement peur de déranger que ça en devient dérangeant"
-    ],
-    "info": "",
-    "reponses": [
-      "2 5 1 4 3"
-    ],
-    "reponse_affichée": "Thomas tu envoie un texte à Molière ? / Elle a tellement peur de déranger que ça en devient dérangeant / Et bah moi c'est garçon et garçon / J'ai Bernard et Raoul, Babou à toi l'honneur, le chat est né avant. / Alors là je ne sais plus quoi te dire tant c'est n'importe quoi !"
   }
 ]

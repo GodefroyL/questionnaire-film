@@ -163,23 +163,5 @@
       "il ne voulait meme plus me laisser repartir"
     ],
     "reponse_affichée": "Il ne voulait même plus me laisser repartir"
-  },
-  {
-    "id": 12,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le Capitan",
-    "question": [
-      "Capestang, c'est Capitan qu'il faudrait dire",
-      "Ne faites semblant de ne pas comprendre",
-      "Je ne sais que peu de chose sur vous, sinon que vous êtes courageux et que vous vous battez bien.",
-      "Je vous propose votre grâce et vous me répondez avec insolence ! laissez-moi rire monsieur le Capitan",
-      "Monsieur le chevalier, vous avez fait un bien long voyage pour m'apprendre ce que je n'ignore pas hélas.",
-      "Un hurluberlu s'est mêlé d'une affaire qui ne le regardait pas"
-    ],
-    "info": "",
-    "reponses": [
-      "5 6 3 2 1 4"
-    ],
-    "reponse_affichée": "Monsieur le chevalier, vous avez fait un bien long voyage pour m'apprendre ce que je n'ignore pas hélas. / Un hurluberlu s'est mêlé d'une affaire qui ne le regardait pas / Je ne sais que peu de chose sur vous, sinon que vous êtes courageux et que vous vous battez bien. / Ne faites semblant de ne pas comprendre / Capestang, c'est Capitan qu'il faudrait dire / Je vous propose votre grâce et vous me répondez avec insolence ! laissez-moi rire monsieur le Capitan"
   }
 ]

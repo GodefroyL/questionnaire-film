@@ -40,10 +40,10 @@
     ],
     "reponses": [
       [
-        "vous voulez pas pas de"
+        "familiarite voulez vous pas de"
       ]
     ],
-    "reponse_affichée": "Non mais dis donc pas de vous voulez pas ? Pas de familiarité."
+    "reponse_affichée": "Non mais dis donc pas familiarité voulez vous ? Pas de familiarité."
   },
   {
     "id": 3,
@@ -159,22 +159,5 @@
       "c est la qu est los"
     ],
     "reponse_affichée": "C'est là qu'est l'os"
-  },
-  {
-    "id": 12,
-    "categorie": "Remettre dans l'ordre",
-    "film": "La grande vadrouille",
-    "question": [
-      "Vous vous foutez pas d'elle hein parce que vous allez avoir à faire à moi !",
-      "Dites moi ? Vous n'en voulez pas une vous ?",
-      "On n'a plus de chien, on est perdu quoi",
-      "Oh c'est pas la même chose hein",
-      "Excusez-moi, ça va mieux ?"
-    ],
-    "info": "",
-    "reponses": [
-      "3 4 1 5 2"
-    ],
-    "reponse_affichée": "On n'a plus de chien, on est perdu quoi / Oh c'est pas la même chose hein / Vous vous foutez pas d'elle hein parce que vous allez avoir à faire à moi ! / Excusez-moi, ça va mieux ? / Dites moi ? Vous n'en voulez pas une vous ?"
   }
 ]
