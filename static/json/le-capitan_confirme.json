@@ -1,0 +1,185 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "C'est un peu long ",
+      ", ça m'étonnerait que Concini ",
+      ""
+    ],
+    "info": "",
+    "nombre_mot": [
+      3,
+      4
+    ],
+    "reponses": [
+      [
+        "tout de meme l ait invite a diner"
+      ]
+    ],
+    "reponse_affichée": "C'est un peu long tout de même, ça m'étonnerait que Concini l'ait invité à diner"
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "On a déjà eu assez d'ennui avec ",
+      " pour que j'essaie au moins de ",
+      " sur le ",
+      " où va nous entrainer cette ",
+      "."
+    ],
+    "info": "",
+    "nombre_mot": [
+      4,
+      2,
+      3,
+      2
+    ],
+    "reponses": [
+      [
+        "la brune giselle d angouleme me renseigner genre de catastrophe jolie blonde"
+      ]
+    ],
+    "reponse_affichée": "On a déjà eu assez d'ennui avec la brune Giselle d'Angoulême pour que j'essaie au moins de me renseigner sur le genre de catastrophe où va nous entrainer cette jolie blonde."
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Le Capitan",
+    "question": "L'insolence est un luxe qui peut coûter très cher monsieur mais elle me diverti beaucoup",
+    "info": "",
+    "reponses": [
+      "concino concini",
+      "concini",
+      "conchini",
+      "conchino",
+      "le marechal d ancre",
+      "marechal d ancre"
+    ],
+    "reponse_affichée": "Concino Concini"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Le Capitan",
+    "question": "De la part du Roi",
+    "info": "",
+    "reponses": [
+      "le roi",
+      "louis xiii",
+      "louis 13",
+      "roi"
+    ],
+    "reponse_affichée": "Le Roi"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le Capitan",
+    "question": "Il vaut mieux que je termine ça avant",
+    "info": "",
+    "reponses": [
+      "le chevalier de capestang",
+      "chevalier de capestang",
+      "capestang",
+      "jean marais"
+    ],
+    "reponse_affichée": "Le chevalier de Capestang"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le Capitan",
+    "question": "Vas-tu parler ? vas-tu t'expliquer ?",
+    "info": "",
+    "reponses": [
+      "cogolin",
+      "cogolino",
+      "bourvil"
+    ],
+    "reponse_affichée": "Cogolin"
+  },
+  {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "Le Capitan",
+    "question": "Lorsque le roi dit au maréchal d'Ancre : « Une arme qui vous est inconnue n'est-ce pas » de quelle arme s'agit-il ?",
+    "info": "",
+    "reponses": [
+      "hypocrisie",
+      "l hypocrisie",
+      "la hypocrisie"
+    ],
+    "reponse_affichée": "L'hypocrisie"
+  },
+  {
+    "id": 8,
+    "categorie": "Question de détail",
+    "film": "Le Capitan",
+    "question": "Où se trouve le chevalier de Capestang quand il dit « Ah laissez-moi passer ! »",
+    "info": "",
+    "reponses": [
+      "au chateau de st leu",
+      "chateau de st leu",
+      "st leu",
+      "saint leu",
+      "chateau de saint leu",
+      "au chateau de saint leu"
+    ],
+    "reponse_affichée": "Au château de St Leu"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Mes amours, je ne désire qu'un seul amour",
+    "info": "",
+    "reponses": [
+      "tant mieux j aurais moins de travail"
+    ],
+    "reponse_affichée": "Tant mieux, j'aurais moins de travail"
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Vous ?!",
+    "info": "",
+    "reponses": [
+      "oui encore moi le moins qu on puisse dire c est que vous n etes pas facile a joindre"
+    ],
+    "reponse_affichée": "Oui encore moi, le moins qu'on puisse dire c'est que vous n'êtes pas facile à joindre"
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Vous a-t-il bien reçu ?",
+    "info": "",
+    "reponses": [
+      "il ne voulait meme plus me laisser repartir"
+    ],
+    "reponse_affichée": "Il ne voulait même plus me laisser repartir"
+  },
+  {
+    "id": 12,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Le Capitan",
+    "question": [
+      "Capestang, c'est Capitan qu'il faudrait dire",
+      "Ne faites semblant de ne pas comprendre",
+      "Je ne sais que peu de chose sur vous, sinon que vous êtes courageux et que vous vous battez bien.",
+      "Je vous propose votre grâce et vous me répondez avec insolence ! laissez-moi rire monsieur le Capitan",
+      "Monsieur le chevalier, vous avez fait un bien long voyage pour m'apprendre ce que je n'ignore pas hélas.",
+      "Un hurluberlu s'est mêlé d'une affaire qui ne le regardait pas"
+    ],
+    "info": "",
+    "reponses": [
+      "5 6 3 2 1 4"
+    ],
+    "reponse_affichée": "Monsieur le chevalier, vous avez fait un bien long voyage pour m'apprendre ce que je n'ignore pas hélas. / Un hurluberlu s'est mêlé d'une affaire qui ne le regardait pas / Je ne sais que peu de chose sur vous, sinon que vous êtes courageux et que vous vous battez bien. / Ne faites semblant de ne pas comprendre / Capestang, c'est Capitan qu'il faudrait dire / Je vous propose votre grâce et vous me répondez avec insolence ! laissez-moi rire monsieur le Capitan"
+  }
+]

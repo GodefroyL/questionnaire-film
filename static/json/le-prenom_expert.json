@@ -1,0 +1,201 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Le prénom",
+    "question": [
+      "Il a coulé comme ",
+      " dans l'eau ",
+      ", y a eu ",
+      " et puis ",
+      ""
+    ],
+    "info": "",
+    "nombre_mot": [
+      2,
+      1,
+      2,
+      2
+    ],
+    "reponses": [
+      [
+        "une pierre noire quelques bulles plus rien"
+      ]
+    ],
+    "reponse_affichée": "Il a coulé comme une pierre dans l'eau noire, y a eu quelques bulles et puis plus rien"
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "Le prénom",
+    "question": [
+      "Mais tu verrais ta gueule ",
+      " ! Mais tu as la même gueule ",
+      " de collège quand ils ",
+      " : le livre de ",
+      " est bien posé sur ",
+      ", la formule mathématique est bien écrite ",
+      " leurs mains. Mais leurs ",
+      " mais non non non non non je ne sais pas du tout de quoi ",
+      " madame."
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      3,
+      1,
+      1,
+      2,
+      6,
+      2,
+      2
+    ],
+    "reponses": [
+      [
+        "pierre que les eleves trichent grammaire leurs genoux au bic dans la paume de yeux disent vous parlez"
+      ]
+    ],
+    "reponse_affichée": "Mais tu verrais ta gueule Pierre ! Mais tu as la même gueule que les élèves de collège quand ils trichent : le livre de grammaire est bien posé sur leurs genoux, la formule mathématique est bien écrite au bic dans la paume de leurs mains. Mais leurs yeux disent mais non non non non non je ne sais pas du tout de quoi vous parlez madame."
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "Bah peut-être je sais pas, je réfléchis.",
+    "info": "",
+    "reponses": [
+      "claude"
+    ],
+    "reponse_affichée": "Claude"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "Ni à François Villon ni à François 1er",
+    "info": "",
+    "reponses": [
+      "claude"
+    ],
+    "reponse_affichée": "Claude"
+  },
+  {
+    "id": 5,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "Ça a commencé avec Moka.",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Si tu veux penser à autre chose t'as qu'à mettre le couvert",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 7,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Ça va tu passes une bonne soirée ?",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 8,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Boh c'est ce qu'on fait depuis tout à l'heure.",
+    "info": "",
+    "reponses": [
+      "vincent"
+    ],
+    "reponse_affichée": "Vincent"
+  },
+  {
+    "id": 9,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "Quel âge avaient Pierre et Vincent quand ils ont tué Moka ?",
+    "info": "",
+    "reponses": [
+      "13 ans",
+      "13",
+      "treize ans",
+      "treize"
+    ],
+    "reponse_affichée": "13 ans"
+  },
+  {
+    "id": 10,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "Qui lance la discussion sur les idées de prénoms ?",
+    "info": "",
+    "reponses": [
+      "claude"
+    ],
+    "reponse_affichée": "Claude"
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Mais c'est de la bouillie intellectuelle",
+    "info": "",
+    "reponses": [
+      "tu m as convaincu accepte de l etre a ton tour"
+    ],
+    "reponse_affichée": "Tu m'as convaincu accepte de l'être à ton tour"
+  },
+  {
+    "id": 12,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Bon heu on n'est peut-être pas obligés de s'engueuler à chaque diner",
+    "info": "",
+    "reponses": [
+      "non on est pas obliges c est vrai mais tu n as pas repondu a ma question"
+    ],
+    "reponse_affichée": "Non on est pas obligés c'est vrai mais tu n'as pas répondu à ma question"
+  },
+  {
+    "id": 13,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Non c'est pas ce que je voulais dire",
+    "info": "",
+    "reponses": [
+      "mais c est ce que tu as dit"
+    ],
+    "reponse_affichée": "Mais c'est ce que tu as dit"
+  },
+  {
+    "id": 14,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Le prénom",
+    "question": [
+      "Mais ta sœur va le faire, mais ne t'inquiète pas mon gros bébé, mais ça la dérange pas, elle aime ça même jouer la boniche.",
+      "Et puis à quoi ça me servirait ? tu m'as jamais emmené à un seul de tes colloques de toute façon",
+      "Même si l'inverse n'est pas vrai",
+      "On est tous pareil alors, on est dans le non pardon ce soir",
+      "Alors qui va me demander pardon à moi ? Qui va me demander pardon ?"
+    ],
+    "info": "",
+    "reponses": [
+      "2 5 3 1 4"
+    ],
+    "reponse_affichée": "Et puis à quoi ça me servirait ? tu m'as jamais emmené à un seul de tes colloques de toute façon / Alors qui va me demander pardon à moi ? Qui va me demander pardon ? / Même si l'inverse n'est pas vrai / Mais ta sœur va le faire, mais ne t'inquiète pas mon gros bébé, mais ça la dérange pas, elle aime ça même jouer la boniche. / On est tous pareil alors, on est dans le non pardon ce soir"
+  }
+]

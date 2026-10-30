@@ -1,0 +1,193 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Le prénom",
+    "question": [
+      "Bon ça suffit maintenant, arrête de ",
+      " hein. Vouloir appeler ",
+      " au mieux c'est de l'inconscience, au pire une ",
+      ", c'est l'un ou l'autre."
+    ],
+    "info": "",
+    "nombre_mot": [
+      3,
+      3,
+      2
+    ],
+    "reponses": [
+      [
+        "jouer au con son fils adolphe horrible provocation"
+      ]
+    ],
+    "reponse_affichée": "Bon ça suffit maintenant, arrête de jouer au con hein. Vouloir appeler son fils Adolphe au mieux c'est de l'inconscience, au pire une horrible provocation, c'est l'un ou l'autre."
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "Le prénom",
+    "question": [
+      "C'est incroyable mais ",
+      " que tu dises ça, toi ! ",
+      " la quintessence, le ",
+      " le ",
+      ", la substantifique ",
+      " de l'",
+      " !"
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      3,
+      1,
+      2,
+      1,
+      1
+    ],
+    "reponses": [
+      [
+        "toi toi qui represents concentre plus pur moelle egoisme"
+      ]
+    ],
+    "reponse_affichée": "C'est incroyable mais toi que tu dises ça, toi ! Toi qui représentes la quintessence, le concentré le plus pur, la substantifique moelle de l'égoïsme !"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "La référence ? mais c'est la référence qui nous a déplu. Anna c'est justement la référence.",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "Claude dit quelque chose.",
+    "info": "",
+    "reponses": [
+      "babou"
+    ],
+    "reponse_affichée": "Babou"
+  },
+  {
+    "id": 5,
+    "categorie": "Qui parle ?",
+    "film": "Le prénom",
+    "question": "Mais je veux savoir merdre.",
+    "info": "",
+    "reponses": [
+      "claude"
+    ],
+    "reponse_affichée": "Claude"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Mais on s'en fout du Portugal, il veut appeler son fils Adolphe t'as entendu, alors on s'en fout de ce qu'il veut mettre derrière.",
+    "info": "",
+    "reponses": [
+      "babou"
+    ],
+    "reponse_affichée": "Babou"
+  },
+  {
+    "id": 7,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Disons que tu es quelqu'un qui fait attention",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 8,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le prénom",
+    "question": "Parce que tu l'as compris ça que j'étais amoureuse et que c'est pour ça que ça fait une heure que j'essaie de ne pas te détester mais que c'est de plus en plus dur.",
+    "info": "",
+    "reponses": [
+      "anna"
+    ],
+    "reponse_affichée": "Anna"
+  },
+  {
+    "id": 9,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "Qui a tué Moka ?",
+    "info": "",
+    "reponses": [
+      "pierre"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 10,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "A qui Babou dit : de toute façon on n'a jamais eu grand-chose à se dire hein",
+    "info": "",
+    "reponses": [
+      "anna"
+    ],
+    "reponse_affichée": "Anna"
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Ah et on gagne quoi si on trouve ?",
+    "info": "",
+    "reponses": [
+      "sa reconnaissance eternelle",
+      "reconnaissance eternelle"
+    ],
+    "reponse_affichée": "Sa reconnaissance éternelle"
+  },
+  {
+    "id": 12,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Bah avoue que ça aurait été moins drôle",
+    "info": "",
+    "reponses": [
+      "c est vrai qu on se bidonne"
+    ],
+    "reponse_affichée": "C'est vrai qu'on se bidonne"
+  },
+  {
+    "id": 13,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "C'est surement la phrase la plus drôle que tu aies dites ce soir",
+    "info": "",
+    "reponses": [
+      "c est vrai qu on se bidonne"
+    ],
+    "reponse_affichée": "C'est vrai qu'on se bidonne"
+  },
+  {
+    "id": 14,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Le prénom",
+    "question": [
+      "Et bah moi c'est garçon et garçon",
+      "Thomas tu envoie un texte à Molière ?",
+      "Alors là je ne sais plus quoi te dire tant c'est n'importe quoi !",
+      "J'ai Bernard et Raoul, Babou à toi l'honneur, le chat est né avant.",
+      "Elle a tellement peur de déranger que ça en devient dérangeant"
+    ],
+    "info": "",
+    "reponses": [
+      "2 5 1 4 3"
+    ],
+    "reponse_affichée": "Thomas tu envoie un texte à Molière ? / Elle a tellement peur de déranger que ça en devient dérangeant / Et bah moi c'est garçon et garçon / J'ai Bernard et Raoul, Babou à toi l'honneur, le chat est né avant. / Alors là je ne sais plus quoi te dire tant c'est n'importe quoi !"
+  }
+]

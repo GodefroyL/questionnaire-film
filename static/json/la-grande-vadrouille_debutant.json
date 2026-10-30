@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "La grande vadrouille",
+    "question": [
+      "Douze balles ",
+      ", douze ",
+      " vous, 24 ",
+      " quel gâchis pour ",
+      " !"
+    ],
+    "info": "",
+    "nombre_mot": [
+      2,
+      2,
+      1,
+      4
+    ],
+    "reponses": [
+      [
+        "pour vous balles pour balles des hommes comme vous"
+      ]
+    ],
+    "reponse_affichée": "Douze balles pour vous, douze balles pour vous, 24 balles quel gâchis pour des hommes comme vous !"
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "La grande vadrouille",
+    "question": [
+      "Non mais dis donc pas de ",
+      " ? ",
+      " familiarité."
+    ],
+    "info": "",
+    "nombre_mot": [
+      3,
+      2
+    ],
+    "reponses": [
+      [
+        "vous voulez pas pas de"
+      ]
+    ],
+    "reponse_affichée": "Non mais dis donc pas de vous voulez pas ? Pas de familiarité."
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "La grande vadrouille",
+    "question": "Je n'sais plus parce que il m'interrompt tout le temps il tousse, il crache, il renifle et il tousse, il crache, il renifle voilà !",
+    "info": "",
+    "reponses": [
+      "stanislas lefort",
+      "lefort",
+      "louis de funes",
+      "stanislas"
+    ],
+    "reponse_affichée": "Stanislas Lefort"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "La grande vadrouille",
+    "question": "Oui parce que je suis un manuel sans doute !",
+    "info": "",
+    "reponses": [
+      "augustin bouvet",
+      "bouvet",
+      "bourvil",
+      "augustin"
+    ],
+    "reponse_affichée": "Augustin Bouvet"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "La grande vadrouille",
+    "question": "Il m'en faudrait peut-être une deuxième.",
+    "info": "",
+    "reponses": [
+      "stanislas lefort",
+      "lefort",
+      "louis de funes",
+      "stanislas"
+    ],
+    "reponse_affichée": "Stanislas Lefort"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "La grande vadrouille",
+    "question": "Hello, elle est froide ce matin ne trouve pas ?",
+    "info": "",
+    "reponses": [
+      "le phoque",
+      "phoque",
+      "au phoque"
+    ],
+    "reponse_affichée": "Le phoque"
+  },
+  {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "La grande vadrouille",
+    "question": "Combien voit-on de mort dans le film ?",
+    "info": "",
+    "reponses": [
+      "0",
+      "aucun",
+      "aucune",
+      "zero"
+    ],
+    "reponse_affichée": "0"
+  },
+  {
+    "id": 8,
+    "categorie": "Question de détail",
+    "film": "La grande vadrouille",
+    "question": "Combien sont-ils par planeurs ?",
+    "info": "",
+    "reponses": [
+      "3",
+      "trois"
+    ],
+    "reponse_affichée": "3"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Grosse filou !",
+    "info": "",
+    "reponses": [
+      "non petit filou"
+    ],
+    "reponse_affichée": "Non petit filou"
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Votre explication ne me suffit pas",
+    "info": "",
+    "reponses": [
+      "mais c est pourtant clair"
+    ],
+    "reponse_affichée": "Mais c'est pourtant clair"
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Y a pas d'hélice hélas",
+    "info": "",
+    "reponses": [
+      "c est la qu est l os",
+      "c est la qu est los"
+    ],
+    "reponse_affichée": "C'est là qu'est l'os"
+  },
+  {
+    "id": 12,
+    "categorie": "Remettre dans l'ordre",
+    "film": "La grande vadrouille",
+    "question": [
+      "Vous vous foutez pas d'elle hein parce que vous allez avoir à faire à moi !",
+      "Dites moi ? Vous n'en voulez pas une vous ?",
+      "On n'a plus de chien, on est perdu quoi",
+      "Oh c'est pas la même chose hein",
+      "Excusez-moi, ça va mieux ?"
+    ],
+    "info": "",
+    "reponses": [
+      "3 4 1 5 2"
+    ],
+    "reponse_affichée": "On n'a plus de chien, on est perdu quoi / Oh c'est pas la même chose hein / Vous vous foutez pas d'elle hein parce que vous allez avoir à faire à moi ! / Excusez-moi, ça va mieux ? / Dites moi ? Vous n'en voulez pas une vous ?"
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "La grande vadrouille",
+    "question": [
+      "Vous me laissez ",
+      " hein, vous cherchiez ",
+      " et vous l'avez",
+      " . Egoïste !"
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      2,
+      1
+    ],
+    "reponses": [
+      [
+        "tomber un prétexte trouvé"
+      ]
+    ],
+    "reponse_affichée": "Vous me laissez tomber hein, vous cherchiez un prétexte et vous l'avez trouvé. Egoïste !"
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "La grande vadrouille",
+    "question": [
+      "Monsieur Lefort, Monsieur ",
+      ", quelle ",
+      " !"
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      2
+    ],
+    "reponses": [
+      [
+        "bouvet bonne surprise"
+      ]
+    ],
+    "reponse_affichée": "Monsieur Lefort, Monsieur Bouvet, quelle bonne surprise !"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "La grande vadrouille",
+    "question": "C'est pourtant vrai qu'elle me regarde",
+    "info": "",
+    "reponses": [
+      "augustin bouvet",
+      "bouvet",
+      "bourvil"
+    ],
+    "reponse_affichée": "Augustin Bouvet"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "La grande vadrouille",
+    "question": "Excusez-moi monsieur le major, je voudrai gagner du temps, enfin pas perdre de temps.",
+    "info": "",
+    "reponses": [
+      "stanislas lefort",
+      "lefort",
+      "louis de funes",
+      "stanislas"
+    ],
+    "reponse_affichée": "Stanislas Lefort"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "La grande vadrouille",
+    "question": "Donc I risque on the deux tableaux",
+    "info": "",
+    "reponses": [
+      "mc intoch",
+      "intoch",
+      "mc intosh",
+      "mac intosh"
+    ],
+    "reponse_affichée": "Mc Intoch"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "La grande vadrouille",
+    "question": "C'est à c't'heure ci que vous rentrez tous les deux ? Ça fait des heures qu'on vous attend",
+    "info": "",
+    "reponses": [
+      "stanislas et augustin",
+      "lefort et bouvet",
+      "stanislas lefort et augustin bouvet",
+      "les deux"
+    ],
+    "reponse_affichée": "Stanislas et Augustin"
+  },
+  {
+    "id": 7,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Evidemment c'est pas des chaussures pour la marche que vous avez là",
+    "info": "",
+    "reponses": [
+      "puisque vous me le proposez si gentiment j accepte"
+    ],
+    "reponse_affichée": "Puisque vous me le proposez si gentiment, j'accepte"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Combien ? - 2 !",
+    "info": "",
+    "reponses": [
+      "ca fait pas tellement"
+    ],
+    "reponse_affichée": "Ça fait pas tellement"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Et où vous croyez vous ?",
+    "info": "",
+    "reponses": [
+      "a l opera maitre",
+      "l opera maitre"
+    ],
+    "reponse_affichée": "A l'opéra maitre"
+  },
+  {
+    "id": 10,
+    "categorie": "Remettre dans l'ordre",
+    "film": "La grande vadrouille",
+    "question": [
+      "Qui est ce maréchal ?",
+      "Je suis pas commissaire, je suis major Achbach",
+      "A la bonne heure, vous devenez raisonnable herr Kapellmeister, alors ?",
+      "Assez tremblé",
+      "De moi vous osez vous foutez ?"
+    ],
+    "info": "",
+    "reponses": [
+      "4 2 3 1 5"
+    ],
+    "reponse_affichée": "Assez tremblé / Je suis pas commissaire, je suis major Achbach / A la bonne heure, vous devenez raisonnable herr Kapellmeister, alors ? / Qui est ce maréchal ? / De moi vous osez vous foutez ?"
+  }
+]

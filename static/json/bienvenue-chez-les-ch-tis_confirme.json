@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Bienvenue chez les ch'tis",
+    "question": [
+      "Ah bon ben je suis content pour ",
+      ", ça vous fera ",
+      " et ",
+      " euros."
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      2,
+      1
+    ],
+    "reponses": [
+      [
+        "vous 4 points 150"
+      ]
+    ],
+    "reponse_affichée": "Ah bon ben je suis content pour vous, ça vous fera 4 points et 150 euros."
+  },
+  {
+    "id": 2,
+    "categorie": "Qui parle ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Mais ça me faisait plus envie parce que je savais qu'on allait déménager voilà, maintenant qu'on déménage plus je me dis qu'on passe à côté de quelque chose.",
+    "info": "",
+    "reponses": [
+      "julie",
+      "julie abrams",
+      "la femme de philippe",
+      "la femme de philippe abrams",
+      "mme abrams",
+      "madame abrams"
+    ],
+    "reponse_affichée": "Julie, la femme de Philippe"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Oh c'est aussi fort une fois à l'intérieur !",
+    "info": "",
+    "reponses": [
+      "philippe abrams",
+      "philippe",
+      "abrams",
+      "kad merad"
+    ],
+    "reponse_affichée": "Philippe Abrams"
+  },
+  {
+    "id": 4,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "C'éto une caravane, maintenant c'est une barraque à frite, ils dorment plus d'dans ils font des frites.",
+    "info": "",
+    "reponses": [
+      "philippe",
+      "philippe abrams",
+      "abrams",
+      "kad merad"
+    ],
+    "reponse_affichée": "Philippe Abrams"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Ça fait plus de trois ans, fallait bien qu'ça arrive un jour",
+    "info": "",
+    "reponses": [
+      "philippe",
+      "philippe abrams",
+      "abrams",
+      "kad merad"
+    ],
+    "reponse_affichée": "Philippe Abrams"
+  },
+  {
+    "id": 6,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Non 50, 2 fois 25",
+    "info": "",
+    "reponses": [
+      "50 c est possible ca ?",
+      "50 c est possible ca"
+    ],
+    "reponse_affichée": "50 c'est possible ça ?"
+  },
+  {
+    "id": 7,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Oh si tu pleures",
+    "info": "",
+    "reponses": [
+      "non j pleure pas"
+    ],
+    "reponse_affichée": "Non j'pleure pas"
+  },
+  {
+    "id": 8,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Bienvenue chez les ch'tis",
+    "question": [
+      "Plus au nord",
+      "Ah tu peux pas, là c'est disciplinaire",
+      "L'île de quoi ?",
+      "Tu vas rester deux ans là-bas",
+      "Ah non pas à Paris, me dis pas qu'ils m'envoient à Paris"
+    ],
+    "info": "",
+    "reponses": [
+      "5 1 3 2 4"
+    ],
+    "reponse_affichée": "Ah non pas à Paris, me dis pas qu'ils m'envoient à Paris / Plus au nord / L'île de quoi ? / Ah tu peux pas, là c'est disciplinaire / Tu vas rester deux ans là-bas"
+  }
+]

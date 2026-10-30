@@ -1,0 +1,180 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "L'habit ne fait peut-être ",
+      " mais quand on n'a pas l'intention ",
+      ", l'élégance donne tout de même ",
+      "."
+    ],
+    "info": "",
+    "nombre_mot": [
+      3,
+      4,
+      2
+    ],
+    "reponses": [
+      [
+        "pas le moine d entrer dans les ordres du prestige"
+      ]
+    ],
+    "reponse_affichée": "L'habit ne fait peut-être pas le moine, mais quand on n'a pas l'intention d'entrer dans les ordres, l'élégance donne tout de même du prestige."
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "Bien soit, je ramasse Capitan, ",
+      " l'adopte car il n'est pas de nom que l'on ne puisse porter sur ",
+      ". Mais sachez que la bassesse et la ",
+      " ont toujours fait d'un nom, ",
+      ", le synonyme de ",
+      "."
+    ],
+    "info": "",
+    "nombre_mot": [
+      5,
+      4,
+      1,
+      4,
+      1
+    ],
+    "reponses": [
+      [
+        "ce nom dérisoire je le le chemin de l honneur lachete meme tres haut place polichinel"
+      ]
+    ],
+    "reponse_affichée": "Bien soit, je ramasse Capitan, ce nom dérisoire, je l'adopte car il n'est pas de nom que l'on ne puisse porter sur le chemin de l'honneur. Mais sachez que la bassesse et la lâcheté ont toujours fait d'un nom, même très haut placé, le synonyme de Polichinel."
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Le Capitan",
+    "question": "Ahlala, à force de chercher des ennuis il finira bien par les trouver…",
+    "info": "",
+    "reponses": [
+      "cogolin",
+      "cogolino",
+      "bourvil"
+    ],
+    "reponse_affichée": "Cogolin"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Le Capitan",
+    "question": "Je vais vraiment devenir un homme complet",
+    "info": "",
+    "reponses": [
+      "cogolin",
+      "cogolino",
+      "bourvil"
+    ],
+    "reponse_affichée": "Cogolin"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le Capitan",
+    "question": "Et comme les amis de nos amis sont nos amis, je suis un peu l'ami du roi",
+    "info": "",
+    "reponses": [
+      "josefa"
+    ],
+    "reponse_affichée": "Josefa"
+  },
+  {
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le Capitan",
+    "question": "C'est chaud !",
+    "info": "",
+    "reponses": [
+      "concini",
+      "concino concini",
+      "conchini",
+      "le marechal d ancre"
+    ],
+    "reponse_affichée": "Concini"
+  },
+  {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "Le Capitan",
+    "question": "Quel est le prénom et nom complet du chevalier de Capestang ?",
+    "info": "",
+    "reponses": [
+      "francois de tremazenc et de capestang de la mission dont il a bien voulu se charger",
+      "francois de tremazenc"
+    ],
+    "reponse_affichée": "François de Tremazenc et de Capestang de la Mission dont il a bien voulu se charger"
+  },
+  {
+    "id": 8,
+    "categorie": "Question de détail",
+    "film": "Le Capitan",
+    "question": "« Viens la prendre, assassin » de quoi parles-tu ?",
+    "info": "",
+    "reponses": [
+      "de son epee",
+      "son epee",
+      "epee",
+      "de l epee",
+      "l epee"
+    ],
+    "reponse_affichée": "De son épée"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Mais je rêve !",
+    "info": "",
+    "reponses": [
+      "en tout cas ca n a pas l air d un cauchemar"
+    ],
+    "reponse_affichée": "En tout cas ça n'a pas l'air d'un cauchemar"
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Et pourquoi Concini a-t-il refusé de vous recevoir quand vous vous êtes présenté au Louvre et pourquoi vous a-t-il convoqué dans son hôtel particulier et pourquoi affirme-t-on qu'il est beaucoup plus facile d'y entrer que d'en sortir de cet hôtel ?",
+    "info": "",
+    "reponses": [
+      "et pourquoi trembles tu de peur alors que c est moi qui vais y entrer"
+    ],
+    "reponse_affichée": "Et pourquoi trembles-tu de peur alors que c'est moi qui vais y entrer"
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Et tu t'imagines que tout va se passer comme prévu ?",
+    "info": "",
+    "reponses": [
+      "bah et pourquoi pas"
+    ],
+    "reponse_affichée": "Bah et pourquoi pas ?"
+  },
+  {
+    "id": 12,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Le Capitan",
+    "question": [
+      "Qu'il s'amuse, c'est de son âge. Il pensera moins à régner",
+      "Dis donc toi, tu te rends pas compte c'est de la poudre",
+      "Je ne veux pas que tu doutes de mon pouvoir",
+      "Bah il faut que tu ais l'air menaçant figure toi",
+      "Me faites pas dire c'que j'ai pas dit hein"
+    ],
+    "info": "",
+    "reponses": [
+      "3 5 4 1 2"
+    ],
+    "reponse_affichée": "Je ne veux pas que tu doutes de mon pouvoir / Me faites pas dire c'que j'ai pas dit hein / Bah il faut que tu ais l'air menaçant figure toi / Qu'il s'amuse, c'est de son âge. Il pensera moins à régner / Dis donc toi, tu te rends pas compte c'est de la poudre"
+  }
+]

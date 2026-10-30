@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Bienvenue chez les ch'tis",
+    "question": [
+      "Y a un grand proverbe ch'timi qui dit : qu'en y a un ",
+      " qui ",
+      " vivre dans ch'nord y brait ",
+      " fois, quand y ",
+      " et quand y ",
+      ""
+    ],
+    "info": "",
+    "nombre_mot": [
+      1,
+      1,
+      1,
+      1,
+      1
+    ],
+    "reponses": [
+      [
+        "etranger vient deux arrive repart"
+      ]
+    ],
+    "reponse_affichée": "Y a un grand proverbe ch'timi qui dit : qu'en y a un étranger qui vient vivre dans ch'nord y brait deux fois, quand y arrive et quand y repart."
+  },
+  {
+    "id": 2,
+    "categorie": "Qui parle ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "C'est quoi ça brouillard givrant ?",
+    "info": "",
+    "reponses": [
+      "philippe abrams",
+      "philippe",
+      "abrams",
+      "kad merad"
+    ],
+    "reponse_affichée": "Philippe Abrams"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Maintenant faut juste que j'prévienne Annabelle",
+    "info": "",
+    "reponses": [
+      "antoine billeul",
+      "antoine baileul",
+      "antoine",
+      "bailleul",
+      "billeul",
+      "dany boon"
+    ],
+    "reponse_affichée": "Antoine Bailleul"
+  },
+  {
+    "id": 4,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Mais je m'énerve pas, est-ce que je m'énerve là ?",
+    "info": "",
+    "reponses": [
+      "philippe abrams",
+      "philippe",
+      "abrams",
+      "kad merad"
+    ],
+    "reponse_affichée": "Philippe Abrams"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "J'suis muté dans le Nord-Pas-de-Calais, j'ai pas envie d'arriver trop tôt c'est tout.",
+    "info": "",
+    "reponses": [
+      "gendarme",
+      "le gendarme"
+    ],
+    "reponse_affichée": "Le gendarme"
+  },
+  {
+    "id": 6,
+    "categorie": "Question de détail",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Que faisait Philipe sou sur un vélo ?",
+    "info": "",
+    "reponses": [
+      "il apprenait a dire non a l alcool",
+      "apprenait a dire non a l alcool"
+    ],
+    "reponse_affichée": "Il apprenait à dire non à l'alcool"
+  },
+  {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Comment s'appelle le fils de Philippe ?",
+    "info": "",
+    "reponses": [
+      "raphael",
+      "raphael abrams"
+    ],
+    "reponse_affichée": "Raphaël"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Là t'es énervée ? – oui et alors ?",
+    "info": "",
+    "reponses": [
+      "bah t enerves pas ca sert a rien"
+    ],
+    "reponse_affichée": "Bah t'énerves pas ça sert à rien"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Pire que viré ? c'est quoi ?",
+    "info": "",
+    "reponses": [
+      "t es mute dans le nord",
+      "t es mute dans le nord pas de calais"
+    ],
+    "reponse_affichée": "T'es muté dans le nord"
+  },
+  {
+    "id": 10,
+    "categorie": "Remettre dans l'ordre",
+    "film": "Bienvenue chez les ch'tis",
+    "question": [
+      "Et ben… c'est du propre.",
+      "Ça va passer vite, ça va passer vite…",
+      "Non à vélo !",
+      "Mais asseyez vous je vous en prie, moi c'est déjà fait.",
+      "Déjà ils boivent, tous, beaucoup."
+    ],
+    "info": "",
+    "reponses": [
+      "4 2 5 1 3"
+    ],
+    "reponse_affichée": "Mais asseyez vous je vous en prie, moi c'est déjà fait. / Ça va passer vite, ça va passer vite… / Déjà ils boivent, tous, beaucoup. / Et ben… c'est du propre. / Non à vélo !"
+  }
+]
