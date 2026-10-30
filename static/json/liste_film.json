@@ -8,13 +8,37 @@
     {
         "nom": "Fantomas se déchaîne",
         "lien": "fantomas-se-dechaine",
-        "niveau": 2,
+        "niveaux": 2,
         "image": "../static/images/films/fantomas-se-dechaine.jpeg"
     },
     {
         "nom": "Mais où est donc passée la 7eme compagnie",
         "lien": "7e-compagnie-1",
-        "niveau": 2,
+        "niveaux": 2,
         "image": "../static/images/films/7e-compagnie-1.jpeg"
+    },
+    {
+        "nom": "La grande vadrouille",
+        "lien": "la-grande-vadrouille",
+        "niveaux": 2,
+        "image": "../static/images/films/la_grande_vadrouille.jpeg"
+    },
+    {
+        "nom": "Le Capitan",
+        "lien": "le-capitan",
+        "niveaux": 2,
+        "image": "../static/images/films/le_capitan.jpeg"
+    },
+    {
+        "nom": "Le prénom",
+        "lien": "le-prenom",
+        "niveaux": 3,
+        "image": "../static/images/films/le_prenomjpeg.jpeg"
+    },
+    {
+        "nom": "Bienvenue chez les ch'tis",
+        "lien": "bienvenue-chez-les-ch-tis",
+        "niveaux": 2,
+        "image": "../static/images/films/bienvenue_chez_les_chtijpeg.jpeg"
     }
 ]
