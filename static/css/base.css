@@ -76,7 +76,7 @@ a {
 .titre {
     text-align: center;
     font-size: 2rem;
-    margin: 30px;
+    margin: 15px;
     color: var(--couleur-fond-header);
     -webkit-text-stroke: 0.3px black;
     font-weight: bold;

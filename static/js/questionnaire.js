@@ -117,14 +117,10 @@
     async function chargementDonnees() {
         const CATEGORIES = ["Quel film ?", "Qui parle ?", "A qui est adressée cette phrase ?", "Phrase d'après", "Question de détail", "Citation à trous"];
 
-        try {
-        // Récupération des informations dans l'url de la page
-            const urlParams = new URLSearchParams(window.location.search);
-            const questionnaire = urlParams.get('questionnaire');
-            const niveau = urlParams.get('niveau') ?? '';
-        } catch (error) {
-            console.error("Erreur lors de la récupération des paramètres de l'URL :", error);
-        }
+    // Récupération des informations dans l'url de la page
+        const urlParams = new URLSearchParams(window.location.search);
+        const questionnaire = urlParams.get('questionnaire');
+        const niveau = urlParams.get('niveau') ?? 'debutant';
 
         if (CATEGORIES.includes(questionnaire)) {
             const filmsSelectionnes = await selectionFilm();
