@@ -4,7 +4,7 @@ ads: false
 ---
 
 <div class="choix_niveaux">
-    {% assign nombre_niveaux = page.nombre_niveaux | default: 3 %}
+    {% assign nombre_niveaux = page.nombre_niveaux | default: 2 %}
     
     {% if nombre_niveaux >= 1 %}
     <a class="lien_niveau" style="background-color: var(--vert);" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=debutant">

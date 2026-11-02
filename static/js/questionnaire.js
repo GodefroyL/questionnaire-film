@@ -38,18 +38,140 @@
         }
     }
 
+    // Fonction pour permettre à l'utilisateur de sélectionner les films qu'il connaît
+    async function selectionFilm() {
+        return new Promise(async (resolve) => {
+            try {
+                // Charger la liste des films
+                const filmsResponse = await fetch('../static/json/liste_film.json');
+                const films = await filmsResponse.json();
+                
+                // Créer le HTML pour la sélection des films
+                let html = `
+                    <div class="modal-selection">
+                        <div class="conteneur-selection">
+                            <h2>Sélectionnez les films que vous connaissez</h2>
+                            <div class="liste-films">
+                `;
+                
+                // Ajouter un checkbox pour chaque film
+                films.forEach(film => {
+                    html += `
+                        <label>
+                            <input type="checkbox" name="film-selection" value="${film.lien}">
+                            <span>${film.nom}</span>
+                        </label>
+                    `;
+                });
+                
+                html += `
+                            </div>
+                            <div class="boutons-selection">
+                                <button id="selectionner-tous">Tout sélectionner</button>
+                                <button id="deslectionner-tous">Tout désélectionner</button>
+                                <button id="valider-selection">Valider</button>
+                            </div>
+                        </div>
+                    </div>
+                `;
+                
+                // Ajouter le modal au body
+                document.body.insertAdjacentHTML('beforeend', html);
+                
+                // Ajouter les écouteurs d'événements
+                document.getElementById('selectionner-tous').addEventListener('click', () => {
+                    document.querySelectorAll('input[name="film-selection"]').forEach(cb => cb.checked = true);
+                });
+                
+                document.getElementById('deslectionner-tous').addEventListener('click', () => {
+                    document.querySelectorAll('input[name="film-selection"]').forEach(cb => cb.checked = false);
+                });
+                
+                document.getElementById('valider-selection').addEventListener('click', () => {
+                    // Récupérer les films sélectionnés
+                    const selectedCheckboxes = document.querySelectorAll('input[name="film-selection"]:checked');
+                    const selectedFilms = [];
+                    
+                    selectedCheckboxes.forEach(cb => {
+                        const filmLien = cb.value;
+                        const film = films.find(f => f.lien === filmLien);
+                        if (film) selectedFilms.push(film);
+                    });
+                    
+                    // Supprimer le modal
+                    document.querySelector('.modal-selection').remove();
+                    
+                    // Résoudre la promesse avec les films sélectionnés
+                    resolve(selectedFilms);
+                });
+                
+            } catch (error) {
+                console.error("Erreur lors de la sélection des films :", error);
+                // En cas d'erreur, retourner tous les films
+                resolve(films);
+            }
+        });
+    }
+
     // Fonction pour charger le fichier JSON
     async function chargementDonnees() {
+        const CATEGORIES = ["Quel film ?", "Qui parle ?", "A qui est adressée cette phrase ?", "Phrase d'après", "Question de détail", "Citation à trous"];
+
         try {
         // Récupération des informations dans l'url de la page
             const urlParams = new URLSearchParams(window.location.search);
             const questionnaire = urlParams.get('questionnaire');
             const niveau = urlParams.get('niveau') ?? '';
-        // Chargement du fichier json
-            const questions = await fetch(`../static/json/${questionnaire}_${niveau}.json`);
-            donnee = await questions.json();
         } catch (error) {
-            console.error("Erreur lors du chargement du fichier JSON :", error);
+            console.error("Erreur lors de la récupération des paramètres de l'URL :", error);
+        }
+
+        if (CATEGORIES.includes(questionnaire)) {
+            const filmsSelectionnes = await selectionFilm();
+            
+            if (questionnaire === "Quel film ?") {
+                // Essayer de charger un fichier dédié pour "Quel film ?"
+                try {
+                    const questions = await fetch(`../static/json/quel_film_${niveau}.json`);
+                    const questionsData = await questions.json();
+                    // Filtrer les questions pour ne garder que celles des films sélectionnés
+                    const filmsNoms = filmsSelectionnes.map(f => f.nom);
+                    donnee = questionsData.filter(q => filmsNoms.includes(q.film))
+                                            .sort(() => 0.5 - Math.random())
+                                            .slice(0, 10);
+                } catch (error) {
+                    console.warn(`Fichier quel_film_${niveau}.json non trouvé`);
+                    // Fallback : charger depuis test_.json et filtrer
+                    const questions = await fetch('../static/json/test_.json');
+                    const questionsData = await questions.json();
+                    const quelFilmQuestions = questionsData.filter(q => q.categorie === questionnaire);
+                    const filmsNoms = filmsSelectionnes.map(f => f.nom);
+                    donnee = quelFilmQuestions.filter(q => filmsNoms.includes(q.film))
+                                             .sort(() => 0.5 - Math.random())
+                                             .slice(0, 10);
+                }
+            } else {
+                // Utiliser les films sélectionnés par l'utilisateur
+                const allQuestions = [];
+                
+                for (const film of filmsSelectionnes) {
+                    try {
+                        const filmQuestions = await fetch(`../static/json/films/${film.lien}_${niveau}.json`);
+                        const filmData = await filmQuestions.json();
+                        allQuestions.push(...filmData);
+                    } catch (error) {
+                        console.warn(`Fichier non trouvé pour ${film.lien}_${niveau}.json`);
+                    }
+                }
+                
+                // Filtrer par catégorie et sélectionner 10 questions aléatoires
+                const filteredQuestions = allQuestions.filter(q => q.categorie === questionnaire);
+                donnee = filteredQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+            }
+        } else {
+        // Chargement du fichier json
+            const questions = await fetch(`../static/json/films/${questionnaire}_${niveau}.json`);
+            donnee = await questions.json();
         }
     }
 
