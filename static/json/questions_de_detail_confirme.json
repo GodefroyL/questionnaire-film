@@ -1,0 +1,100 @@
+[
+  {
+    "id": 1,
+    "categorie": "Question de détail",
+    "film": "Mais où est donc passée la 7e compagnie",
+    "question": "Qui dit plusieurs fois « j'ai glissé chef »",
+    "info": "",
+    "reponses": [
+      "pitivier",
+      "pithivier",
+      "pithiviers",
+      "pitivie",
+      "soldat pitivier"
+    ],
+    "reponse_affichée": "Pitivier"
+  },
+  {
+    "id": 2,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "Quel est le surnom de Claude Gatignol",
+    "info": "",
+    "reponses": [
+      "la prune",
+      "prune"
+    ],
+    "reponse_affichée": "La prune"
+  },
+  {
+    "id": 3,
+    "categorie": "Question de détail",
+    "film": "Le prénom",
+    "question": "De quel instrument joue Claude Gatignol",
+    "info": "",
+    "reponses": [
+      "trombone",
+      "le trombone",
+      "du trombone"
+    ],
+    "reponse_affichée": "Le trombone"
+  },
+  {
+    "id": 4,
+    "categorie": "Question de détail",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "« C'est pas vraiment des alcooliques, c'est… c'est qu'ils doivent pour se réchauffer » de qui Philippe parle-t-il ?",
+    "info": "",
+    "reponses": [
+      "des ch tis",
+      "des chtis",
+      "ch tis",
+      "chtis",
+      "des gens du nord",
+      "du nord",
+      "les gens du nord",
+      "des ch ti"
+    ],
+    "reponse_affichée": "Des ch'tis"
+  },
+  {
+    "id": 5,
+    "categorie": "Question de détail",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Qu'a fait Philippe Abrams pour être sûr d'avoir le poste de Sanari ?",
+    "info": "",
+    "reponses": [
+      "il s est fait passer pour un handicape",
+      "s est fait passer pour un handicape",
+      "se fait passer pour un handicape",
+      "il s est fait passer pour un handicape pour avoir le poste"
+    ],
+    "reponse_affichée": "Il s'est fait passer pour un handicapé"
+  },
+  {
+    "id": 6,
+    "categorie": "Question de détail",
+    "film": "Le dîner de cons",
+    "question": "« La classe mondiale, peut-être même le champion du monde » de qui parle Pierre Brochant ?",
+    "info": "",
+    "reponses": [
+      "francois pignon",
+      "pignon",
+      "francois pigon",
+      "de francois pignon"
+    ],
+    "reponse_affichée": "François Pignon"
+  },
+  {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "Le dîner de cons",
+    "question": "Comment s'appelle le roman qu'ont écrit la femme de Pierre Brochant et Juste Leblanc ?",
+    "info": "",
+    "reponses": [
+      "le petit cheval de manege",
+      "petit cheval de manege"
+    ],
+    "reponse_affichée": "Le petit cheval de manège"
+  }
+]
