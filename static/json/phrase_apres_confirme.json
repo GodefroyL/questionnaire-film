@@ -1,0 +1,113 @@
+[
+  {
+    "id": 1,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Comment ça merde alors ? But alors you are french ?",
+    "info": "",
+    "reponses": [
+      "you are not english"
+    ],
+    "reponse_affichée": "You are not english ?"
+  },
+  {
+    "id": 2,
+    "categorie": "Phrase d'après",
+    "film": "La grande vadrouille",
+    "question": "Ah attendez, je vous rends vos souliers parce que j'ai peur de vous les agrandir",
+    "info": "",
+    "reponses": [
+      "ah mais vous me les abimez dit donc"
+    ],
+    "reponse_affichée": "Ah mais vous me les abimez dit donc"
+  },
+  {
+    "id": 3,
+    "categorie": "Phrase d'après",
+    "film": "Mais où est donc passée la 7e compagnie",
+    "question": "T'as fait du propre toi !",
+    "info": "",
+    "reponses": [
+      "j ai glisse chef"
+    ],
+    "reponse_affichée": "J'ai glissé chef"
+  },
+  {
+    "id": 4,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Mais mon Adolphe non plus, il faut que je te le dise en quelle langue ?",
+    "info": "",
+    "reponses": [
+      "essai l allemand",
+      "essaie l allemand"
+    ],
+    "reponse_affichée": "Essaie l'allemand"
+  },
+  {
+    "id": 5,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Mais il risque d'être tout petit !",
+    "info": "",
+    "reponses": [
+      "et bah il sera jockey"
+    ],
+    "reponse_affichée": "Et bah il sera jockey"
+  },
+  {
+    "id": 6,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "Je crois même que c'est toi qui me l'as offert",
+    "info": "",
+    "reponses": [
+      "mais depuis quand tu lis ce que je t offre"
+    ],
+    "reponse_affichée": "Mais depuis quand tu lis ce que je t'offre ?"
+  },
+  {
+    "id": 7,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Dormez bien",
+    "info": "",
+    "reponses": [
+      "vous aussi"
+    ],
+    "reponse_affichée": "Vous aussi"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Bienvenue chez les ch'tis",
+    "question": "Non non non, c'est juste que j'ai un petit peu bu alors j'me suis fait arrêter – en voiture ?",
+    "info": "",
+    "reponses": [
+      "non a velo"
+    ],
+    "reponse_affichée": "Non à vélo"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Le dîner de cons",
+    "question": "Tu me vois invitant le père de mon meilleur ami à un diner de con ?",
+    "info": "",
+    "reponses": [
+      "oui"
+    ],
+    "reponse_affichée": "Oui"
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "Le prénom",
+    "question": "C'est sûr que les morceaux de bois ça a pas dû te ruiner",
+    "info": "",
+    "reponses": [
+      "c etait un mikado connard"
+    ],
+    "reponse_affichée": "C'était un mikado connard"
+  }
+]
