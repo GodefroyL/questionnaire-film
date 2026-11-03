@@ -196,7 +196,7 @@
         if (deuxieme_chance) {
             question += `
                 <div class="info">
-                Deuxième tentative<br>Réponse de la première tentative : ${resultats[item.id].reponse}
+                Deuxième tentative<br>Réponse de la première tentative : ${resultats[index].reponse}
                 </div>
             `;
         }
@@ -263,7 +263,7 @@
 
         const bonne_reponse = item.reponse_affichée || item.reponses[0] // Récupération de la réponse à afficher
 
-        resultats[item.id] = {
+        resultats[index] = {
             reussi: reussi,
             categorie: item.categorie,
             question: item.question,
@@ -272,7 +272,7 @@
         };
 
     // Animation de réussite ou d'échec
-        if (resultats[item.id].reussi){
+        if (resultats[index].reussi){
             conteneurQuestion.classList.add('reussite');
         // On reinitialise la variable deuxième chance pour la question suivante
             deuxieme_chance = false
