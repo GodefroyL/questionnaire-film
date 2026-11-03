@@ -9,19 +9,8 @@ ads: false
 <div class="accueil_film">
     <h2>Sélectionnez un film</h2>
     <p>Découvrez nos questionnaires sur les grands classiques du cinéma français. Chaque film propose plusieurs niveaux de difficulté pour tester vos connaissances.</p>
-    
-    <div class="grille_films">
-        {% for film in site.data.films %}
-        <div class="carte_film">
-            <a href="{{ site.url }}/html/questionnaire_par_film/{{ film.id }}.html">
-                <img src="{{ film.image }}" alt="{{ film.image_alt }}" class="affiche_film">
-                <h3>{{ film.nom }}</h3>
-                <p>{{ film.annee }} - {{ film.realisateur }}</p>
-                <span class="niveaux">
-                    {% if film.niveaux >= 3 %}3 niveaux{% else %}{{ film.niveaux }} niveaux{% endif %}
-                </span>
-            </a>
-        </div>
-        {% endfor %}
+
     </div>
 </div>
+
+<script src="{{ site.url }}/static/js/questionnaires_par_film.js"></script>
