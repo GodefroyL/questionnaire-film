@@ -138,13 +138,6 @@
                 } catch (error) {
                     console.warn(`Fichier quel_film_${niveau}.json non trouvé`);
                     // Fallback : charger depuis test_.json et filtrer
-                    const questions = await fetch('../static/json/test_.json');
-                    const questionsData = await questions.json();
-                    const quelFilmQuestions = questionsData.filter(q => q.categorie === questionnaire);
-                    const filmsNoms = filmsSelectionnes.map(f => f.nom);
-                    donnee = quelFilmQuestions.filter(q => filmsNoms.includes(q.film))
-                                             .sort(() => 0.5 - Math.random())
-                                             .slice(0, 10);
                 }
             } else {
                 // Utiliser les films sélectionnés par l'utilisateur
