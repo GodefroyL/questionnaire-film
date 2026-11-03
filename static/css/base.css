@@ -51,7 +51,8 @@ footer {
 main {
     display: flex;
     flex-direction: row;
-    align-self: center;
+    align-self: stretch;
+    justify-content: center;
     margin-top: 55px;
     min-height: 50vh;
 }
