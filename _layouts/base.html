@@ -4,10 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-adsense-account" content="ca-pub-4994392991547793">
-        <title>{{ site.title }} - {{ page.title }}</title>
-        {% if page.description %}
-        <meta name="description" content="{{ page.description }}">
-        {% endif %}
+        {% seo %}
         <link rel="icon" href="{{ site.url }}/static/images/logo.ico">
         
         <!-- Preconnect to Google for AdSense -->
@@ -74,9 +71,7 @@
                     {{ page.title }}
                 </h1>
                 {% if page.description %}
-                <div class="inforamtion_page">
-                    {{ page.inforamtion_page }}
-                </div>
+                <p class="description_page">{{ page.description }}</p>
                 {% endif %}
                 {{ content }}
             </div>

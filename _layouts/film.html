@@ -1,0 +1,55 @@
+---
+layout: base
+ads: true
+---
+
+{% assign film = site.data.films | where: "id", page.film_id | first %}
+
+<div class="fiche_film">
+    <div class="film_header">
+        <div class="film_image">
+            <img src="{{ film.image }}" alt="{{ film.image_alt }}" class="affiche_film">
+        </div>
+        <div class="film_info">
+            <h2>{{ film.nom }} ({{ film.annee }})</h2>
+            <p><strong>Réalisateur:</strong> {{ film.realisateur }}</p>
+            <p><strong>Acteurs principaux:</strong> {{ film.acteurs }}</p>
+        </div>
+    </div>
+    
+    <div class="film_synopsis">
+        <h3>Synopsis</h3>
+        <p>{{ film.synopsis }}</p>
+    </div>
+    
+    <div class="film_details">
+        <h3>En savoir plus</h3>
+        <p>{{ film.description }}</p>
+    </div>
+    
+    <div class="choix_niveaux">
+        <h3>Choisissez votre niveau de difficulté</h3>
+        {% assign nombre_niveaux = film.niveaux | default: 2 %}
+        
+        {% if nombre_niveaux >= 1 %}
+        <a class="lien_niveau" style="background-color: var(--vert);" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=debutant">
+            <span class="texte_vertical">Niveau</span>
+            <span class="texte_horizontal">Débutant</span>
+        </a>
+        {% endif %}
+        
+        {% if nombre_niveaux >= 2 %}
+        <a class="lien_niveau" style="background-color: var(--jaune);" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=confirme">
+            <span class="texte_vertical">Niveau</span>
+            <span class="texte_horizontal">Confirmé</span>
+        </a>
+        {% endif %}
+        
+        {% if nombre_niveaux >= 3 %}
+        <a class="lien_niveau" style="background-color: var(--rouge);" href="{{ site.url }}/html/questionnaire.html?questionnaire={{ page.questionnaire }}&niveau=expert">
+            <span class="texte_vertical">Niveau</span>
+            <span class="texte_horizontal">Expert</span>
+        </a>
+        {% endif %}
+    </div>
+</div>
