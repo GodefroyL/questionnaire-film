@@ -196,7 +196,7 @@
         if (deuxieme_chance) {
             question += `
                 <div class="info">
-                Deuxième tentative<br>Réponse de la première tentative : ${resultats[index].reponse}
+                Deuxième tentative<br>Réponse de la première tentative : ${resultats[index+1].reponse}
                 </div>
             `;
         }
@@ -263,7 +263,7 @@
 
         const bonne_reponse = item.reponse_affichée || item.reponses[0] // Récupération de la réponse à afficher
 
-        resultats[index] = {
+        resultats[index+1] = {
             reussi: reussi,
             categorie: item.categorie,
             question: item.question,

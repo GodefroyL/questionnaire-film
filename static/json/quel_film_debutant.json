@@ -2,17 +2,17 @@
   {
     "id": 1,
     "categorie": "Quel film ?",
-    "film": "Bienvenue chez les ch'tis",
+    "film": "Le capitan",
     "question": "Mieux vaut les recevoir que d'en faire des ministres",
     "info": "",
-    "reponses": ["bienvenue chez les ch'tis", "bienvenue chez les chtis"],
-    "reponse_affichée": "Bienvenue chez les ch'tis"
+    "reponses": ["le capitan", "capitan"],
+    "reponse_affichée": "Le capitan"
   },
   {
     "id": 2,
     "categorie": "Quel film ?",
     "film": "Le prénom",
-    "question": "Eddy Merckx... Non Che Guevara",
+    "question": "Mon fils sera un type formidable",
     "info": "",
     "reponses": ["le prenom", "le prénom"],
     "reponse_affichée": "Le prénom"
@@ -29,17 +29,17 @@
   {
     "id": 4,
     "categorie": "Quel film ?",
-    "film": "La grande vadrouille",
+    "film": "L'as des as'",
     "question": "Tout ce que j'aime Hitler déteste",
     "info": "",
-    "reponses": ["la grande vadrouille"],
-    "reponse_affichée": "La grande vadrouille"
+    "reponses": ["l as des as", "as des as"],
+    "reponse_affichée": "L'as des as"
   },
   {
     "id": 5,
     "categorie": "Quel film ?",
     "film": "Le Capitan",
-    "question": "Assez tremblé",
+    "question": "Oui, encore moi, le moins qu'on puisse dire c'est que vous n'êtes pas facile à joindre",
     "info": "",
     "reponses": ["le capitan"],
     "reponse_affichée": "Le Capitan"
@@ -47,17 +47,17 @@
   {
     "id": 6,
     "categorie": "Quel film ?",
-    "film": "Mais où est donc passée la 7e compagnie",
+    "film": "Les tontons flingueurs",
     "question": "Je dis pas que ce n'est pas injuste, je dis que ça soulage",
     "info": "",
-    "reponses": ["la 7e compagnie", "7e compagnie", "mais ou est donc passee la 7e compagnie"],
-    "reponse_affichée": "Mais où est donc passée la 7e compagnie"
+    "reponses": ["les tontons flingueurs"],
+    "reponse_affichée": "Les tontons flingueurs"
   },
   {
     "id": 7,
     "categorie": "Quel film ?",
     "film": "Le prénom",
-    "question": "Edouard, viens prendre ta pilule",
+    "question": "J'ai juste voulu faire une blague",
     "info": "",
     "reponses": ["le prenom", "le prénom"],
     "reponse_affichée": "Le prénom"
@@ -66,7 +66,7 @@
     "id": 8,
     "categorie": "Quel film ?",
     "film": "La grande vadrouille",
-    "question": "Faut tout de même qu'il y ait un résistant dans la famille",
+    "question": "Mes chaussures, mon vélo",
     "info": "",
     "reponses": ["la grande vadrouille"],
     "reponse_affichée": "La grande vadrouille"
@@ -75,7 +75,7 @@
     "id": 9,
     "categorie": "Quel film ?",
     "film": "La grande vadrouille",
-    "question": "Il a pas ses papiers mais il est Français",
+    "question": "Vous avez eu une nurse anglaise vous",
     "info": "",
     "reponses": ["la grande vadrouille"],
     "reponse_affichée": "La grande vadrouille"
@@ -84,7 +84,7 @@
     "id": 10,
     "categorie": "Quel film ?",
     "film": "Bienvenue chez les ch'tis",
-    "question": "Oui bah ça prouve qu'ils ont changé de genre",
+    "question": "Oui, mais c'est aussi une belle ville",
     "info": "",
     "reponses": ["bienvenue chez les ch'tis", "bienvenue chez les chtis"],
     "reponse_affichée": "Bienvenue chez les ch'tis"
