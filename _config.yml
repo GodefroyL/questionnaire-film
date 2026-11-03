@@ -1,4 +1,16 @@
 title: questionnaire de films
-description: Questionnaire de films sur certains films.
+description: Testez vos connaissances sur les grands classiques du cinéma français avec nos quiz interactifs.
 baseurl: ""
 url: "https://films.dgl-application.fr"
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - Questionnaire_film.docx
+  - maquette_front.pptx
+  - application_mobile
+  - questionnaire-film.md
+  - Gemfile
+  - Gemfile.lock
