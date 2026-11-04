@@ -115,7 +115,7 @@
 
     // Fonction pour charger le fichier JSON
     async function chargementDonnees() {
-        const CATEGORIES = ["Quel film ?", "Qui parle ?", "A qui est adressée cette phrase ?", "Phrase d'après", "Question de détail", "Citation à trous"];
+        const CATEGORIES = ["Quel film ?", "Qui parle ?", "A qui est adressée cette phrase ?", "Phrase d'après", "Question de détail", "Citation à trous", "hasard"];
 
     // Récupération des informations dans l'url de la page
         const urlParams = new URLSearchParams(window.location.search);
@@ -159,8 +159,12 @@
                 }
                 
                 // Filtrer par catégorie et sélectionner 10 questions aléatoires
-                const filteredQuestions = allQuestions.filter(q => q.categorie === questionnaire);
-                donnee = filteredQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+                if (questionnaire === "hasard") {
+                    donnee = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+                } else {
+                    const filteredQuestions = allQuestions.filter(q => q.categorie === questionnaire);
+                    donnee = filteredQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
+                }
             }
         } else {
         // Chargement du fichier json
