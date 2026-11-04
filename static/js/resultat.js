@@ -21,12 +21,17 @@ function recup_info () {
     donneGlobales.resultats = JSON.parse(resultats);
 }
 
-async function envoyerReponses(reponses) {
+async function envoyerReponses(score, reponses) {
   const url = "https://script.google.com/macros/s/AKfycbypTcNdrOEeknK-ij3dOWEdyEbSxVVW9hRL_2tJyTDqFBtAvJioEx30EgraKB3vbH5wqQ/exec";
+
+  donnee = {
+    "score": score,
+    "reponses": reponses
+  };
   try {
     await fetch(url, {
       method: "POST",
-      body: JSON.stringify({ reponses })
+      body: JSON.stringify(donnee),
     });
     return true; // la requête a été envoyée, l'écriture a lieu même si fetch renvoie une erreur réseau
   } catch (e) {
@@ -53,7 +58,9 @@ function affichage_resultat() {
         bouton.addEventListener("click", () => affichage_detail(id, resultat));
         donneGlobales.resultat_par_question.appendChild(bouton)
     }
-    donneGlobales.message_resultat.innerHTML = `Score : ${nombre_question_reussie}/${nombre_question_totale}`;
+    const score = `${nombre_question_reussie}/${nombre_question_totale}`;
+    donneGlobales.message_resultat.innerHTML = `Score : ${score}`;
+    envoyerReponses(score, donneGlobales.resultats);
 }
 
 function affichage_detail(id, resultat) {
@@ -92,4 +99,3 @@ function affichage_detail(id, resultat) {
 
 recup_info();
 affichage_resultat();
-envoyerReponses(donneGlobales.resultats);
