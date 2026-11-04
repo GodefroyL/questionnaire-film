@@ -22,7 +22,7 @@ function recup_info () {
 }
 
 async function envoyerReponses(reponses) {
-  const url = "https://script.google.com/macros/s/AKfycbzIAenzP2DIsJNYXX3RDnDsZsU3_qamX4Bm2NlYL-ZMi6Gr0wcNNlA11bHHp0tQ7vTebw/exec";
+  const url = "https://script.google.com/macros/s/AKfycbxr8btq_-0rX6NBU5Og4KQSxqZ97GuSXHpA8f5V40Jtn0FTifwPgNtfgGKIcJFBUWYxVA/exec";
   try {
     await fetch(url, {
       method: "POST",
