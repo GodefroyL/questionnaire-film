@@ -22,7 +22,7 @@ function recup_info () {
 }
 
 async function envoyerReponses(reponses) {
-  const url = "https://script.google.com/macros/s/AKfycbxr8btq_-0rX6NBU5Og4KQSxqZ97GuSXHpA8f5V40Jtn0FTifwPgNtfgGKIcJFBUWYxVA/exec";
+  const url = "https://script.google.com/macros/s/AKfycbycv28-87KtragbPZcNuYkkLVx2zq4gff8NqVoL_lZivv5L1fInn2Hm_hFHOp7RuL9Mfw/exec";
   try {
     await fetch(url, {
       method: "POST",
@@ -92,4 +92,4 @@ function affichage_detail(id, resultat) {
 
 recup_info();
 affichage_resultat();
-envoyerReponses(donneGlobales.resultats)
+envoyerReponses(donneGlobales.resultats);
