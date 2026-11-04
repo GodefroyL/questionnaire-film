@@ -139,8 +139,8 @@
                     console.warn(`Fichier quel_film_${niveau}.json non trouvé`);
                     // Fallback : charger depuis test_.json et filtrer
                 }
-            } else if (niveau === "confirme") {
-                const question = await fetch(`../static/json/${questionnaire.replace(' ?','').replace(' ','_').toLowerCase()}_confirme.json`);
+            } else if (niveau === "confirme" && questionnaire != "hasard") {
+                const question = await fetch(`../static/json/${questionnaire.replace(' ?','').replace(' ','_').replace("'","").toLowerCase()}_confirme.json`);
                 const questionsData = await question.json();
                 const filmsNoms = filmsSelectionnes.map(f => f.nom);
                 donnee = questionsData.filter(q => filmsNoms.includes(q.film)).sort(() => 0.5 - Math.random()).slice(0, 10);
