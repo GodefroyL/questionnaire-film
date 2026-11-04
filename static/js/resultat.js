@@ -21,6 +21,20 @@ function recup_info () {
     donneGlobales.resultats = JSON.parse(resultats);
 }
 
+async function envoyerReponses(reponses) {
+  const url = "https://script.google.com/macros/s/AKfycbzIAenzP2DIsJNYXX3RDnDsZsU3_qamX4Bm2NlYL-ZMi6Gr0wcNNlA11bHHp0tQ7vTebw/exec";
+  try {
+    await fetch(url, {
+      method: "POST",
+      body: JSON.stringify({ reponses })
+    });
+    return true; // la requête a été envoyée, l'écriture a lieu même si fetch renvoie une erreur réseau
+  } catch (e) {
+    // Erreur réseau réelle : requête jamais partie
+    return false;
+  }
+}
+
 function affichage_resultat() {
     let nombre_question_reussie = 0;
     let nombre_question_totale = 0;
@@ -78,3 +92,4 @@ function affichage_detail(id, resultat) {
 
 recup_info();
 affichage_resultat();
+envoyerReponses(donneGlobales.resultats)
