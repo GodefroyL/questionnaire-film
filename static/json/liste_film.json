@@ -40,5 +40,17 @@
         "lien": "bienvenue-chez-les-ch-tis",
         "niveaux": 2,
         "image": "../static/images/films/bienvenue_chez_les_chtijpeg.jpeg"
+    },
+    {
+        "nom": "Le dîner de cons",
+        "lien": "le-diner-de-cons",
+        "niveaux": 2,
+        "image": "../static/images/films/le_diner_de_cons.jpeg"
+    },
+    {
+        "nom": "Intouchables",
+        "lien": "intouchables",
+        "niveaux": 2,
+        "image": "../static/images/films/intouchablesjpeg.jpeg"
     }
 ]

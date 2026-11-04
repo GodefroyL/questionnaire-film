@@ -2,10 +2,13 @@
   {
     "id": 1,
     "categorie": "Quel film ?",
-    "film": "Le capitan",
+    "film": "Le Capitan",
     "question": "Mieux vaut les recevoir que d'en faire des ministres",
     "info": "",
-    "reponses": ["le capitan", "capitan"],
+    "reponses": [
+      "le capitan",
+      "capitan"
+    ],
     "reponse_affichée": "Le capitan"
   },
   {
@@ -14,7 +17,10 @@
     "film": "Le prénom",
     "question": "Mon fils sera un type formidable",
     "info": "",
-    "reponses": ["le prenom", "le prénom"],
+    "reponses": [
+      "le prenom",
+      "le prénom"
+    ],
     "reponse_affichée": "Le prénom"
   },
   {
@@ -23,7 +29,10 @@
     "film": "Le prénom",
     "question": "Non, tu te calmes et tu restes",
     "info": "",
-    "reponses": ["le prenom", "le prénom"],
+    "reponses": [
+      "le prenom",
+      "le prénom"
+    ],
     "reponse_affichée": "Le prénom"
   },
   {
@@ -32,7 +41,10 @@
     "film": "L'as des as'",
     "question": "Tout ce que j'aime Hitler déteste",
     "info": "",
-    "reponses": ["l as des as", "as des as"],
+    "reponses": [
+      "l as des as",
+      "as des as"
+    ],
     "reponse_affichée": "L'as des as"
   },
   {
@@ -41,7 +53,9 @@
     "film": "Le Capitan",
     "question": "Oui, encore moi, le moins qu'on puisse dire c'est que vous n'êtes pas facile à joindre",
     "info": "",
-    "reponses": ["le capitan"],
+    "reponses": [
+      "le capitan"
+    ],
     "reponse_affichée": "Le Capitan"
   },
   {
@@ -50,7 +64,9 @@
     "film": "Les tontons flingueurs",
     "question": "Je dis pas que ce n'est pas injuste, je dis que ça soulage",
     "info": "",
-    "reponses": ["les tontons flingueurs"],
+    "reponses": [
+      "les tontons flingueurs"
+    ],
     "reponse_affichée": "Les tontons flingueurs"
   },
   {
@@ -59,7 +75,10 @@
     "film": "Le prénom",
     "question": "J'ai juste voulu faire une blague",
     "info": "",
-    "reponses": ["le prenom", "le prénom"],
+    "reponses": [
+      "le prenom",
+      "le prénom"
+    ],
     "reponse_affichée": "Le prénom"
   },
   {
@@ -68,7 +87,9 @@
     "film": "La grande vadrouille",
     "question": "Mes chaussures, mon vélo",
     "info": "",
-    "reponses": ["la grande vadrouille"],
+    "reponses": [
+      "la grande vadrouille"
+    ],
     "reponse_affichée": "La grande vadrouille"
   },
   {
@@ -77,7 +98,9 @@
     "film": "La grande vadrouille",
     "question": "Vous avez eu une nurse anglaise vous",
     "info": "",
-    "reponses": ["la grande vadrouille"],
+    "reponses": [
+      "la grande vadrouille"
+    ],
     "reponse_affichée": "La grande vadrouille"
   },
   {
@@ -86,7 +109,10 @@
     "film": "Bienvenue chez les ch'tis",
     "question": "Oui, mais c'est aussi une belle ville",
     "info": "",
-    "reponses": ["bienvenue chez les ch'tis", "bienvenue chez les chtis"],
+    "reponses": [
+      "bienvenue chez les ch'tis",
+      "bienvenue chez les chtis"
+    ],
     "reponse_affichée": "Bienvenue chez les ch'tis"
   }
 ]

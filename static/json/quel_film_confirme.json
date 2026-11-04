@@ -50,7 +50,7 @@
   {
     "id": 5,
     "categorie": "Quel film ?",
-    "film": "Mais où est donc passée la 7e compagnie",
+    "film": "Mais où est donc passée la 7eme compagnie",
     "question": "Ils auraient quand même pu laisser les clés avant d'se barrer",
     "info": "",
     "reponses": [
@@ -65,7 +65,7 @@
   {
     "id": 6,
     "categorie": "Quel film ?",
-    "film": "Mais où est donc passée la 7e compagnie",
+    "film": "Mais où est donc passée la 7eme compagnie",
     "question": "C'est l'moment c'est l'instant, préparez les épices !",
     "info": "",
     "reponses": [
@@ -92,7 +92,7 @@
   {
     "id": 8,
     "categorie": "Quel film ?",
-    "film": "Le capitan",
+    "film": "Le Capitan",
     "question": "Le grand amour ? Il va déjà falloir que je me mette au travail ?",
     "info": "",
     "reponses": [
@@ -104,7 +104,7 @@
   {
     "id": 9,
     "categorie": "Quel film ?",
-    "film": "Mais où est donc passée la 7e compagnie",
+    "film": "Mais où est donc passée la 7eme compagnie",
     "question": "Mais pas si vite !",
     "info": "",
     "reponses": [
@@ -119,7 +119,7 @@
   {
     "id": 10,
     "categorie": "Quel film ?",
-    "film": "Mais où est donc passée la 7e compagnie",
+    "film": "Mais où est donc passée la 7eme compagnie",
     "question": "Compris ! le temps de prendre un cognac et on part !",
     "info": "",
     "reponses": [
@@ -222,7 +222,7 @@
   {
     "id": 17,
     "categorie": "Quel film ?",
-    "film": "Le diner de coms",
+    "film": "Le dîner de cons",
     "question": "Ah bon il a pas de prénom ?",
     "info": "",
     "reponses": [
@@ -235,7 +235,7 @@
   {
     "id": 18,
     "categorie": "Quel film ?",
-    "film": "Le diner de cons",
+    "film": "Le dîner de cons",
     "question": "Ca y est on a les droits",
     "info": "",
     "reponses": [
@@ -248,7 +248,7 @@
   {
     "id": 19,
     "categorie": "Quel film ?",
-    "film": "Le diner de cons",
+    "film": "Le dîner de cons",
     "question": "Un diner mercredi soir !",
     "info": "",
     "reponses": [
