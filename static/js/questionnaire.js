@@ -160,6 +160,7 @@
                 
                 // Filtrer par catégorie et sélectionner 10 questions aléatoires
                 if (questionnaire === "hasard") {
+                    questions = await fetch(`../static/json/quel_film_${niveau}.json`);
                     donnee = allQuestions.sort(() => 0.5 - Math.random()).slice(0, 10);
                 } else {
                     const filteredQuestions = allQuestions.filter(q => q.categorie === questionnaire);
