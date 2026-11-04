@@ -277,7 +277,7 @@
         };
 
     // Animation de réussite ou d'échec
-        if (resultats[index].reussi){
+        if (resultats[index+1].reussi){
             conteneurQuestion.classList.add('reussite');
         // On reinitialise la variable deuxième chance pour la question suivante
             deuxieme_chance = false
