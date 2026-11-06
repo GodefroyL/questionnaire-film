@@ -1,65 +1,16 @@
 [
   {
-    "id": 1,
-    "categorie": "Citation à trous",
+    "id": 6,
+    "categorie": "A qui est adressée cette phrase ?",
     "film": "Le Capitan",
-    "question": [
-      "C'est un peu long ",
-      ", ça m'étonnerait que Concini ",
-      ""
-    ],
-    "info": "",
-    "nombre_mot": [
-      3,
-      4
-    ],
-    "reponses": [
-      [
-        "tout de meme l ait invite a diner"
-      ]
-    ],
-    "reponse_affichée": "C'est un peu long tout de même, ça m'étonnerait que Concini l'ait invité à diner"
-  },
-  {
-    "id": 2,
-    "categorie": "Citation à trous",
-    "film": "Le Capitan",
-    "question": [
-      "On a déjà eu assez d'ennui avec ",
-      " pour que j'essaie au moins de ",
-      " sur le ",
-      " où va nous entrainer cette ",
-      "."
-    ],
-    "info": "",
-    "nombre_mot": [
-      4,
-      2,
-      3,
-      2
-    ],
-    "reponses": [
-      [
-        "la brune giselle d angouleme me renseigner genre de catastrophe jolie blonde"
-      ]
-    ],
-    "reponse_affichée": "On a déjà eu assez d'ennui avec la brune Giselle d'Angoulême pour que j'essaie au moins de me renseigner sur le genre de catastrophe où va nous entrainer cette jolie blonde."
-  },
-  {
-    "id": 3,
-    "categorie": "Qui parle ?",
-    "film": "Le Capitan",
-    "question": "L'insolence est un luxe qui peut coûter très cher monsieur mais elle me diverti beaucoup",
+    "question": "Vas-tu parler ? vas-tu t'expliquer ?",
     "info": "",
     "reponses": [
-      "concino concini",
-      "concini",
-      "conchini",
-      "conchino",
-      "le marechal d ancre",
-      "marechal d ancre"
+      "cogolin",
+      "cogolino",
+      "bourvil"
     ],
-    "reponse_affichée": "Concino Concini"
+    "reponse_affichée": "Cogolin"
   },
   {
     "id": 4,
@@ -90,17 +41,41 @@
     "reponse_affichée": "Le chevalier de Capestang"
   },
   {
-    "id": 6,
-    "categorie": "A qui est adressée cette phrase ?",
+    "id": 3,
+    "categorie": "Qui parle ?",
     "film": "Le Capitan",
-    "question": "Vas-tu parler ? vas-tu t'expliquer ?",
+    "question": "L'insolence est un luxe qui peut coûter très cher monsieur mais elle me diverti beaucoup",
     "info": "",
     "reponses": [
-      "cogolin",
-      "cogolino",
-      "bourvil"
+      "concino concini",
+      "concini",
+      "conchini",
+      "conchino",
+      "le marechal d ancre",
+      "marechal d ancre"
     ],
-    "reponse_affichée": "Cogolin"
+    "reponse_affichée": "Concino Concini"
+  },
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "C'est un peu long ",
+      ", ça m'étonnerait que Concini ",
+      ""
+    ],
+    "info": "",
+    "nombre_mot": [
+      3,
+      4
+    ],
+    "reponses": [
+      [
+        "tout de meme l ait invite a diner"
+      ]
+    ],
+    "reponse_affichée": "C'est un peu long tout de même, ça m'étonnerait que Concini l'ait invité à diner"
   },
   {
     "id": 7,
@@ -114,6 +89,64 @@
       "la hypocrisie"
     ],
     "reponse_affichée": "L'hypocrisie"
+  },
+  {
+    "id": 10,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Vous ?!",
+    "info": "",
+    "reponses": [
+      "oui encore moi le moins qu on puisse dire c est que vous n etes pas facile a joindre"
+    ],
+    "reponse_affichée": "Oui encore moi, le moins qu'on puisse dire c'est que vous n'êtes pas facile à joindre"
+  },
+  {
+    "id": 2,
+    "categorie": "Citation à trous",
+    "film": "Le Capitan",
+    "question": [
+      "On a déjà eu assez d'ennui avec ",
+      " pour que j'essaie au moins de ",
+      " sur le ",
+      " où va nous entrainer cette ",
+      "."
+    ],
+    "info": "",
+    "nombre_mot": [
+      4,
+      2,
+      3,
+      2
+    ],
+    "reponses": [
+      [
+        "la brune giselle d angouleme me renseigner genre de catastrophe jolie blonde"
+      ]
+    ],
+    "reponse_affichée": "On a déjà eu assez d'ennui avec la brune Giselle d'Angoulême pour que j'essaie au moins de me renseigner sur le genre de catastrophe où va nous entrainer cette jolie blonde."
+  },
+  {
+    "id": 11,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Vous a-t-il bien reçu ?",
+    "info": "",
+    "reponses": [
+      "il ne voulait meme plus me laisser repartir"
+    ],
+    "reponse_affichée": "Il ne voulait même plus me laisser repartir"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Le Capitan",
+    "question": "Mes amours, je ne désire qu'un seul amour",
+    "info": "",
+    "reponses": [
+      "tant mieux j aurais moins de travail"
+    ],
+    "reponse_affichée": "Tant mieux, j'aurais moins de travail"
   },
   {
     "id": 8,
@@ -130,38 +163,5 @@
       "au chateau de saint leu"
     ],
     "reponse_affichée": "Au château de St Leu"
-  },
-  {
-    "id": 9,
-    "categorie": "Phrase d'après",
-    "film": "Le Capitan",
-    "question": "Mes amours, je ne désire qu'un seul amour",
-    "info": "",
-    "reponses": [
-      "tant mieux j aurais moins de travail"
-    ],
-    "reponse_affichée": "Tant mieux, j'aurais moins de travail"
-  },
-  {
-    "id": 10,
-    "categorie": "Phrase d'après",
-    "film": "Le Capitan",
-    "question": "Vous ?!",
-    "info": "",
-    "reponses": [
-      "oui encore moi le moins qu on puisse dire c est que vous n etes pas facile a joindre"
-    ],
-    "reponse_affichée": "Oui encore moi, le moins qu'on puisse dire c'est que vous n'êtes pas facile à joindre"
-  },
-  {
-    "id": 11,
-    "categorie": "Phrase d'après",
-    "film": "Le Capitan",
-    "question": "Vous a-t-il bien reçu ?",
-    "info": "",
-    "reponses": [
-      "il ne voulait meme plus me laisser repartir"
-    ],
-    "reponse_affichée": "Il ne voulait même plus me laisser repartir"
   }
 ]

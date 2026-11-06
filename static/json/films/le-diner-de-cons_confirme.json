@@ -1,5 +1,30 @@
 [
   {
+    "id": 7,
+    "categorie": "Question de détail",
+    "film": "Le dîner de cons",
+    "question": "« Pierre ? j'en tiens un ! » de quoi parle Jean ?",
+    "info": "",
+    "reponses": [
+      "un con",
+      "con",
+      "d un con"
+    ],
+    "reponse_affichée": "D'un con"
+  },
+  {
+    "id": 9,
+    "categorie": "Phrase d'après",
+    "film": "Le dîner de cons",
+    "question": "Je croyais que c'était l'autre hystérique j'vous dit, j'ai pensé elle a trouvé quelqu'un pour garder les chiens et maintenant elle vient foutre la pagaye cette nymphomane",
+    "info": "",
+    "reponses": [
+      "mais de qui il parle la",
+      "de qui il parle la"
+    ],
+    "reponse_affichée": "Mais de qui il parle là ?"
+  },
+  {
     "id": 1,
     "categorie": "Citation à trous",
     "film": "Le dîner de cons",
@@ -23,6 +48,57 @@
       ]
     ],
     "reponse_affichée": "Vous me dites heu l'autre folle va rappliquer, l'autre folle va rappliquer, moi j'vois arriver une femme j'me dis c'est elle c'est la folingue"
+  },
+  {
+    "id": 4,
+    "categorie": "Qui parle ?",
+    "film": "Le dîner de cons",
+    "question": "C'est pas la stratégie qui m'inquiète c'est le stratège",
+    "info": "",
+    "reponses": [
+      "pierre",
+      "pierre brochant",
+      "thierry lhermitte"
+    ],
+    "reponse_affichée": "Pierre"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Le dîner de cons",
+    "question": "C'est pas vrai, c'est le con de ton diner ?",
+    "info": "",
+    "reponses": [
+      "juste leblanc",
+      "leblanc",
+      "juste",
+      "alexandre despre"
+    ],
+    "reponse_affichée": "Juste Leblanc"
+  },
+  {
+    "id": 8,
+    "categorie": "Phrase d'après",
+    "film": "Le dîner de cons",
+    "question": "François Pignon, Marlène !",
+    "info": "",
+    "reponses": [
+      "marlene"
+    ],
+    "reponse_affichée": "Marlène"
+  },
+  {
+    "id": 5,
+    "categorie": "A qui est adressée cette phrase ?",
+    "film": "Le dîner de cons",
+    "question": "Mais il est malade ce type je suis pas avec sa femme",
+    "info": "",
+    "reponses": [
+      "francois pignon",
+      "pignon",
+      "francois pigon"
+    ],
+    "reponse_affichée": "François Pignon"
   },
   {
     "id": 2,
@@ -50,46 +126,6 @@
     "reponse_affichée": "Un diner de con. Vous ne connaissez peut-être pas le principe : Chaque invité amène un con."
   },
   {
-    "id": 3,
-    "categorie": "Qui parle ?",
-    "film": "Le dîner de cons",
-    "question": "C'est pas vrai, c'est le con de ton diner ?",
-    "info": "",
-    "reponses": [
-      "juste leblanc",
-      "leblanc",
-      "juste",
-      "alexandre despre"
-    ],
-    "reponse_affichée": "Juste Leblanc"
-  },
-  {
-    "id": 4,
-    "categorie": "Qui parle ?",
-    "film": "Le dîner de cons",
-    "question": "C'est pas la stratégie qui m'inquiète c'est le stratège",
-    "info": "",
-    "reponses": [
-      "pierre",
-      "pierre brochant",
-      "thierry lhermitte"
-    ],
-    "reponse_affichée": "Pierre"
-  },
-  {
-    "id": 5,
-    "categorie": "A qui est adressée cette phrase ?",
-    "film": "Le dîner de cons",
-    "question": "Mais il est malade ce type je suis pas avec sa femme",
-    "info": "",
-    "reponses": [
-      "francois pignon",
-      "pignon",
-      "francois pigon"
-    ],
-    "reponse_affichée": "François Pignon"
-  },
-  {
     "id": 6,
     "categorie": "A qui est adressée cette phrase ?",
     "film": "Le dîner de cons",
@@ -102,58 +138,5 @@
       "la femme de pierre brochant"
     ],
     "reponse_affichée": "Christine Brochant"
-  },
-  {
-    "id": 7,
-    "categorie": "Question de détail",
-    "film": "Le dîner de cons",
-    "question": "« Pierre ? j'en tiens un ! » de quoi parle Jean ?",
-    "info": "",
-    "reponses": [
-      "un con",
-      "con",
-      "d un con"
-    ],
-    "reponse_affichée": "D'un con"
-  },
-  {
-    "id": 8,
-    "categorie": "Phrase d'après",
-    "film": "Le dîner de cons",
-    "question": "François Pignon, Marlène !",
-    "info": "",
-    "reponses": [
-      "marlene"
-    ],
-    "reponse_affichée": "Marlène"
-  },
-  {
-    "id": 9,
-    "categorie": "Phrase d'après",
-    "film": "Le dîner de cons",
-    "question": "Je croyais que c'était l'autre hystérique j'vous dit, j'ai pensé elle a trouvé quelqu'un pour garder les chiens et maintenant elle vient foutre la pagaye cette nymphomane",
-    "info": "",
-    "reponses": [
-      "mais de qui il parle la",
-      "de qui il parle la"
-    ],
-    "reponse_affichée": "Mais de qui il parle là ?"
-  },
-  {
-    "id": 10,
-    "categorie": "Remettre dans l'ordre",
-    "film": "Le dîner de cons",
-    "question": [
-      "Pourquoi belge ?",
-      "Si le bouquin est mauvais, pourquoi j'irai acheter les droits ?",
-      "Quelle collaboratrice ?",
-      "Ah bon ! elle est bretonne ?",
-      "Mais si j'ai compris, c'est pas simple mais j'ai compris"
-    ],
-    "info": "",
-    "reponses": [
-      "3 5 1 2 4"
-    ],
-    "reponse_affichée": "Quelle collaboratrice ? / Mais si j'ai compris, c'est pas simple mais j'ai compris / Pourquoi belge ? / Si le bouquin est mauvais, pourquoi j'irai acheter les droits ? / Ah bon ! elle est bretonne ?"
   }
 ]

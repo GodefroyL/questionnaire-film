@@ -1,63 +1,5 @@
 [
   {
-    "id": 1,
-    "categorie": "Citation à trous",
-    "film": "Intouchables",
-    "question": [
-      "Bah quoi vous m'enfilez ",
-      ", vous avez une très ",
-      " d'oreille je trouve ça très cohérent."
-    ],
-    "info": "",
-    "nombre_mot": [
-      2,
-      3
-    ],
-    "reponses": [
-      [
-        "mes bas jolie petite boucle"
-      ]
-    ],
-    "reponse_affichée": "Bah quoi vous m'enfilez mes bas, vous avez une très jolie petite boucle d'oreille je trouve ça très cohérent."
-  },
-  {
-    "id": 2,
-    "categorie": "Qui parle ?",
-    "film": "Intouchables",
-    "question": "J'me suis trompée en fait vous en avez de l'humour",
-    "info": "",
-    "reponses": [
-      "driss",
-      "omar sy"
-    ],
-    "reponse_affichée": "Driss"
-  },
-  {
-    "id": 3,
-    "categorie": "Qui parle ?",
-    "film": "Intouchables",
-    "question": "Mais oui il va s'en sortir, regardez j'ai jamais eu les pieds aussi bien coiffés !",
-    "info": "",
-    "reponses": [
-      "philippe",
-      "philippe de rothschild",
-      "francois cluzet"
-    ],
-    "reponse_affichée": "Philippe"
-  },
-  {
-    "id": 4,
-    "categorie": "A qui est adressée cette phrase ?",
-    "film": "Intouchables",
-    "question": "Tu lui as mis la crème pour les pieds sur la tête",
-    "info": "",
-    "reponses": [
-      "driss",
-      "omar sy"
-    ],
-    "reponse_affichée": "Driss"
-  },
-  {
     "id": 5,
     "categorie": "A qui est adressée cette phrase ?",
     "film": "Intouchables",
@@ -85,15 +27,37 @@
     "reponse_affichée": "Accident de parapente"
   },
   {
-    "id": 7,
-    "categorie": "Phrase d'après",
+    "id": 4,
+    "categorie": "A qui est adressée cette phrase ?",
     "film": "Intouchables",
-    "question": "Non j'veux dire ça vous gêne pas de vivre sur le dos des autres, ça vous pose pas un petit problème de conscience ?",
+    "question": "Tu lui as mis la crème pour les pieds sur la tête",
     "info": "",
     "reponses": [
-      "non ca va et vous"
+      "driss",
+      "omar sy"
     ],
-    "reponse_affichée": "Non ça va et vous ?"
+    "reponse_affichée": "Driss"
+  },
+  {
+    "id": 1,
+    "categorie": "Citation à trous",
+    "film": "Intouchables",
+    "question": [
+      "Bah quoi vous m'enfilez ",
+      ", vous avez une très ",
+      " d'oreille je trouve ça très cohérent."
+    ],
+    "info": "",
+    "nombre_mot": [
+      2,
+      3
+    ],
+    "reponses": [
+      [
+        "mes bas jolie petite boucle"
+      ]
+    ],
+    "reponse_affichée": "Bah quoi vous m'enfilez mes bas, vous avez une très jolie petite boucle d'oreille je trouve ça très cohérent."
   },
   {
     "id": 8,
@@ -105,5 +69,41 @@
       "ah bah si si c est possible"
     ],
     "reponse_affichée": "Ah bah si si c'est possible"
+  },
+  {
+    "id": 7,
+    "categorie": "Phrase d'après",
+    "film": "Intouchables",
+    "question": "Non j'veux dire ça vous gêne pas de vivre sur le dos des autres, ça vous pose pas un petit problème de conscience ?",
+    "info": "",
+    "reponses": [
+      "non ca va et vous"
+    ],
+    "reponse_affichée": "Non ça va et vous ?"
+  },
+  {
+    "id": 3,
+    "categorie": "Qui parle ?",
+    "film": "Intouchables",
+    "question": "Mais oui il va s'en sortir, regardez j'ai jamais eu les pieds aussi bien coiffés !",
+    "info": "",
+    "reponses": [
+      "philippe",
+      "philippe de rothschild",
+      "francois cluzet"
+    ],
+    "reponse_affichée": "Philippe"
+  },
+  {
+    "id": 2,
+    "categorie": "Qui parle ?",
+    "film": "Intouchables",
+    "question": "J'me suis trompée en fait vous en avez de l'humour",
+    "info": "",
+    "reponses": [
+      "driss",
+      "omar sy"
+    ],
+    "reponse_affichée": "Driss"
   }
 ]
