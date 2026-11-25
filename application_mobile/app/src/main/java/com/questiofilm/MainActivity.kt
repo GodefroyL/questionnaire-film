@@ -1,4 +1,4 @@
-package com.example.questiofilm
+package com.questiofilm
 
 import android.os.Bundle
 import android.webkit.WebSettings
