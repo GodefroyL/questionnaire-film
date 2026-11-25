@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace 'com.example.dgl_film'
+    namespace 'com.example.questiofilm'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.example.dgl_film"
+        applicationId "com.example.questiofilm"
         minSdk 24
         targetSdk 34
         versionCode 1

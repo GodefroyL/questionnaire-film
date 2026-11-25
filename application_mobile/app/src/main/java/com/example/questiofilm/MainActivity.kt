@@ -1,4 +1,4 @@
-package com.example.dgl_film
+package com.example.questiofilm
 
 import android.os.Bundle
 import android.webkit.WebSettings
@@ -32,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         }
 
         // Chargement de l'URL initiale
-        webView.loadUrl("https://films.dgl-application.fr/")
+        webView.loadUrl("https://questiofilm.dgl-application.fr/")
     }
 
     override fun onBackPressed() {

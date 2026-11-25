@@ -11,11 +11,11 @@
         android:icon="@drawable/icone_app"
         android:label="@string/app_name"
         android:supportsRtl="true"
-        android:theme="@style/Theme.DGLfilm">
+        android:theme="@style/Theme.questiofilm">
         <activity
             android:name=".MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.DGLfilm">
+            android:theme="@style/Theme.questiofilm">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

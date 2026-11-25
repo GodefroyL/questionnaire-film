@@ -1,4 +1,4 @@
-package com.example.dgl_film
+package com.example.questiofilm
 
 import org.junit.Test
 
